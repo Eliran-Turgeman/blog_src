@@ -1,6 +1,6 @@
 ---
 title: AWS Lambda - Pitfalls
-date: 2023-07-14 17:49:46
+date: 2023-07-12 17:49:46
 tags: ["aws", "lambda", "bad practices"]
 ---
 
@@ -141,8 +141,9 @@ Anyway, these are 3 pitfalls I often encounter in lambda-based applications, obv
 
 
 ## References
-Anti-patterns in Lambda-based applications - AWS Lambda (amazon.com)
 
-Handling Lambda functions idempotency with AWS Lambda Powertools | AWS Compute Blog (amazon.com)
+* [Anti-patterns in Lambda-based applications - AWS Lambda (amazon.com)](https://docs.aws.amazon.com/lambda/latest/operatorguide/anti-patterns.html)
 
-Design principles - AWS Lambda (amazon.com)
+* [Handling Lambda functions idempotency with AWS Lambda Powertools | AWS Compute Blog (amazon.com)](https://aws.amazon.com/blogs/compute/handling-lambda-functions-idempotency-with-aws-lambda-powertools/)
+
+* [Design principles - AWS Lambda (amazon.com)](https://docs.aws.amazon.com/lambda/latest/operatorguide/design-principles.html)
