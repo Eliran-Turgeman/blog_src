@@ -20,7 +20,7 @@ What is a lambda monolith? Imagine a lambda that can be invoked with different t
 
 Each event has its own handler, and there’s a mapping between the event type and the handler.
 
-![](./aws-lambda-pitfalls/lambda-monolith.png)
+![](../aws-lambda-pitfalls/lambda-monolith.png)
 
 Besides the known disadvantages of using a monolithic architecture, there are more disadvantages to consider when talking about a lambda monolith.
 
@@ -61,7 +61,7 @@ To emphasize, the real problem happens when a lambda is synchronously calling an
 
 Let’s look at an example from AWS documentation.
 
-![](./aws-lambda-pitfalls/lambda-call-lambda.webp)
+![](../aws-lambda-pitfalls/lambda-call-lambda.webp)
 
 In the above example, the lambda responsible for creating the order synchronously calls the process payment lambda, which synchronously calls a create invoice lambda.
 
