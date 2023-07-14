@@ -1,7 +1,8 @@
 ---
-title: setting-up-gha-python
+title: Setting Up Automatic Linting and Type Checking (Python, GHA)
 date: 2023-05-19 19:06:40
-tags:
+tags: ["GitHub Actions", "CI/CD"]
+categories: ["CI/CD"]
 ---
 
 I work with open-source & private Python projects on GitHub on a daily basis.  
