@@ -17,7 +17,9 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: https://github.com/Eliran-Turgeman?tab=repositories
+  Mentorship: /mentorship/
+  # projects: https://github.com/Eliran-Turgeman?tab=repositories
+  # Feed: https://www.16elt.com/atom.xml
 
 
 # Links to your social media accounts.
@@ -27,6 +29,7 @@ nav:
 social_links:
   github: https://github.com/Eliran-Turgeman
   twitter: https://twitter.com/_eltur
+  linkedin: https://www.linkedin.com/in/eliran-turgeman/
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -39,7 +42,7 @@ tags_overview: false
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
   show_all_posts: false
-  post_count: 5
+  post_count: 10
   sort_updated: false
 
 # Customize the archive view.
@@ -87,7 +90,7 @@ logo:
   enabled: true
   width: 50
   height: 50
-  url: /images/logo.png
+  url: /images/profile.jpg
   gravatar: false
   grayout: true
 
@@ -118,7 +121,7 @@ favicon:
 # Set the color scheme.
 # Available color schemes are 'dark', 'light', 'classic' and 'white'.
 # Alternatively, add your own custom color scheme to source/css/_colors.
-colorscheme: classic
+colorscheme: dark
 
 # Maximal width of the page in rem units.
 page_width: 48
@@ -142,6 +145,12 @@ open_graph:
 ##############################################################################
 # Plugins
 ##############################################################################
+
+# Enable RSS feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 0
 
 # Enable MathJax support for Latex
 mathjax:
