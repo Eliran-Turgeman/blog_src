@@ -159,7 +159,7 @@ mathjax:
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
 disqus:
   enabled: false
-  shortname: cactus-1
+  shortname: elt
 
 # Fill in your Utterances data to enable Utterances comments
 utterances:
