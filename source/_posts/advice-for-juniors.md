@@ -4,12 +4,7 @@ date: 2023-10-04 07:00:00
 tags: ["advice", "junior"]
 ---
 
-In my 4 years of being a software engineer, I learned many things about how to succeed in my role at different levels.
-
-Most of it is unrelated to code, which as a junior kind of shocked me. I thought that if I write good, clean, well-tested code, then I get promoted.
-Maybe I was more naive than you are. nevertheless, to be considered successful at your role or get promoted you need to master different skills, which I find most junior engineers I know to suck at them.
-
-It's almost as if, there's a new mindset you have to adopt, to thrive in the startup/corporate world.
+Four years in software engineering taught me a lot but not what I expected. I thought nailing the code would nail the promotions, but that was a rookie mistake. Most juniors suck at the real skills you need to climb up - it ain’t just about the code, and yes, that threw me too. It’s a wild ride in the startup and corporate world, and shifting your mindset is crucial.
 
 In this post, I will be drawing from my own experience, trying to describe the new mindset you have to adopt.
 
@@ -92,6 +87,21 @@ If you want to talk to me and get some more ***personalized advice*** just conta
 If you want some more details about what I offer as a mentor, check out [this page](https://www.16elt.com/mentorship/)
 
 ---
+
+## Common reactions of juniors
+
+* I feel uncomfortable asking for feedback / I don't know how
+* I feel uncomfortable asking for a raise, or a promotion / I don't know how
+* I don't know how to "market" myself
+
+
+For some time, I am the guy that is pushing my colleagues into having such conversations with their team lead.
+Being a junior is synonym to having the above excuses (in most cases).
+To climb up, you need to break free of them, and unlearn a few things.
+
+Anyhow, this is my take that sums everything up -
+***A job is a deal you are making with a company where you are selling your time. If you value it, make the most of it.***
+
 
 ## What else?
 There's much more things to cover, and I might cover them in a follow-up post. things like:
