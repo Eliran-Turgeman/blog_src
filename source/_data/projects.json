@@ -1,0 +1,12 @@
+[
+    {
+       "name":"OmniBridge",
+       "url":"https://github.com/OmniSpective/OmniBridge",
+       "desc":"Access different AI models in one place"
+    },
+    {
+        "name": "Fuse",
+        "url": "https://github.com/Eliran-Turgeman/Fuse",
+        "desc": "Content aggregation CLI tool"
+    }
+]
