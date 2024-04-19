@@ -7,7 +7,8 @@
     "clean": "npx hexo clean",
     "deploy": "npx hexo deploy",
     "server": "npx hexo server",
-    "push": "npx hexo clean && npx hexo generate && npx hexo deploy"
+    "push": "npm run git-push && npx hexo clean && npx hexo generate && npx hexo deploy",
+    "git-push": "git add . && git commit -m \"a\" && git push"
   },
   "hexo": {
     "version": "6.3.0"
