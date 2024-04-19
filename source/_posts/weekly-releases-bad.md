@@ -18,8 +18,7 @@ Honestly, I don't think the release is the problem, but our testing coverage.
 We have e2e and unit tests, and some basic API healthchecks, but it's clearly not enough. We need a beefier strategy here.
 What kind of strategy? well I'd start with making a list of all of our core behavior (each team should take care of their own ofc) and make sure we cover all of them (we definitely don't right now).
 
-<img src="../weekly-releases-bad/248-unit-tests.png" alt="" width="500"/>
-
+![](../weekly-releases-bad/248-unit-tests.png)
 
 With every new incident that happened, the pattern became more clear... we are sitting in the retro meeting thinking - "oh, we didn't have any test covering that behavior at all, we should add that" - which is fine in a retrospective sense, but I suggest being proactive about it.
 
