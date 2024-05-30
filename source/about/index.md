@@ -4,7 +4,7 @@ date: 2023-07-14 18:48:55
 ---
 
 Hi! I'm Eliran, and that is my internet real estate.
-I'm working on application security @PaloAltoNetworks by day.
+I'm working on cloud security @Microsoft by day.
 By night, I sometimes write about my working experience, my learnings and mistakes.
 
 This section here is a placeholder for the cool stuff I'll definitely do, and will be proud of sharing with you.
