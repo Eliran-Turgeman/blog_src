@@ -1,7 +1,7 @@
 ---
-title: setting-up-godot4-csharp-vscode
+title: Godot4 w/ C# in VSCode setup
 date: 2024-06-16 16:20:41
-tags:
+tags: ["godot", "dev setup"]
 ---
 
 I spent some time trying to set up my dev environement to be able to run and debug a Godot game written in .Net inside VSCode.
