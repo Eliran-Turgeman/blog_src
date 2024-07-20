@@ -1,5 +1,10 @@
 [
     {
+        "name": "Skill Issues Killer",
+        "url": "https://sissues.github.io/",
+        "desc": "Level up your backend skills w/ real-world projects"
+    },
+    {
         "name":"pw",
         "url":"https://github.com/Eliran-Turgeman/pw",
         "desc":"CLI password manager integrating with HIBP, ensuring your passwords are safe"
