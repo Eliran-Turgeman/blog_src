@@ -1,5 +1,5 @@
 ---
-title: leetcode-for-backend
+title: Leetcode for backend skills
 date: 2024-07-30 07:16:54
 tags:
 ---
