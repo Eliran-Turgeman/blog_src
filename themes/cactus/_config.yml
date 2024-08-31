@@ -26,6 +26,7 @@ nav:
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
+  telegram: https://t.me/booksbytes
   github: https://github.com/Eliran-Turgeman
   twitter: https://twitter.com/_eltur
   linkedin: https://www.linkedin.com/in/eliran-turgeman/
