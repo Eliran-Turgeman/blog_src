@@ -177,6 +177,7 @@ Idempotency is a real concern, debugging related issues is difficult, and you sh
 Personally, I feel like solving this bug matured me as an engineer since I had to be more resourceful than usual with my debugging skills.
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -186,4 +187,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

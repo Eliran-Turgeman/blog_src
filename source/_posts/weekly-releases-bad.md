@@ -42,6 +42,7 @@ All in all, I think that its a hard decision to make, but I'd argue that in the 
 To conclude, slowing down to weekly releases might seem like a safe move, but it's like putting a Band-Aid on a broken arm. What we really need is to strengthen our processes where they’re weak — especially our testing. Let's not settle for a quick fix that might hold us back in the long run.
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -51,4 +52,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

@@ -71,6 +71,7 @@ That's it.
 I do some [mentoring](https://www.16elt.com/mentorship/) btw.
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -80,4 +81,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

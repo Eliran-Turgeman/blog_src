@@ -131,6 +131,7 @@ Mostly, in order to effectively use this metric, you set a threshold for cohesiv
 [2] Chidamber, S., R., Kemerer, C., K., A Metrics Suite for Object Oriented Design, IEEE Trans. on Software Eng., Vol.20, №6, June 1994.
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -140,4 +141,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

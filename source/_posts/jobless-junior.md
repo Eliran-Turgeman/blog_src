@@ -61,6 +61,7 @@ oh, and a few more tips... once you do get a technical interview put emphasis on
 * I recently developed a [platform](https://github.com/sissues/cli) for devs to get better at backend skills through real-world projects. It's open-source and free - https://github.com/sissues/cli
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -70,4 +71,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

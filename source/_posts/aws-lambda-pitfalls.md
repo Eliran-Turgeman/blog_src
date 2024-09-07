@@ -149,6 +149,7 @@ Anyway, these are 3 pitfalls I often encounter in lambda-based applications, obv
 * [Design principles - AWS Lambda (amazon.com)](https://docs.aws.amazon.com/lambda/latest/operatorguide/design-principles.html)
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -158,4 +159,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

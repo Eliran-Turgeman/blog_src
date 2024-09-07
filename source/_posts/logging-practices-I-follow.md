@@ -69,6 +69,7 @@ Logging is important, it is a crucial tool for any kind of software, use it to y
 Keep in mind that logging is for you, you will be reading them whenever you need to debug why the function you wrote failed. Save yourself future trouble, and invest in thoughtful logging in advance.
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -78,4 +79,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

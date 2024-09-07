@@ -151,6 +151,7 @@ Maybe just to encourage you, if you made a stupid mistake causing some major pro
 As long as you learn from that mistake and make sure you never repeat it, you are on the right path.
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -160,4 +161,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

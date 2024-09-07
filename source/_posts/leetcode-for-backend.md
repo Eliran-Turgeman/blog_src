@@ -27,6 +27,7 @@ Looking to make this platform as useful as it can be, so I encourage you to send
 
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -36,4 +37,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

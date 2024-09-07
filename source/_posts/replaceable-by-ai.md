@@ -29,6 +29,7 @@ So, whether you think you are replaceable by AI or you think you are notâ€”youâ€
 I hope that ages well, but if the robots take my job anytime soon, I'll keep you updated.
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -38,4 +39,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

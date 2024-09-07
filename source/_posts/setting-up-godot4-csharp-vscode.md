@@ -120,6 +120,7 @@ In my case, on a mac, this was the correct path `/Users/eliranturgeman/Downloads
 This might be a beginning of a "dev log" kind of a series, or a one time thing, nobody knows.
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -129,4 +130,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

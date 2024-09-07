@@ -100,6 +100,7 @@ def process_data(data, threshold):
 In the final refactored code, we’ve flattened the nesting using early returns, broken it down into smaller functions, and rethought the logic using list comprehensions. The code is now more readable, maintainable, and easier to test.
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -109,4 +110,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

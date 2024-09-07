@@ -58,6 +58,7 @@ I'll definitely follow their progress, and go into bigger detail into their offe
 
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -67,4 +68,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

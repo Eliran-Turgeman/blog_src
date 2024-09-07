@@ -9,7 +9,7 @@
     "server": "npx hexo server",
     "push": "npm run git-push && npx hexo clean && npx hexo generate && npx hexo deploy",
     "git-push": "git add . && git commit -m \"a\" && git push",
-    "apply-promotion": "node ./scripts/add-promotion.js"
+    "apply-promotion": "node ./utils/add-promotion.js"
   },
   "hexo": {
     "version": "6.3.0"

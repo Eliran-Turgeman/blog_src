@@ -185,6 +185,7 @@ Although I don't necessarily write the tests beforehand, I always think about ho
 This post doesn't have a summary, since the writer ~~thought it was useless~~ was lazy.
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -194,4 +195,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

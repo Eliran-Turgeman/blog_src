@@ -33,6 +33,7 @@ In conclusion, tech debt should be about strategic improvements that align with 
 
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -42,4 +43,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

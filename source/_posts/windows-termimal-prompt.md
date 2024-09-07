@@ -151,6 +151,7 @@ and you should have autocompletion working!
 ![](../windows-terminal-prompt-images/powershell-autocomplete.gif)
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -160,4 +161,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

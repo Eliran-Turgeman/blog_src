@@ -33,6 +33,7 @@ To convince you to join, I have further summarized the first eight chapters in t
 The full summaries are available on [byte-sized tech](https://t.me/booksbytes) — join us :)
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -42,4 +43,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

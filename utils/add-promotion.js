@@ -5,8 +5,7 @@ const path = require('path');
 const postsDir = 'source/_posts';
 
 // Promotional text to insert
-const promoText = `
-<!-- PROMO BLOCK -->
+const promoText = `<!-- PROMO BLOCK -->
 ---
 
 **Too busy to read tech books?**  
@@ -14,8 +13,7 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 **DISCLAIMER: NO LLM SUMMARIES**
 
 ---
-<!-- END PROMO BLOCK -->
-`;
+<!-- END PROMO BLOCK -->`;
 
 // Function to update the markdown files
 const updateMarkdownFiles = (dir) => {

@@ -33,6 +33,7 @@ I am not doing this for altruism. I want to read and study consistently. I hope 
 So, join us... [***Byte-Sized Tech***](https://t.me/booksbytes).
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -42,4 +43,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

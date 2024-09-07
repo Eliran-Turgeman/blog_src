@@ -23,6 +23,7 @@ That's it...
 btw, I love [mentoring](https://www.16elt.com/mentorship/) others so if you are interested, let's chat.
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -32,4 +33,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

@@ -116,6 +116,7 @@ etc...
 Anyhow, this is it for today.
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -125,4 +126,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 

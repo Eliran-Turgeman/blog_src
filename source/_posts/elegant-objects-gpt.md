@@ -32,6 +32,7 @@ I called this app **LGTM**, and you can access it right [there](https://chat.ope
 Would love to hear your ideas of extending this or improving the prompt; here's how you can [contact me](https://www.16elt.com/about/).
 
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -41,4 +42,5 @@ Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and
 
 ---
 <!-- END PROMO BLOCK -->
+
 
