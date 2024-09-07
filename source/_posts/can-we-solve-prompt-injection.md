@@ -55,3 +55,16 @@ They still can prevent many prompt injection attacks, from the ones that are alr
 
 I'll definitely follow their progress, and go into bigger detail into their offerings in the future.
 
+
+
+
+<!-- PROMO BLOCK -->
+---
+
+**Too busy to read tech books?**  
+Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
+**DISCLAIMER: NO LLM SUMMARIES**
+
+---
+<!-- END PROMO BLOCK -->
+

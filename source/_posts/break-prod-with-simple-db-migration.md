@@ -149,3 +149,15 @@ And that’s what you should do too, if you have a similar use case.
 Maybe just to encourage you, if you made a stupid mistake causing some major production bug, so did I, and every other software engineer at some point in time, and probably more than once.
 
 As long as you learn from that mistake and make sure you never repeat it, you are on the right path.
+
+
+<!-- PROMO BLOCK -->
+---
+
+**Too busy to read tech books?**  
+Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
+**DISCLAIMER: NO LLM SUMMARIES**
+
+---
+<!-- END PROMO BLOCK -->
+

@@ -67,3 +67,15 @@ One way to keep the logs unique is to denote the service name and function name 
 Logging is important, it is a crucial tool for any kind of software, use it to your advantage, and don't litter it.  
 
 Keep in mind that logging is for you, you will be reading them whenever you need to debug why the function you wrote failed. Save yourself future trouble, and invest in thoughtful logging in advance.
+
+
+<!-- PROMO BLOCK -->
+---
+
+**Too busy to read tech books?**  
+Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
+**DISCLAIMER: NO LLM SUMMARIES**
+
+---
+<!-- END PROMO BLOCK -->
+

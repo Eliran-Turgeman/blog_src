@@ -24,3 +24,16 @@ If you are interested in adding a new project to the platform - follow the contr
 If you are having any issues/suggestions/questions/whatever... you can [contact me ](https://www.16elt.com/about/)
 
 Looking to make this platform as useful as it can be, so I encourage you to send over some feedback!
+
+
+
+<!-- PROMO BLOCK -->
+---
+
+**Too busy to read tech books?**  
+Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
+**DISCLAIMER: NO LLM SUMMARIES**
+
+---
+<!-- END PROMO BLOCK -->
+

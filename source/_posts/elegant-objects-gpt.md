@@ -30,3 +30,15 @@ Right after this prompt, I have attached a summary of the SOLID principles, and 
 I called this app **LGTM**, and you can access it right [there](https://chat.openai.com/g/g-a7hsiSnIv-lgtm).
 
 Would love to hear your ideas of extending this or improving the prompt; here's how you can [contact me](https://www.16elt.com/about/).
+
+
+<!-- PROMO BLOCK -->
+---
+
+**Too busy to read tech books?**  
+Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
+**DISCLAIMER: NO LLM SUMMARIES**
+
+---
+<!-- END PROMO BLOCK -->
+

@@ -46,3 +46,16 @@ In my quest to stand out, I initially believed that going solo was the key to ea
 Observing engineers whom I admire, those several levels above with decades more experience, I noticed something crucial: they didn't shy away from collaboration, even on high-stakes projects. They regularly sought input and brainstormed with others, including those less experienced, like myself. This was an eye-opener.
 
 I realized that it's not about taking all the credit; it's about creating the best outcome through shared efforts and diverse perspectives.
+
+
+
+<!-- PROMO BLOCK -->
+---
+
+**Too busy to read tech books?**  
+Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
+**DISCLAIMER: NO LLM SUMMARIES**
+
+---
+<!-- END PROMO BLOCK -->
+

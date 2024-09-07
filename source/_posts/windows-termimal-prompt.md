@@ -149,3 +149,15 @@ and you should have autocompletion working!
 ![alt text](../windows-terminal-prompt-images/image-6.png)
 
 ![](../windows-terminal-prompt-images/powershell-autocomplete.gif)
+
+
+<!-- PROMO BLOCK -->
+---
+
+**Too busy to read tech books?**  
+Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
+**DISCLAIMER: NO LLM SUMMARIES**
+
+---
+<!-- END PROMO BLOCK -->
+

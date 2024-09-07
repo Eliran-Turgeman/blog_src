@@ -413,3 +413,16 @@ If you are excited about adding more sources I invite you to challenge yourself 
 If you are willing to contribute and facing some problems don't hesitate to reach out.
 
 
+
+
+
+<!-- PROMO BLOCK -->
+---
+
+**Too busy to read tech books?**  
+Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
+**DISCLAIMER: NO LLM SUMMARIES**
+
+---
+<!-- END PROMO BLOCK -->
+

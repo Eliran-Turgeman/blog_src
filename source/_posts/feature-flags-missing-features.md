@@ -44,3 +44,16 @@ That's it, these are the features I miss the most about feature flags solutions 
 
 - Do you think a new player in the FF market can grab some market share by implementing these two features along the basic functionality?
 
+
+
+
+<!-- PROMO BLOCK -->
+---
+
+**Too busy to read tech books?**  
+Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
+**DISCLAIMER: NO LLM SUMMARIES**
+
+---
+<!-- END PROMO BLOCK -->
+

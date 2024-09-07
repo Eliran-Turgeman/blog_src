@@ -147,3 +147,15 @@ Anyway, these are 3 pitfalls I often encounter in lambda-based applications, obv
 * [Handling Lambda functions idempotency with AWS Lambda Powertools | AWS Compute Blog (amazon.com)](https://aws.amazon.com/blogs/compute/handling-lambda-functions-idempotency-with-aws-lambda-powertools/)
 
 * [Design principles - AWS Lambda (amazon.com)](https://docs.aws.amazon.com/lambda/latest/operatorguide/design-principles.html)
+
+
+<!-- PROMO BLOCK -->
+---
+
+**Too busy to read tech books?**  
+Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
+**DISCLAIMER: NO LLM SUMMARIES**
+
+---
+<!-- END PROMO BLOCK -->
+

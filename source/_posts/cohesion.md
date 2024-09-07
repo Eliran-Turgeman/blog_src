@@ -129,3 +129,15 @@ Mostly, in order to effectively use this metric, you set a threshold for cohesiv
 [1] Fundamentals of Software Architecture, by Mark Richards, Neal Ford
 
 [2] Chidamber, S., R., Kemerer, C., K., A Metrics Suite for Object Oriented Design, IEEE Trans. on Software Eng., Vol.20, №6, June 1994.
+
+
+<!-- PROMO BLOCK -->
+---
+
+**Too busy to read tech books?**  
+Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
+**DISCLAIMER: NO LLM SUMMARIES**
+
+---
+<!-- END PROMO BLOCK -->
+

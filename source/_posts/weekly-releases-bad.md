@@ -40,3 +40,15 @@ I'd be even up for a codefreeze in the meantime, so we ensure that the testing e
 All in all, I think that its a hard decision to make, but I'd argue that in the long term we would have benefited from tests much better than weekly releases.
 
 To conclude, slowing down to weekly releases might seem like a safe move, but it's like putting a Band-Aid on a broken arm. What we really need is to strengthen our processes where they’re weak — especially our testing. Let's not settle for a quick fix that might hold us back in the long run.
+
+
+<!-- PROMO BLOCK -->
+---
+
+**Too busy to read tech books?**  
+Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
+**DISCLAIMER: NO LLM SUMMARIES**
+
+---
+<!-- END PROMO BLOCK -->
+

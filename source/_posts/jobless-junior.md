@@ -59,3 +59,15 @@ oh, and a few more tips... once you do get a technical interview put emphasis on
 
 * I am offering free [mentorship](https://www.16elt.com/mentorship/)
 * I recently developed a [platform](https://github.com/sissues/cli) for devs to get better at backend skills through real-world projects. It's open-source and free - https://github.com/sissues/cli
+
+
+<!-- PROMO BLOCK -->
+---
+
+**Too busy to read tech books?**  
+Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
+**DISCLAIMER: NO LLM SUMMARIES**
+
+---
+<!-- END PROMO BLOCK -->
+

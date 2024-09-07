@@ -69,3 +69,16 @@ Rejections came, but they taught me resilience and adaptability. My decision to 
 Most importantly, this experience highlighted the essence of turning academic knowledge into practical application. My journey, filled with its ups and downs, taught me the invaluable lessons of persistence, adaptability, and the magic of finding opportunities in the most unexpected places.
 
 
+
+
+
+<!-- PROMO BLOCK -->
+---
+
+**Too busy to read tech books?**  
+Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
+**DISCLAIMER: NO LLM SUMMARIES**
+
+---
+<!-- END PROMO BLOCK -->
+

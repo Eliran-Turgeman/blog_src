@@ -31,3 +31,15 @@ To convince you to join, I have further summarized the first eight chapters in t
 7. Modules should handle more complexity themselves to keep their interfaces simple. Simplifying for users at the expense of more complexity inside the module leads to cleaner designs.
 
 The full summaries are available on [byte-sized tech](https://t.me/booksbytes) — join us :)
+
+
+<!-- PROMO BLOCK -->
+---
+
+**Too busy to read tech books?**  
+Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
+**DISCLAIMER: NO LLM SUMMARIES**
+
+---
+<!-- END PROMO BLOCK -->
+

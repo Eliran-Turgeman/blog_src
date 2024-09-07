@@ -69,3 +69,15 @@ When you are in a technical disscusion, try to speak concisely and focus on deli
 
 That's it.
 I do some [mentoring](https://www.16elt.com/mentorship/) btw.
+
+
+<!-- PROMO BLOCK -->
+---
+
+**Too busy to read tech books?**  
+Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
+**DISCLAIMER: NO LLM SUMMARIES**
+
+---
+<!-- END PROMO BLOCK -->
+

@@ -31,3 +31,15 @@ To help you decide if this is for you, I share some interesting things I read la
 I am not doing this for altruism. I want to read and study consistently. I hope that doing it publicly, with accountability, will help me stick to it.
 
 So, join us... [***Byte-Sized Tech***](https://t.me/booksbytes).
+
+
+<!-- PROMO BLOCK -->
+---
+
+**Too busy to read tech books?**  
+Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
+**DISCLAIMER: NO LLM SUMMARIES**
+
+---
+<!-- END PROMO BLOCK -->
+
