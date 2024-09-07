@@ -1,7 +1,11 @@
 ---
 title: Elegant Objects GPT
-date: 2024-04-29 10:15:43
-tags: ["OOP", "gpt app", "code reviews"]
+date: 2024-04-29T10:15:43.000Z
+tags:
+  - OOP
+  - gpt app
+  - code reviews
+readTime: 2
 ---
 
 I recently read the book ["Elegant Objects" by Yegor Bugayenko](https://www.amazon.com/Elegant-Objects-1-Yegor-Bugayenko/dp/1519166915) (not an affiliate link).
@@ -32,7 +36,6 @@ I called this app **LGTM**, and you can access it right [there](https://chat.ope
 Would love to hear your ideas of extending this or improving the prompt; here's how you can [contact me](https://www.16elt.com/about/).
 
 
-
 <!-- PROMO BLOCK -->
 ---
 
@@ -40,7 +43,6 @@ Would love to hear your ideas of extending this or improving the prompt; here's 
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

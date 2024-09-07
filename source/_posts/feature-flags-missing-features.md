@@ -1,7 +1,11 @@
 ---
 title: Feature flags spaghetti // FFs missing features
-date: 2024-02-03 17:24:58
-tags: ["feature flags", "tech debt", "code maintenance"]
+date: 2024-02-03T17:24:58.000Z
+tags:
+  - feature flags
+  - tech debt
+  - code maintenance
+readTime: 3
 ---
 
 Feature flags solutions are pretty established by now, but I feel like there are some key features missing that would make me switch vendors.
@@ -46,8 +50,6 @@ That's it, these are the features I miss the most about feature flags solutions 
 
 
 
-
-
 <!-- PROMO BLOCK -->
 ---
 
@@ -55,7 +57,6 @@ That's it, these are the features I miss the most about feature flags solutions 
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

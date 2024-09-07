@@ -1,7 +1,9 @@
 ---
 title: My thoughts on tech debt
-date: 2023-12-04 13:56:00
-tags: ["tech debt"]
+date: 2023-12-04T13:56:00.000Z
+tags:
+  - tech debt
+readTime: 3
 ---
 
 
@@ -29,11 +31,6 @@ Now, about those "tech debt / quality weeks." If a task is genuinely critical, i
 
 In conclusion, tech debt should be about strategic improvements that align with our main goals, not chasing the latest trends or personal preferences. It's about impactful changes that enhance our systems and make our work more efficient. Let's keep our focus sharp and our priorities clear.
 
-
-
-
-
-
 <!-- PROMO BLOCK -->
 ---
 
@@ -41,7 +38,6 @@ In conclusion, tech debt should be about strategic improvements that align with 
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

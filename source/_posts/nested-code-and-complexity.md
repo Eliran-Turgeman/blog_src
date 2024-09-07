@@ -1,8 +1,9 @@
 ---
 title: Taming the Nested Beast
-date: 2023-03-24 17:08:55
-categories: ["software practices"]
-tags: ["best practices", "software engineering"]
+date: 2023-03-24T17:08:55.000Z
+tags:
+  - best practices
+readTime: 3
 ---
 
 I believe that the downsides of overly nested code are well known and covered, it mainly revolves around readability and maintainability, and I won’t go into more details in regards to that.
@@ -108,7 +109,6 @@ In the final refactored code, we’ve flattened the nesting using early returns,
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

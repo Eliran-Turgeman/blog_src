@@ -1,7 +1,8 @@
 ---
-title: PowerShell Customization - Fonts, Prompts, and Autocompletion
-date: 2024-08-09 07:53:57
+title: 'PowerShell Customization - Fonts, Prompts, and Autocompletion'
+date: 2024-08-09T07:53:57.000Z
 tags: powershell
+readTime: 3
 ---
 
 ## Step 1: Install Oh-My-Posh
@@ -159,7 +160,6 @@ and you should have autocompletion working!
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

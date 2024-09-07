@@ -1,9 +1,13 @@
 ---
-title: "Singularity — Microsoft’s Experimental Operating System"
-date: 2022-08-05T11:11:25+03:00
+title: Singularity — Microsoft’s Experimental Operating System
+date: 2022-08-05T08:11:25.000Z
 draft: false
-tags: ["Singularity", "Microsoft", "Operating System", "OS"]
-categories: ["Operating Systems"]
+tags:
+  - Singularity
+  - Microsoft
+  - Operating System
+  - OS
+readTime: 4
 ---
 
 # Introduction
@@ -116,8 +120,6 @@ For further reading, I can recommend the following:
 [1] [Microsoft Overview of the Singularity Project](https://www.microsoft.com/en-us/research/wp-content/uploads/2005/10/tr-2005-135.pdf)
 
 
-
-
 <!-- PROMO BLOCK -->
 ---
 
@@ -125,7 +127,6 @@ For further reading, I can recommend the following:
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

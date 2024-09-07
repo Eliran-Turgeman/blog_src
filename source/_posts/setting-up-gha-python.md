@@ -1,8 +1,10 @@
 ---
-title: Setting Up Automatic Linting and Type Checking (Python, GHA)
-date: 2023-05-19 19:06:40
-tags: ["GitHub Actions", "CI/CD"]
-categories: ["CI/CD"]
+title: 'Setting Up Automatic Linting and Type Checking (Python, GHA)'
+date: 2023-05-19T19:06:40.000Z
+tags:
+  - GitHub Actions
+  - CI/CD
+readTime: 4
 ---
 
 I work with open-source & private Python projects on GitHub on a daily basis.  
@@ -140,8 +142,6 @@ On GitHub, it should look like the following
 Feel free to tweak this process with your own favorite tools, and if you have any questions you can reach out to me on [twitter](https://twitter.com/_eltur).
 
 
-
-
 <!-- PROMO BLOCK -->
 ---
 
@@ -149,7 +149,6 @@ Feel free to tweak this process with your own favorite tools, and if you have an
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

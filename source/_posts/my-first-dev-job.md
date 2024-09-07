@@ -1,8 +1,10 @@
 ---
 title: Getting my first dev job
-date: 2023-09-07 21:04:03
-tags: ["job hunt", "junior dev"]
-categories: ["my software engineering journey"]
+date: 2023-09-07T21:04:03.000Z
+tags:
+  - job hunt
+  - junior dev
+readTime: 5
 ---
 
 This is a blog post that at some point might get turned into a series.
@@ -69,10 +71,6 @@ Rejections came, but they taught me resilience and adaptability. My decision to 
 Most importantly, this experience highlighted the essence of turning academic knowledge into practical application. My journey, filled with its ups and downs, taught me the invaluable lessons of persistence, adaptability, and the magic of finding opportunities in the most unexpected places.
 
 
-
-
-
-
 <!-- PROMO BLOCK -->
 ---
 
@@ -80,7 +78,6 @@ Most importantly, this experience highlighted the essence of turning academic kn
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

@@ -1,7 +1,11 @@
 ---
 title: Can we solve prompt injection now?
-date: 2024-01-18 08:09:24
-tags: ['ai security', 'rebuff', 'prompt injection']
+date: 2024-01-18T08:09:24.000Z
+tags:
+  - ai security
+  - rebuff
+  - prompt injection
+readTime: 3
 ---
 
 TLDR - I don't think so.
@@ -56,9 +60,6 @@ They still can prevent many prompt injection attacks, from the ones that are alr
 I'll definitely follow their progress, and go into bigger detail into their offerings in the future.
 
 
-
-
-
 <!-- PROMO BLOCK -->
 ---
 
@@ -66,7 +67,6 @@ I'll definitely follow their progress, and go into bigger detail into their offe
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

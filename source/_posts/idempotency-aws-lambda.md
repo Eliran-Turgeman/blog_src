@@ -1,7 +1,12 @@
 ---
 title: Demystifying the Importance of Idempotency in AWS Lambda // A Bug Hunt Tale
-date: 2023-07-15 10:23:14
-tags: ["aws", "lambda", "bug hunt", "idempotency"]
+date: 2023-07-15T10:23:14.000Z
+tags:
+  - aws
+  - lambda
+  - bug hunt
+  - idempotency
+readTime: 6
 ---
 
 I recently wrote about the [AWS Lambda bad practices](https://www.16elt.com/2023/07/12/aws-lambda-pitfalls/), and one of them was a bit more personal for me than the others.
@@ -177,7 +182,6 @@ Idempotency is a real concern, debugging related issues is difficult, and you sh
 Personally, I feel like solving this bug matured me as an engineer since I had to be more resourceful than usual with my debugging skills.
 
 
-
 <!-- PROMO BLOCK -->
 ---
 
@@ -185,7 +189,6 @@ Personally, I feel like solving this bug matured me as an engineer since I had t
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

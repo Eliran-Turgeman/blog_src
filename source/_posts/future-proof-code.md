@@ -1,7 +1,10 @@
 ---
-title: "On over-engineering; finding the right balance"
-date: 2024-09-07 11:39:26
-tags:
+title: On over-engineering; finding the right balance
+date: 2024-09-07T11:39:26.000Z
+tags: 
+ - software design
+ - best practices
+readTime: 7
 ---
 
 A big debate among developers is whether to write code for today's problem or to build a general-purpose solution for future needs. Both approaches have their pros and cons. Specific-purpose code can quickly become messy. But overly general code can add unnecessary complexity. This post, obviously opinionated, argues for a middle ground. That's the sweet spot, as always.
@@ -229,6 +232,7 @@ Find the balance. Create flexible, general-purpose code. It should allow for fut
 
 When designing a module, ask: How can I make it flexible without going overboard?
 
+
 <!-- PROMO BLOCK -->
 ---
 
@@ -236,5 +240,4 @@ When designing a module, ask: How can I make it flexible without going overboard
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->

@@ -1,9 +1,13 @@
 ---
-title: "Writing My First Open Source Package - Content Aggregation CLI"
-date: 2022-05-07T11:58:18+03:00
+title: Writing My First Open Source Package - Content Aggregation CLI
+date: 2022-05-07T08:58:18.000Z
 draft: false
-tags: ["Aggregator", "Python", "CLI", "Open Source"]
-categories: ["Open Source", "Project", "Python"]
+tags:
+  - Aggregator
+  - Python
+  - CLI
+  - Open Source
+readTime: 10
 ---
 ## Introduction
 
@@ -413,10 +417,6 @@ If you are excited about adding more sources I invite you to challenge yourself 
 If you are willing to contribute and facing some problems don't hesitate to reach out.
 
 
-
-
-
-
 <!-- PROMO BLOCK -->
 ---
 
@@ -424,7 +424,6 @@ If you are willing to contribute and facing some problems don't hesitate to reac
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

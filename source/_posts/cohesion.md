@@ -1,9 +1,11 @@
 ---
-title: "Cohesion in simple terms - Software modularity"
-date: 2022-12-24T13:17:18+03:00
+title: Cohesion in simple terms - Software modularity
+date: 2022-12-24T10:17:18.000Z
 draft: false
-tags: ["modularity", "software design"]
-categories: ["software design"]
+tags:
+  - modularity
+  - software design
+readTime: 5
 ---
 
 Modularity is a must for good software design. It helps with extensibility, readability, maintainability, and more. It certainly isn’t easy to make your code modular, but what exactly is modularity, and how do we measure it?
@@ -139,7 +141,6 @@ Mostly, in order to effectively use this metric, you set a threshold for cohesiv
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

@@ -1,9 +1,12 @@
 ---
-title: "How To Build an API with Python FastAPI"
-date: 2022-05-04T15:18:25+03:00
+title: How To Build an API with Python FastAPI
+date: 2022-05-04T12:18:25.000Z
 draft: false
-tags: ["API", "FastAPI", "Python"]
-categories: ["API", "Project", "Python"]
+tags:
+  - API
+  - FastAPI
+  - Python
+readTime: 24
 ---
 
 ### Introduction
@@ -801,9 +804,6 @@ Note that fastapi uses swagger for the UI, which means that once you run the abo
 In this article, you built an API including all CRUD operations completely from scratch. Now you can pick your own dataset and use cases and start implementing your own FastAPI from scratch.
 
 
-
-
-
 <!-- PROMO BLOCK -->
 ---
 
@@ -811,7 +811,6 @@ In this article, you built an API including all CRUD operations completely from 
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

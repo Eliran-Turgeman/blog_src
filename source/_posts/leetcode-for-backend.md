@@ -1,7 +1,10 @@
 ---
 title: Leetcode for backend skills
-date: 2024-07-30 07:16:54
-tags:
+date: 2024-07-30T07:16:54.000Z
+tags: 
+ - open source
+ - learning
+readTime: 2
 ---
 
 I created a **free & open-source** [platform](https://github.com/sissues) to learn/improve backend skills through API projects.
@@ -26,8 +29,6 @@ If you are having any issues/suggestions/questions/whatever... you can [contact 
 Looking to make this platform as useful as it can be, so I encourage you to send over some feedback!
 
 
-
-
 <!-- PROMO BLOCK -->
 ---
 
@@ -35,7 +36,6 @@ Looking to make this platform as useful as it can be, so I encourage you to send
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

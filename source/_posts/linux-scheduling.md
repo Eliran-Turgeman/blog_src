@@ -1,9 +1,13 @@
 ---
-title: "Linux Scheduling"
-date: 2022-09-25T11:26:13+03:00
+title: Linux Scheduling
+date: 2022-09-25T08:26:13.000Z
 draft: false
-tags: ["OS", "Operating Systems", "Linux", "Scheduling"]
-categories: ["Operating Systems", "Algorithms"]
+tags:
+  - OS
+  - Operating Systems
+  - Linux
+  - Scheduling
+readTime: 11
 ---
 # Process Scheduling In Linux
 
@@ -251,9 +255,6 @@ To Summarize, the differences between RR and CFS are as follows
 ![1_a7Ucr9-JgFzaU0VxzOctwA (1)](https://user-images.githubusercontent.com/50831652/192136627-c4d10128-e50f-4ca9-9197-97fe3b2274bf.jpeg)
 
 
-
-
-
 <!-- PROMO BLOCK -->
 ---
 
@@ -261,7 +262,6 @@ To Summarize, the differences between RR and CFS are as follows
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

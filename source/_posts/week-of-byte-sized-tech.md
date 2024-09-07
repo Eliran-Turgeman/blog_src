@@ -1,7 +1,10 @@
 ---
 title: First week of Byte-Sized Tech
-date: 2024-09-06 09:54:36
-tags: ["reading", "tech books"]
+date: 2024-09-06T09:54:36.000Z
+tags:
+  - reading
+  - tech books
+readTime: 2
 ---
 
 It has been a week since I [announced](https://www.16elt.com/2024/08/31/telegram-channel-announcement/) my telegram channel [byte-sized tech](https://t.me/booksbytes).
@@ -41,7 +44,6 @@ The full summaries are available on [byte-sized tech](https://t.me/booksbytes) â
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

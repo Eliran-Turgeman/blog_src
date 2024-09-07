@@ -1,8 +1,10 @@
 ---
 title: Logging practices I follow
-date: 2023-01-06 17:36:04
-tags: ["logging", "software"]
-categories: ["software practices"]
+date: 2023-01-06T17:36:04.000Z
+tags:
+  - logging
+  - best practices
+readTime: 5
 ---
 
 No matter what kind of software you're developing, you most definitely leverage logging to some extent, probably every single day.  
@@ -68,8 +70,6 @@ Logging is important, it is a crucial tool for any kind of software, use it to y
 
 Keep in mind that logging is for you, you will be reading them whenever you need to debug why the function you wrote failed. Save yourself future trouble, and invest in thoughtful logging in advance.
 
-
-
 <!-- PROMO BLOCK -->
 ---
 
@@ -77,7 +77,6 @@ Keep in mind that logging is for you, you will be reading them whenever you need
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

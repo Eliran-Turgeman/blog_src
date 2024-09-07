@@ -1,7 +1,11 @@
 ---
-title: Whether you think you're replaceable by AI or you think you're not - you're right
-date: 2024-08-29 21:10:47
-tags: ["AI"]
+title: >-
+  Whether you think you're replaceable by AI or you think you're not - you're
+  right
+date: 2024-08-29T21:10:47.000Z
+tags:
+  - AI
+readTime: 2
 ---
 
 ***AI is the new bogeyman for software engineers***. Every other day, some headline is screaming that AI is coming for our jobs, after all they do the job better, faster and they don't need these long coffee breaks... If you’ve been losing sleep over these headlines, don’t worry—I’m sure there’s an AI that can help with that too.
@@ -28,8 +32,6 @@ So, whether you think you are replaceable by AI or you think you are not—you�
 
 I hope that ages well, but if the robots take my job anytime soon, I'll keep you updated.
 
-
-
 <!-- PROMO BLOCK -->
 ---
 
@@ -37,7 +39,6 @@ I hope that ages well, but if the robots take my job anytime soon, I'll keep you
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

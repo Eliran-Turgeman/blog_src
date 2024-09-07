@@ -1,8 +1,10 @@
 ---
 title: Testing practices I follow
-date: 2023-01-16 08:44:39
-tags: ["testing", "software"]
-categories: ["software practices"]
+date: 2023-01-16T08:44:39.000Z
+tags:
+  - testing
+  - best practices
+readTime: 6
 ---
 
 Testing doesn't need much of an introduction. Yeah, it's important; Yeah you probably write/refactor tests every day.  
@@ -193,7 +195,6 @@ This post doesn't have a summary, since the writer ~~thought it was useless~~ wa
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

@@ -1,7 +1,10 @@
 ---
-title: Byte-Sized Tech, Why I am even doing this?
-date: 2024-08-31 20:40:28
-tags: ["reading", "tech books"]
+title: 'Byte-Sized Tech, Why I am even doing this?'
+date: 2024-08-31T20:40:28.000Z
+tags:
+  - reading
+  - tech books
+readTime: 2
 ---
 
 Alright, here’s the deal. I just kicked off a new Telegram channel called [***Byte-Sized Tech***](https://t.me/booksbytes). Why? Because I’m tired of skimming my way through tech books, and I figured, why not drag some of you along with me?
@@ -41,7 +44,6 @@ So, join us... [***Byte-Sized Tech***](https://t.me/booksbytes).
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

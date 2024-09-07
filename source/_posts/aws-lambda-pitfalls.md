@@ -1,7 +1,11 @@
 ---
 title: AWS Lambda - Pitfalls
-date: 2023-07-12 17:49:46
-tags: ["aws", "lambda", "bad practices"]
+date: 2023-07-12T17:49:46.000Z
+tags:
+  - aws
+  - lambda
+  - bad practices
+readTime: 7
 ---
 
 I recently changed teams in the company I am working for, and I was pleased to learn that once in 2 weeks, a member of the team had to come up with a tech-related topic and give a talk about to the rest of the team.
@@ -157,7 +161,6 @@ Anyway, these are 3 pitfalls I often encounter in lambda-based applications, obv
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

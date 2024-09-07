@@ -1,7 +1,9 @@
 ---
 title: Weekly releases bad
-date: 2024-04-19 06:52:52
-tags:
+date: 2024-04-19T06:52:52.000Z
+tags: 
+ - CI/CD
+readTime: 4
 ---
 
 Let’s talk about release schedules. My team had a rollercoaster ride with our release strategy, moving from stressful weekly releases loaded with bugs and merge conflicts to a more smooth (but not perfect), automated releases several times a day. A year later, after too many production incidents, it was decided that we are reverting to weekly releases. It feels like a huge step backward, but let's unpack this.
@@ -50,7 +52,6 @@ To conclude, slowing down to weekly releases might seem like a safe move, but it
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

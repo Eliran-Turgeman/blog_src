@@ -1,7 +1,10 @@
 ---
 title: SWE laws of power
-date: 2024-05-11 07:48:59
-tags:
+date: 2024-05-11T07:48:59.000Z
+tags: 
+ - career
+ - advice
+readTime: 6
 ---
 
 Have you ever noticed how some software engineers seem to rocket up the career ladder, while others, just as talented, barely move? It's not always about how good you are with code; sometimes, it's about playing the game smartly. This got me thinking when I was reading "The 48 Laws of Power." It struck me that many of these laws could be specially adapted. So, I chose the 5 laws that I think are most relevant and impactful for software engineers.
@@ -71,7 +74,6 @@ That's it.
 I do some [mentoring](https://www.16elt.com/mentorship/) btw.
 
 
-
 <!-- PROMO BLOCK -->
 ---
 
@@ -79,7 +81,6 @@ I do some [mentoring](https://www.16elt.com/mentorship/) btw.
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

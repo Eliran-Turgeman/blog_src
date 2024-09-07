@@ -1,7 +1,10 @@
 ---
 title: Advice for junior software engineers
-date: 2023-10-04 07:00:00
-tags: ["advice", "junior"]
+date: 2023-10-04T07:00:00.000Z
+tags:
+  - advice
+  - junior
+readTime: 7
 ---
 
 Four years in software engineering taught me a lot but not what I expected. I thought nailing the code would nail the promotions, but that was a rookie mistake. Most juniors suck at the real skills you need to climb up - it ain’t just about the code, and yes, that threw me too. It’s a wild ride in the startup and corporate world, and shifting your mindset is crucial.
@@ -124,7 +127,6 @@ Anyhow, this is it for today.
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

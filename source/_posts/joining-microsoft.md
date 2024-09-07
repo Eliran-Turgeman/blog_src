@@ -1,7 +1,9 @@
 ---
 title: Joining Microsoft
-date: 2024-05-30 07:59:05
-tags: ["interviews"]
+date: 2024-05-30T07:59:05.000Z
+tags:
+  - interviews
+readTime: 2
 ---
 
 This week I joined Microsoft. It is something I have been trying to do since my 2nd year of CS degree and failed, so it feels even better now.
@@ -22,8 +24,6 @@ That's it...
 
 btw, I love [mentoring](https://www.16elt.com/mentorship/) others so if you are interested, let's chat.
 
-
-
 <!-- PROMO BLOCK -->
 ---
 
@@ -31,7 +31,6 @@ btw, I love [mentoring](https://www.16elt.com/mentorship/) others so if you are 
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

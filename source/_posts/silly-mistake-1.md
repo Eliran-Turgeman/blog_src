@@ -1,7 +1,10 @@
 ---
-title: Evolving through blunders #1
-date: 2023-11-24 08:18:28
-tags: ['mistakes', 'learnings']
+title: Evolving through blunders
+date: 2023-11-24T08:18:28.000Z
+tags:
+  - mistakes
+  - learning
+readTime: 5
 ---
 
 Sometimes, the path to growth is paved with missteps. Recently, I faced one such bend in the road - an opportunity to lead a major feature, something I'd been eyeing for a while. In my eagerness to shine, to be seen as 'promotion-worthy' and 'intelligent,' I stumbled. 
@@ -47,9 +50,6 @@ Observing engineers whom I admire, those several levels above with decades more 
 
 I realized that it's not about taking all the credit; it's about creating the best outcome through shared efforts and diverse perspectives.
 
-
-
-
 <!-- PROMO BLOCK -->
 ---
 
@@ -57,7 +57,6 @@ I realized that it's not about taking all the credit; it's about creating the be
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 

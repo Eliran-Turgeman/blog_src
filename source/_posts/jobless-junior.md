@@ -1,7 +1,10 @@
 ---
-title: I am a junior, and can't find a job - now what?
-date: 2024-07-25 18:55:09
-tags: ["juniors", "job seeking"]
+title: 'I am a junior, and can''t find a job - now what?'
+date: 2024-07-25T18:55:09.000Z
+tags:
+  - juniors
+  - job seeking
+readTime: 4
 ---
 
 "The market is tough" is something many juniors hear today. people are frustrated. graduating after 3-4 years with a CS degree is not easy.  They graduate only to find out nobody wants to hire them or even move forward beyond the initial screening.
@@ -61,7 +64,6 @@ oh, and a few more tips... once you do get a technical interview put emphasis on
 * I recently developed a [platform](https://github.com/sissues/cli) for devs to get better at backend skills through real-world projects. It's open-source and free - https://github.com/sissues/cli
 
 
-
 <!-- PROMO BLOCK -->
 ---
 
@@ -69,7 +71,6 @@ oh, and a few more tips... once you do get a technical interview put emphasis on
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
 
----
 <!-- END PROMO BLOCK -->
 
 
