@@ -1,9 +1,9 @@
 ---
 title: Leetcode for backend skills
 date: 2024-07-30T07:16:54.000Z
-tags: 
- - open source
- - learning
+tags:
+  - open source
+  - learning
 readTime: 2
 ---
 
@@ -35,7 +35,6 @@ Looking to make this platform as useful as it can be, so I encourage you to send
 **Too busy to read tech books?**  
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
-
 <!-- END PROMO BLOCK -->
 
 

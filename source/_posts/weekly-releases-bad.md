@@ -1,8 +1,8 @@
 ---
 title: Weekly releases bad
 date: 2024-04-19T06:52:52.000Z
-tags: 
- - CI/CD
+tags:
+  - CI/CD
 readTime: 4
 ---
 
@@ -51,7 +51,6 @@ To conclude, slowing down to weekly releases might seem like a safe move, but it
 **Too busy to read tech books?**  
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
-
 <!-- END PROMO BLOCK -->
 
 

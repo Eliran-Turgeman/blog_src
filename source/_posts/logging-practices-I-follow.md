@@ -76,7 +76,6 @@ Keep in mind that logging is for you, you will be reading them whenever you need
 **Too busy to read tech books?**  
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
-
 <!-- END PROMO BLOCK -->
 
 

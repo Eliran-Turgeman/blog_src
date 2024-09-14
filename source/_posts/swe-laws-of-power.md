@@ -1,9 +1,9 @@
 ---
 title: SWE laws of power
 date: 2024-05-11T07:48:59.000Z
-tags: 
- - career
- - advice
+tags:
+  - career
+  - advice
 readTime: 6
 ---
 
@@ -80,7 +80,6 @@ I do some [mentoring](https://www.16elt.com/mentorship/) btw.
 **Too busy to read tech books?**  
 Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
 **DISCLAIMER: NO LLM SUMMARIES**
-
 <!-- END PROMO BLOCK -->
 
 
