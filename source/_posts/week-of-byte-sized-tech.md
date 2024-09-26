@@ -4,6 +4,7 @@ date: 2024-09-06T09:54:36.000Z
 tags:
   - reading
   - tech books
+  - byte-sized tech
 readTime: 2
 ---
 
