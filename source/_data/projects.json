@@ -1,5 +1,10 @@
 [
     {
+        "name": "Collecto",
+        "url": "https://github.com/Eliran-Turgeman/Collecto/tree/master",
+        "desc": "Open-source, self-hosted, lightweight, email collection service."
+    },
+    {
         "name": "Skill Issues Killer",
         "url": "https://sissues.github.io/",
         "desc": "Level up your backend skills w/ real-world projects"
