@@ -410,7 +410,6 @@ Note: I fed NotebookLLM the 33 page summary of the book, and it generated a 17 m
 <!-- PROMO BLOCK -->
 ---
 
-**Too busy to read tech books?**  
-Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
-**DISCLAIMER: NO LLM SUMMARIES**
+Looking for a powerful, self-hosted backend for forms? 
+I'm building **Collecto** — a production-ready tool designed to handle your forms with ease and security. [Check it out here](https://github.com/Eliran-Turgeman/Collecto) and be part of its journey!
 <!-- END PROMO BLOCK -->

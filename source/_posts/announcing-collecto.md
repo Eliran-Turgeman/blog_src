@@ -27,3 +27,10 @@ Source Code: [https://github.com/Eliran-Turgeman/Collecto](https://github.com/El
 Docker Image: [https://hub.docker.com/r/elirant/collecto/tags](https://hub.docker.com/r/elirant/collecto/tags)
 
 I'd love to hear your thoughts, and if you're interested in contributing, you're more than welcome!
+
+<!-- PROMO BLOCK -->
+---
+
+Looking for a powerful, self-hosted backend for forms? 
+I'm building **Collecto** — a production-ready tool designed to handle your forms with ease and security. [Check it out here](https://github.com/Eliran-Turgeman/Collecto) and be part of its journey!
+<!-- END PROMO BLOCK -->

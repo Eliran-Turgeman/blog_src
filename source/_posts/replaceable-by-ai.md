@@ -35,9 +35,8 @@ I hope that ages well, but if the robots take my job anytime soon, I'll keep you
 <!-- PROMO BLOCK -->
 ---
 
-**Too busy to read tech books?**  
-Join my [Telegram channel](https://t.me/booksbytes) for bite-sized summaries and curated posts that save you time while keeping you up to date with essential insights!  
-**DISCLAIMER: NO LLM SUMMARIES**
+Looking for a powerful, self-hosted backend for forms? 
+I'm building **Collecto** — a production-ready tool designed to handle your forms with ease and security. [Check it out here](https://github.com/Eliran-Turgeman/Collecto) and be part of its journey!
 <!-- END PROMO BLOCK -->
 
 
