@@ -32,25 +32,18 @@ During my vacation, I finally had some real downtime — enough to think about w
 
 I wanted to grow my knowledge and stay consistent with my reading habit. But committing to “tech book summaries, multiple times a week” was far too rigid. It left no room for spontaneity or the simple joy of skipping boring sections. I’d unknowingly turned reading — my personal passion, into a chore.
 
-### The student mindset trap
-I had fallen into the "student trap" (I just made it up, don't know if it exists). I believed I had to absorb every single page of a book, as if preparing for an exam. But there’s no test at the end of these books—this is purely for my own growth and curiosity. I realized how pointless it was to force myself through chapters I wasn’t enjoying.
+Also, I read part of the books that were in popular demand, and I felt like I already learned the lessons included in them. Re-reading them just so I can summarize them felt pretty much useless for my own progression (which was my main goal to start this journey).
+
+I understood that at the point of my career (after reading different tech books) I already had a good grasp of the principles and I was eager to apply them. I understood that my own progression will be mostly defined by the things I build.
 
 ### What's next?
-I’m ready to make a new (and more realistic) promise to myself—and to you:
 
-> “I will read books that genuinely interest me. I’ll skim or skip the boring parts. And I’ll only share insights, summaries, or resources that I find worth reading”
+All of this reflection helped me realize that real growth comes from actually building something. I’m still a fan of reading and will always have a stack of books by my side—but from here on, I want to focus on rolling up my sleeves and applying those lessons in practice.
 
-Here’s what that means going forward:
+That’s why I’m working on an early-access platform called 404skill—a place where we’ll tackle real-world coding projects, get feedback, and learn together by doing. It’s not about chasing every hot new framework or cramming a reading list; it’s about creating tangible work and honing the skills we already have.
 
-* No more forced summaries. If a chapter doesn’t grab me, I’ll move on.
-* Some weeks I might share multiple insights; other times, I’ll post less frequently while exploring a mix of technical books, plus interesting articles or blog posts.
-* Expect shorter, more authentic recaps - no rigid breakdown of every single chapter. I’ll share what genuinely intrigues me or feels useful.
+I’d love for you to be part of it. Whether you’re looking to sharpen your coding skills, collaborate on projects, or just see what building in public looks like, sign up for early access and join me in this next chapter:
 
-With this approach, I’m aiming to bring back the fun and spontaneity of reading while still sharing valuable takeaways, wherever they come from.
+[Sign up for 404skill Early Access →](https://404skill.github.io/)
 
-<!-- PROMO BLOCK -->
----
-
-Looking for a powerful, self-hosted backend for forms? 
-I'm building **Collecto** — a production-ready tool designed to handle your forms with ease and security. [Check it out here](https://github.com/Eliran-Turgeman/Collecto) and be part of its journey!
-<!-- END PROMO BLOCK -->
+Thanks for sticking around and reading my thoughts.
