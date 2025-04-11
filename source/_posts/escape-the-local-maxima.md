@@ -1,7 +1,8 @@
 ---
 title: Escaping the local maxima
 date: 2025-04-05T17:10:39.000Z
-tags: ["career"]
+tags:
+  - career
 readTime: 2
 ---
 
