@@ -49,3 +49,38 @@
 </section>
 
 <%- partial('_partial/comments') %>
+
+<%
+  var relatedPosts = [];
+
+  function isUniquePost(post) {
+    return post._id !== page._id && !relatedPosts.some(function(item) { 
+      return item._id === post._id; 
+    });
+  }
+
+  if (page.tags && page.tags.length) {
+    page.tags.forEach(function(tag) {
+      if (tag.posts && tag.posts.length) {
+        tag.posts.forEach(function(post) {
+          if (isUniquePost(post)) {
+            relatedPosts.push(post);
+          }
+        });
+      }
+    });
+  }
+%>
+
+<% if (relatedPosts.length) { %>
+<section class="related-posts" style="margin-top: 2rem;">
+  <h3>Related Posts</h3>
+  <ul>
+    <% relatedPosts.forEach(function(rp) { %>
+      <li>
+        <a href="<%= url_for(rp.path) %>"><%= rp.title %></a>
+      </li>
+    <% }); %>
+  </ul>  
+</section>
+<% } %>
