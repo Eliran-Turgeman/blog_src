@@ -1,27 +1,12 @@
 [
     {
+        "name": "404Skill",
+        "url": "https://404skill.github.io/",
+        "desc": "Become a better software engineer with real-world projects."
+    },
+    {
         "name": "Collecto",
         "url": "https://github.com/Eliran-Turgeman/Collecto/tree/master",
         "desc": "Open-source, self-hosted, lightweight, email collection service."
-    },
-    {
-        "name": "Skill Issues Killer",
-        "url": "https://sissues.github.io/",
-        "desc": "Level up your backend skills w/ real-world projects"
-    },
-    {
-        "name":"pw",
-        "url":"https://github.com/Eliran-Turgeman/pw",
-        "desc":"CLI password manager integrating with HIBP, ensuring your passwords are safe"
-     },
-    {
-       "name":"OmniBridge",
-       "url":"https://github.com/OmniSpective/OmniBridge",
-       "desc":"Access different AI models in one place"
-    },
-    {
-        "name": "Fuse",
-        "url": "https://github.com/Eliran-Turgeman/Fuse",
-        "desc": "Content aggregation CLI tool"
     }
 ]
