@@ -236,6 +236,6 @@ When designing a module, ask: How can I make it flexible without going overboard
 <!-- PROMO BLOCK -->
 ---
 
-Looking for a powerful, self-hosted backend for forms? 
-I'm building **Collecto** — a production-ready tool designed to handle your forms with ease and security. [Check it out here](https://github.com/Eliran-Turgeman/Collecto) and be part of its journey!
+🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
+Get started with [404skill](https://404skill.github.io/#/)
 <!-- END PROMO BLOCK -->

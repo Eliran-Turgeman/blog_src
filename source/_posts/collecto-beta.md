@@ -62,3 +62,10 @@ We’re refining Collecto based on real-world feedback. By joining the beta, you
 If self-hosting is your thing, grab Collecto from our [open-source repo](https://github.com/Eliran-Turgeman/Collecto). If you’d rather let us handle everything, [sign up here for early access](https://trycollecto.github.io/) to the managed solution.
 
 Thanks for checking out Collecto. We’re keeping it simple, transparent, and entirely user-focused—because your email list should be yours to shape, secure, and scale.
+
+<!-- PROMO BLOCK -->
+---
+
+🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
+Get started with [404skill](https://404skill.github.io/#/)
+<!-- END PROMO BLOCK -->

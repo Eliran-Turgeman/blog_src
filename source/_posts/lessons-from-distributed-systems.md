@@ -45,3 +45,10 @@ I once had to [debug a nasty bug](https://www.16elt.com/2023/07/15/idempotency-a
 ---
 
 This is whatever was in the top of my head, hope you find it useful and you have a few ideas on how to improve your system.
+
+<!-- PROMO BLOCK -->
+---
+
+🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
+Get started with [404skill](https://404skill.github.io/#/)
+<!-- END PROMO BLOCK -->
