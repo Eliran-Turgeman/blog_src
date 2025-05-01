@@ -3,7 +3,7 @@ title: Collecto Beta - A developer-friendly approach to verified email capture
 date: 2024-12-24T08:08:33.000Z
 tags:
   - collecto
-readTime: 2
+readTime: 3
 ---
 
 Collecto is an open-source, self-hosted email collection solution built for those who demand full sovereignty over their data. No hidden fees, no forced lock-ins—just a straight-up tool to help you capture and manage emails on your terms.
