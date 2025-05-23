@@ -44,8 +44,10 @@ Next time you're told to "own" a project, remember that it's not about being the
 ---
 
 P.S. I never held a literal shovel. I hope the metaphor sticks with the shovel experts.
-<!-- PROMO BLOCK -->
+
 ---
+
+<!-- PROMO BLOCK -->
 
 🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
 Get started with [404skill](https://404skill.github.io/#/)
