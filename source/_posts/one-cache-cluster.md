@@ -1,7 +1,10 @@
 ---
 title: Why sharing a redis cluster across services is asking for trouble
 date: 2025-05-01T08:38:27.000Z
-tags: ["distributed-systems", "caching", "redis"]
+tags:
+  - distributed-systems
+  - caching
+  - redis
 readTime: 4
 ---
 
