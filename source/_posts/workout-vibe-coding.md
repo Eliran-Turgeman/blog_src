@@ -46,9 +46,9 @@ After two weeks of using this app at the gym and doing tweaks, the app feels sol
 
 On my last iteration, I added a badges/achievement page, and a github-like consistency widget that looks cool ~~I hope will help me stay on track and be consistent~~.
 
-![github-like consistency widget](workout-vibe-coding/image2.png)
+![github-like consistency widget](../workout-vibe-coding/image2.png)
 
-![badges/achievemnets](workout-vibe-coding/image.png)
+![badges/achievemnets](../workout-vibe-coding/image.png)
 
 ## Sharing
 Friends wanted to try it too - the problem? I didn't make it secured by sign-in, I thought I only need it for myself, and even if someone's going to find this weird loveable URL, they could only see my workouts - who cares...  
