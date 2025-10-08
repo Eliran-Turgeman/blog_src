@@ -1,7 +1,9 @@
 ---
 title: Fighting subscription fatigue with vibe-coding
 date: 2025-08-16T07:48:10.000Z
-tags: ["vibe-coding", "saas"]
+tags:
+  - vibe-coding
+  - saas
 readTime: 3
 ---
 
