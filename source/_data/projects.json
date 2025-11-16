@@ -1,5 +1,10 @@
 [
     {
+        "name": "tetsu",
+        "url": "https://github.com/Eliran-Turgeman/tetsu",
+        "desc": "OSS workout logging app."
+    },
+    {
         "name": "404Skill",
         "url": "https://404skill.github.io/",
         "desc": "Become a better software engineer with real-world projects."

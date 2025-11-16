@@ -3,11 +3,23 @@ title: about
 date: 2023-07-14 18:48:55
 ---
 
-Hey there! I'm Eliran, a backend engineer working on security products for the cloud. I’ve been building cloud security solutions for the past few years at Palo Alto Networks and now at Microsoft.
+I'm Eliran, a backend engineer working on container security @ Microsoft.
 
-This blog is where I share things I’ve learned, projects I’ve built, and my thoughts on software engineering.
+When things get too comfortable, my brain starts looking for a new puzzle. This season’s puzzle is a mix of CUDA and distributed training, just for fun.
 
-I am currently building [404skill](https://404skill.github.io/#/), a platform that helps you level up as a software engineer.
+Things I like:
+- my wife
+- coffee
+- playing TFT
+- cooking
+- my dog (look at this cutie...)
+<div style="text-align: left;">
+  <img
+    src="./ollie.jpg"
+    alt="my dog"
+    style="max-width: 300px; display: inline-block; margin: 0;"
+  >
+</div>
 
 ## Contact Me
 Contact me via [Email](mailto:eliran9692@gmail.com) / [Twitter](https://twitter.com/_eltur) / [LinkedIn](https://www.linkedin.com/in/eliran-turgeman/)

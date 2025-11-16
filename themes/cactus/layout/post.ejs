@@ -22,113 +22,60 @@
   </div>
 </article>
 
-<section class="email-signup" style="margin-top: 3rem; padding: 2rem; background: #1e1e1e; border: 1px solid #444; border-radius: 6px; color: #eee;">
-  <h3 style="margin-top: 0; color: #ff7a7a;">Get notified when a new post comes out</h3>
-  <p style="color: #bbb;">Enter your email and we’ll shoot you a message whenever something new is published.</p>
-  <form 
-    action="https://script.google.com/macros/s/AKfycbyE_lrovNyjNt09hQOKYIxyf3BzpaXTYuVOKwrASWDHMKmMDJBwLz08JuxBXA1Uefvv7w/exec" 
-    method="POST" 
-    target="_blank" 
-    style="display: flex; flex-wrap: wrap; gap: 0.5rem;"
+<section class="email-signup email-signup--inline">
+  <h3 class="email-signup__title">Get notified when a new post comes out</h3>
+  <p class="email-signup__description">Enter your email and we’ll shoot you a message whenever something new is published.</p>
+  <form
+    class="email-signup__form"
+    action="https://script.google.com/macros/s/AKfycbyE_lrovNyjNt09hQOKYIxyf3BzpaXTYuVOKwrASWDHMKmMDJBwLz08JuxBXA1Uefvv7w/exec"
+    method="POST"
+    target="_blank"
   >
-    <input 
-      type="email" 
-      name="email" 
-      placeholder="your@email.com" 
-      required 
-      style="padding: 0.5rem; background: #111; border: 1px solid #555; color: #eee; flex: 1; min-width: 220px;"
+    <input
+      class="email-signup__input"
+      type="email"
+      name="email"
+      placeholder="your@email.com"
+      autocomplete="email"
+      required
     >
     <input type="hidden" name="source" value="<%= page.permalink %>">
-    <button 
-      type="submit" 
-      style="padding: 0.5rem 1rem; background: #ff7a7a; border: none; color: #000; font-weight: bold; cursor: pointer;"
-    >
+    <button class="email-signup__button" type="submit">
       Notify Me
     </button>
   </form>
 </section>
 
 <!-- POPUP MODAL -->
-<div
-  id="email-signup-modal"
-  style="
-    position: fixed;
-    top: 0; left: 0;
-    width: 100vw; height: 100vh;
-    background: rgba(0,0,0,0.6);
-    display: none;              /* only one display declaration */
-    align-items: center;        /* will work once you set flex below */
-    justify-content: center;    /* ditto */
-    z-index: 9999;
-  "
->
-  <div
-    style="
-      margin-top: 3rem;
-      padding: 2rem;
-      background: #1e1e1e;
-      border: 1px solid #444;
-      border-radius: 6px;
-      color: #eee;
-      max-width: 400px;
-      width: 90%;
-      position: relative;
-    "
-  >
+<div id="email-signup-modal" class="email-signup-modal">
+  <div class="email-signup-modal__card">
     <!-- Close button -->
-    <button
-      id="close-email-modal"
-      style="
-        position: absolute;
-        top: 0.5rem; right: 0.5rem;
-        background: transparent;
-        border: none;
-        font-size: 1.5rem;
-        color: #eee;
-        cursor: pointer;
-      "
-    >&times;</button>
+    <button id="close-email-modal" class="email-signup-modal__close" type="button" aria-label="Close signup modal">&times;</button>
 
     <!-- Your original signup section -->
     <section class="email-signup">
-      <h3 style="margin-top: 0; color: #ff7a7a;">
+      <h3 class="email-signup__title">
         Get notified when a new post comes out
       </h3>
-      <p style="color: #bbb;">
+      <p class="email-signup__description">
         Enter your email and we’ll shoot you a message whenever something new is published.
       </p>
       <form
+        class="email-signup__form"
         action="https://script.google.com/macros/s/AKfycbyE_lrovNyjNt09hQOKYIxyf3BzpaXTYuVOKwrASWDHMKmMDJBwLz08JuxBXA1Uefvv7w/exec"
         method="POST"
         target="_blank"
-        style="display: flex; flex-wrap: wrap; gap: 0.5rem;"
       >
         <input
+          class="email-signup__input"
           type="email"
           name="email"
           placeholder="your@email.com"
+          autocomplete="email"
           required
-          style="
-            padding: 0.5rem;
-            background: #111;
-            border: 1px solid #555;
-            color: #eee;
-            flex: 1;
-            min-width: 220px;
-          "
         >
         <input type="hidden" name="source" value="<%= page.permalink %>">
-        <button
-          type="submit"
-          style="
-            padding: 0.5rem 1rem;
-            background: #ff7a7a;
-            border: none;
-            color: #000;
-            font-weight: bold;
-            cursor: pointer;
-          "
-        >
+        <button class="email-signup__button" type="submit">
           Notify Me
         </button>
       </form>
