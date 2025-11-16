@@ -46,43 +46,6 @@
   </form>
 </section>
 
-<!-- POPUP MODAL -->
-<div id="email-signup-modal" class="email-signup-modal">
-  <div class="email-signup-modal__card">
-    <!-- Close button -->
-    <button id="close-email-modal" class="email-signup-modal__close" type="button" aria-label="Close signup modal">&times;</button>
-
-    <!-- Your original signup section -->
-    <section class="email-signup">
-      <h3 class="email-signup__title">
-        Get notified when a new post comes out
-      </h3>
-      <p class="email-signup__description">
-        Enter your email and we’ll shoot you a message whenever something new is published.
-      </p>
-      <form
-        class="email-signup__form"
-        action="https://script.google.com/macros/s/AKfycbyE_lrovNyjNt09hQOKYIxyf3BzpaXTYuVOKwrASWDHMKmMDJBwLz08JuxBXA1Uefvv7w/exec"
-        method="POST"
-        target="_blank"
-      >
-        <input
-          class="email-signup__input"
-          type="email"
-          name="email"
-          placeholder="your@email.com"
-          autocomplete="email"
-          required
-        >
-        <input type="hidden" name="source" value="<%= page.permalink %>">
-        <button class="email-signup__button" type="submit">
-          Notify Me
-        </button>
-      </form>
-    </section>
-  </div>
-</div>
-
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const modal    = document.getElementById('email-signup-modal');

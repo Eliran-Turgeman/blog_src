@@ -29,9 +29,4 @@ Docker Image: [https://hub.docker.com/r/elirant/collecto/tags](https://hub.docke
 
 I'd love to hear your thoughts, and if you're interested in contributing, you're more than welcome!
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->

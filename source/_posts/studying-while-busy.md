@@ -55,3 +55,4 @@ I think the ability to introspect, being honest with yourself and improving over
 Take whatever breaks you need, in whatever order you want.
 You don't need a fancy journal to write your tasks, open a txt file.
 You don't need a perfect system, just something simple that works for you.
+

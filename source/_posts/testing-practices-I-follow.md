@@ -188,11 +188,6 @@ This post doesn't have a summary, since the writer ~~thought it was useless~~ wa
 
 
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->
 
 

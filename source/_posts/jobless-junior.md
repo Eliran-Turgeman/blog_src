@@ -64,11 +64,6 @@ oh, and a few more tips... once you do get a technical interview put emphasis on
 * I recently developed a [platform](https://github.com/sissues/cli) for devs to get better at backend skills through real-world projects. It's open-source and free - https://github.com/sissues/cli
 
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->
 
 

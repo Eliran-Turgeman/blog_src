@@ -255,11 +255,6 @@ To Summarize, the differences between RR and CFS are as follows
 ![1_a7Ucr9-JgFzaU0VxzOctwA (1)](https://user-images.githubusercontent.com/50831652/192136627-c4d10128-e50f-4ca9-9197-97fe3b2274bf.jpeg)
 
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->
 
 

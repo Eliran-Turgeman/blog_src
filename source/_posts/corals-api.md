@@ -804,11 +804,6 @@ Note that fastapi uses swagger for the UI, which means that once you run the abo
 In this article, you built an API including all CRUD operations completely from scratch. Now you can pick your own dataset and use cases and start implementing your own FastAPI from scratch.
 
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->
 
 

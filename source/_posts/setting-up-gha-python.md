@@ -142,11 +142,6 @@ On GitHub, it should look like the following
 Feel free to tweak this process with your own favorite tools, and if you have any questions you can reach out to me on [twitter](https://twitter.com/_eltur).
 
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->
 
 

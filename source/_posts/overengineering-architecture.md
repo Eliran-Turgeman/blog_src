@@ -46,9 +46,4 @@ Architecture isn’t about perfection—it’s about trade-offs. MediatR worked 
 
 The next time you’re making an architectural decision, remember this: the best solution isn’t the most impressive or complex—it’s the one that solves your problem now while leaving room for growth later.
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->

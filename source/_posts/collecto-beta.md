@@ -63,9 +63,4 @@ If self-hosting is your thing, grab Collecto from our [open-source repo](https:/
 
 Thanks for checking out Collecto. We’re keeping it simple, transparent, and entirely user-focused—because your email list should be yours to shape, secure, and scale.
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->

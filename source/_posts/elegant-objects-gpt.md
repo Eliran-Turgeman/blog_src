@@ -36,11 +36,6 @@ I called this app **LGTM**, and you can access it right [there](https://chat.ope
 Would love to hear your ideas of extending this or improving the prompt; here's how you can [contact me](https://www.16elt.com/about/).
 
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->
 
 

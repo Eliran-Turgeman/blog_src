@@ -24,11 +24,6 @@ That's it...
 
 btw, I love [mentoring](https://www.16elt.com/mentorship/) others so if you are interested, let's chat.
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->
 
 

@@ -5,12 +5,7 @@ const path = require('path');
 const postsDir = 'source/_posts';
 
 // Promotional text to insert
-const promoText = `<!-- PROMO BLOCK -->
----
-
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->`;
+const promoText = ``;
 
 // Function to update the markdown files
 const updateMarkdownFiles = (dir) => {

@@ -122,11 +122,6 @@ In my case, on a mac, this was the correct path `/Users/eliranturgeman/Downloads
 
 This might be a beginning of a "dev log" kind of a series, or a one time thing, nobody knows.
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->
 
 

@@ -71,11 +71,6 @@ Rejections came, but they taught me resilience and adaptability. My decision to 
 Most importantly, this experience highlighted the essence of turning academic knowledge into practical application. My journey, filled with its ups and downs, taught me the invaluable lessons of persistence, adaptability, and the magic of finding opportunities in the most unexpected places.
 
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->
 
 

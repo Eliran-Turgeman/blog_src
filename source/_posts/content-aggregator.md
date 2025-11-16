@@ -417,11 +417,6 @@ If you are excited about adding more sources I invite you to challenge yourself 
 If you are willing to contribute and facing some problems don't hesitate to reach out.
 
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->
 
 

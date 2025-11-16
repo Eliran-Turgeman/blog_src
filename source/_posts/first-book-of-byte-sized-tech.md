@@ -407,9 +407,4 @@ The book describes the symptoms of complexity and how to treat them. In this blo
 Note: I fed NotebookLLM the 33 page summary of the book, and it generated a 17 minutes long podcast that was pretty good honestly (above my expectations) - I shared it on the [telegram channel](https://t.me/booksbytes).
 
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->

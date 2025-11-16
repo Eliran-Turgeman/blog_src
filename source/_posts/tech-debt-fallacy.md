@@ -31,11 +31,6 @@ Now, about those "tech debt / quality weeks." If a task is genuinely critical, i
 
 In conclusion, tech debt should be about strategic improvements that align with our main goals, not chasing the latest trends or personal preferences. It's about impactful changes that enhance our systems and make our work more efficient. Let's keep our focus sharp and our priorities clear.
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->
 
 

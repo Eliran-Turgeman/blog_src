@@ -60,11 +60,6 @@ They still can prevent many prompt injection attacks, from the ones that are alr
 I'll definitely follow their progress, and go into bigger detail into their offerings in the future.
 
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->
 
 

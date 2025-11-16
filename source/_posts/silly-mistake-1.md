@@ -50,11 +50,6 @@ Observing engineers whom I admire, those several levels above with decades more 
 
 I realized that it's not about taking all the credit; it's about creating the best outcome through shared efforts and diverse perspectives.
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->
 
 

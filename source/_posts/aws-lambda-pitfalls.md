@@ -154,11 +154,6 @@ Anyway, these are 3 pitfalls I often encounter in lambda-based applications, obv
 
 
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->
 
 

@@ -47,8 +47,4 @@ P.S. I never held a literal shovel. I hope the metaphor sticks with the shovel e
 
 ---
 
-<!-- PROMO BLOCK -->
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->

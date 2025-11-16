@@ -65,9 +65,4 @@ By the time you finish these chapters, you can immediately apply it to the probl
 Exploring is fine, read whatever sparks your curiosity. But don’t confuse exploration with progress.
 If you’re reading aimlessly, without a goal or problem to solve, be honest with yourself: are you actually learning, or just procrastinating with a smarter-looking excuse?
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->

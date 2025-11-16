@@ -233,9 +233,4 @@ Find the balance. Create flexible, general-purpose code. It should allow for fut
 When designing a module, ask: How can I make it flexible without going overboard?
 
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->

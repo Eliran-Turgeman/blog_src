@@ -29,11 +29,6 @@ If you are having any issues/suggestions/questions/whatever... you can [contact 
 Looking to make this platform as useful as it can be, so I encourage you to send over some feedback!
 
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->
 
 

@@ -26,9 +26,4 @@ This "design it twice" idea really hit home for me. If I had applied it earlier,
 
 The next time you’re working on a design, don’t just settle for the first idea. Take the time to come up with alternatives. You’ll make better choices, and you’ll feel a lot more confident walking into that next design meeting.
 
-<!-- PROMO BLOCK -->
----
 
-🚨 Become a better software engineer. practice building real systems, get code reviews, and mentorship from senior engineers.
-Get started with [404skill](https://404skill.github.io/#/)
-<!-- END PROMO BLOCK -->
