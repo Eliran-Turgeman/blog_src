@@ -91,7 +91,7 @@ logo:
   enabled: false
   width: 50
   height: 50
-  url: /images/profile_compressed.jpg
+  url: /images/profile.jpg
   gravatar: false
   grayout: true
 

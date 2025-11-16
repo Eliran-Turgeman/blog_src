@@ -16,6 +16,7 @@
     "version": "6.3.0"
   },
   "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.2.8",
     "fs-extra": "^11.2.0",
     "gray-matter": "^4.0.3",
     "hexo": "^6.3.0",
