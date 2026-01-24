@@ -89,6 +89,7 @@
         gtag('js', new Date());
         gtag('config', '<%= theme.google_analytics.id %>');
     </script>
+  <%- js('js/analytics-events') %>
 <% } %>
 <!-- Baidu Analytics -->
 <% if (theme.baidu_analytics.enabled && theme.baidu_analytics.id){ %>
@@ -152,30 +153,30 @@
     const banner = document.getElementById("banner");
     const closeBanner = document.getElementById("closeBanner");
 
+    // Some pages don't include the banner markup.
+    if (!banner) return;
+
     // TTL in milliseconds (e.g., 1 day = 86400000 ms)
     const ttl = 86400000; // 1 day in milliseconds
 
     // Get the stored timestamp of when the banner was closed
     const bannerClosedAt = localStorage.getItem('bannerClosedAt');
-    const now = new Date().getTime();
-
-    console.log('bannerClosedAt:', bannerClosedAt);
+    const bannerClosedAtMs = bannerClosedAt ? parseInt(bannerClosedAt, 10) : null;
+    const now = Date.now();
 
     // Check if the TTL has expired or if the bannerClosedAt key does not exist
-    if (!bannerClosedAt || (now - parseInt(bannerClosedAt)) > ttl) {
+    if (!bannerClosedAtMs || (now - bannerClosedAtMs) > ttl) {
       // If the banner was never closed or TTL has passed, show the banner
       banner.classList.add('show'); // Add the 'show' class to make the banner visible
-      console.log('Showing banner');
-    } else {
-      console.log('Banner remains hidden');
     }
 
     // Close the banner and store the current timestamp in localStorage
-    closeBanner.onclick = function() {
-      banner.classList.remove('show'); // Hide the banner
-      localStorage.setItem('bannerClosedAt', now); // Store the current timestamp when closed
-      console.log('Banner closed. Timestamp set:', now);
-    };
+    if (closeBanner) {
+      closeBanner.onclick = function() {
+        banner.classList.remove('show'); // Hide the banner
+        localStorage.setItem('bannerClosedAt', String(Date.now())); // Store the timestamp when closed
+      };
+    }
   });
 </script>
 

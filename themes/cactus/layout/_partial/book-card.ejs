@@ -1,0 +1,30 @@
+<% var cover = book.cover || (theme.books && theme.books.default_cover) %>
+<% var showStatus = theme.books && theme.books.show_status %>
+<% var showGenres = theme.books && theme.books.show_genres %>
+<article class="book-card">
+  <a class="book-card__cover" href="<%- url_for(book.book_path) %>" data-analytics-action="book_open" data-analytics-location="books_index" data-analytics-book="<%= book.book_slug %>" data-analytics-title="<%= book.title %>">
+    <% if (cover) { %>
+      <img src="<%- url_for(cover) %>" alt="<%- book.title %> cover">
+    <% } else { %>
+      <div class="book-card__cover--placeholder" aria-hidden="true"></div>
+    <% } %>
+  </a>
+  <div class="book-card__body">
+    <h2 class="book-card__title">
+      <a href="<%- url_for(book.book_path) %>" data-analytics-action="book_open" data-analytics-location="books_index" data-analytics-book="<%= book.book_slug %>" data-analytics-title="<%= book.title %>"><%= book.title %></a>
+    </h2>
+    <% if (book.subtitle) { %>
+      <p class="book-card__subtitle"><%= book.subtitle %></p>
+    <% } %>
+    <% if (showStatus && book.status) { %>
+      <p class="book-card__status"><%= book.status %></p>
+    <% } %>
+    <% if (book.excerpt) { %>
+      <p class="book-card__excerpt"><%= book.excerpt %></p>
+    <% } %>
+    <% var genres = Array.isArray(book.genres) ? book.genres : (book.genres ? [book.genres] : []) %>
+    <% if (showGenres && genres.length) { %>
+      <p class="book-card__genres"><%= genres.join(', ') %></p>
+    <% } %>
+  </div>
+</article>

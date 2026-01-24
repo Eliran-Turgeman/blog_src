@@ -3,11 +3,12 @@ title: about
 date: 2023-07-14 18:48:55
 ---
 
-I'm Eliran, a backend engineer working on container security @ Microsoft.
+I'm Eliran, a backend engineer from Israel working on application security @ Microsoft.
 
-When things get too comfortable, my brain starts looking for a new puzzle. This season’s puzzle is a mix of CUDA and distributed training, just for fun.
+I am working on a book and/or course that will teach how to build a vulnerability scanner from scratch (see [books](https://www.eliranturgeman.com/books/)).
 
-Things I like:
+
+Things I love:
 - my wife
 - coffee
 - playing TFT

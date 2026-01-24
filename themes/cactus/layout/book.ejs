@@ -1,0 +1,65 @@
+<% var cover = page.cover || (theme.books && theme.books.default_cover) %>
+<% var showStatus = theme.books && theme.books.show_status %>
+<article class="book" itemscope itemtype="http://schema.org/Book">
+  <header class="book__header">
+    <div class="book__cover">
+      <% if (cover) { %>
+        <img src="<%- url_for(cover) %>" alt="<%- page.title %> cover">
+      <% } else { %>
+        <div class="book__cover--placeholder" aria-hidden="true"></div>
+      <% } %>
+    </div>
+    <div class="book__header-text">
+      <h1 class="book__title" itemprop="name"><%= page.title %></h1>
+      <% if (page.subtitle) { %>
+        <p class="book__subtitle"><%= page.subtitle %></p>
+      <% } %>
+      <% if (showStatus && page.status) { %>
+        <p class="book__status"><%= page.status %></p>
+      <% } %>
+      <% if (page.series) { %>
+        <p class="book__series"><%= page.series %><% if (typeof page.series_order === 'number') { %> #<%= page.series_order %><% } %></p>
+      <% } %>
+    </div>
+  </header>
+
+  <%- partial('_partial/book-meta', { book: page }) %>
+
+  <% var purchaseLinks = Array.isArray(page.purchase_links) ? page.purchase_links : (page.purchase_links ? [page.purchase_links] : []) %>
+  <% if (purchaseLinks.length) { %>
+    <div class="book__cta">
+      <h2>Get the book</h2>
+      <div class="book__links">
+        <% purchaseLinks.forEach(function(link) { %>
+          <% if (link && link.url) { %>
+            <a class="book__link" href="<%- link.url %>" target="_blank" rel="noopener" data-analytics-action="book_buy" data-analytics-location="book_page" data-analytics-book="<%= page.book_slug || page.slug || '' %>" data-analytics-title="<%= page.title %>" data-analytics-label="<%= (link.label || link.url) %>" data-analytics-outbound="true"><%= link.label || link.url %></a>
+          <% } %>
+        <% }) %>
+      </div>
+    </div>
+  <% } %>
+
+  <% var chapters = page.book_chapters || [] %>
+  <% if (chapters.length) { %>
+    <section class="book__toc">
+      <h2>Chapters</h2>
+      <ol class="book__toc-list">
+        <% chapters.forEach(function(chapter) { %>
+          <li class="book__toc-item">
+            <a href="<%- chapter.path %>" data-analytics-action="chapter_open" data-analytics-location="book_toc" data-analytics-book="<%= page.book_slug || page.slug || '' %>" data-analytics-chapter="<%= chapter.slug %>" data-analytics-title="<%= chapter.title %>"><%= chapter.title %></a>
+            <% if (chapter.subtitle) { %>
+              <div class="book__toc-subtitle"><%= chapter.subtitle %></div>
+            <% } %>
+            <% if (chapter.summary) { %>
+              <div class="book__toc-summary"><%= chapter.summary %></div>
+            <% } %>
+          </li>
+        <% }) %>
+      </ol>
+    </section>
+  <% } %>
+
+  <div class="content book__content" itemprop="description">
+    <%- page.content %>
+  </div>
+</article>

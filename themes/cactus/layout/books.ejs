@@ -1,0 +1,13 @@
+<% var books = page.books || [] %>
+<% var title = page.title || (theme.books && theme.books.index_title) || 'Books' %>
+<section id="books-index" class="books-index">
+  <h1 class="books-index__title"><%= title %></h1>
+  <% if (!books.length) { %>
+    <p class="books-index__empty">No books yet.</p>
+  <% } %>
+  <div class="books-list">
+    <% books.forEach(function(book) { %>
+      <%- partial('_partial/book-card', { book: book }) %>
+    <% }) %>
+  </div>
+</section>

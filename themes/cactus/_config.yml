@@ -17,6 +17,7 @@ nav:
   home: /
   about: /about/
   articles: /archives/
+  books: /books/
   #Mentorship: /mentorship/
   #search: /search/
 
@@ -45,6 +46,14 @@ posts_overview:
   show_all_posts: false
   post_count: 10
   sort_updated: false
+
+# Customize the books index and detail pages.
+books:
+  index_title: Books
+  per_page: 0
+  show_genres: false
+  show_status: true
+  default_cover:
 
 # Customize the archive view.
 # Options:
