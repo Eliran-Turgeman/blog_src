@@ -245,8 +245,10 @@ hexo.extend.generator.register('books', function (locals) {
   });
 
   books.forEach(function (book) {
-    var hasDefaultPage = typeof book.path === 'string' && /^books\//.test(book.path);
-    if (hasDefaultPage) return;
+    // Hexo may emit a default page at books/<slug>.html depending on pretty_urls.
+    // We only skip generating books/<slug>/index.html if Hexo already provides that exact path.
+    var hasFolderIndex = typeof book.path === 'string' && /^books\//.test(book.path) && /\/index\.html$/i.test(book.path);
+    if (hasFolderIndex) return;
     routes.push({
       path: 'books/' + book.book_slug + '/index.html',
       data: Object.assign({}, book, { book: book }),
