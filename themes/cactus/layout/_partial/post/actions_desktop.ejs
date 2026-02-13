@@ -7,11 +7,7 @@
       <ul>
         <% for (var i in theme.nav) { %><!--
        --><li>
-            <% if (i === 'books') { %>
-              <a href="<%- url_for(theme.nav[i]) %>" data-analytics-action="nav_books" data-analytics-location="post_menu" data-analytics-label="post_desktop"><%= __('nav.'+i).replace("nav.", "") %></a>
-            <% } else { %>
-              <a href="<%- url_for(theme.nav[i]) %>"><%= __('nav.'+i).replace("nav.", "") %></a>
-            <% } %>
+            <a href="<%- url_for(theme.nav[i]) %>"><%= __('nav.'+i).replace("nav.", "") %></a>
           </li><!--
      --><% } %>
       </ul>
