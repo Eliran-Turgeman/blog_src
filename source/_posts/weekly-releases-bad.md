@@ -3,7 +3,7 @@ title: Weekly releases bad
 date: 2024-04-19T06:52:52.000Z
 tags:
   - CI/CD
-readTime: 4
+readTime: 3
 ---
 
 Let’s talk about release schedules. My team had a rollercoaster ride with our release strategy, moving from stressful weekly releases loaded with bugs and merge conflicts to a more smooth (but not perfect), automated releases several times a day. A year later, after too many production incidents, it was decided that we are reverting to weekly releases. It feels like a huge step backward, but let's unpack this.

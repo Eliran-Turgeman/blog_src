@@ -5,7 +5,7 @@ tags:
   - byte-sized tech
   - books
   - software design
-readTime: 13
+readTime: 12
 ---
 
 Almost a month ago, [I created a telegram channel](https://www.16elt.com/2024/08/31/telegram-channel-announcement/) with the goal of reading tech books consistently, and sharing summaries of them.

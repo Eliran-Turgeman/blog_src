@@ -4,7 +4,7 @@ date: 2023-11-24T08:18:28.000Z
 tags:
   - mistakes
   - learning
-readTime: 5
+readTime: 4
 ---
 
 Sometimes, the path to growth is paved with missteps. Recently, I faced one such bend in the road - an opportunity to lead a major feature, something I'd been eyeing for a while. In my eagerness to shine, to be seen as 'promotion-worthy' and 'intelligent,' I stumbled. 

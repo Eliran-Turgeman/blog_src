@@ -4,7 +4,7 @@ date: 2023-05-19T19:06:40.000Z
 tags:
   - GitHub Actions
   - CI/CD
-readTime: 4
+readTime: 3
 ---
 
 I work with open-source & private Python projects on GitHub on a daily basis.  

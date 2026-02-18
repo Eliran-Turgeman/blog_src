@@ -3,7 +3,7 @@ title: Introducing Collecto - Open-Source Email Collection Service
 date: 2024-10-17T08:14:21.000Z
 tags:
   - collecto
-readTime: 2
+readTime: 1
 ---
 
 Over the past couple of weeks, I've been working on solving a problem that's been nagging me for a while. Whenever I wanted to launch something new or set up a waiting list, I couldn't find a simple, flexible, and free tool to collect emails. Most options out there are either too complicated, too restrictive, or come with features I just don't need. I also didn't want to pay anything.
