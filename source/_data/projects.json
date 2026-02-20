@@ -1,5 +1,10 @@
 [
     {
+        "name": "Code Security Skills",
+        "url": "https://github.com/Eliran-Turgeman/code-security-skills",
+        "desc": "Agent skill for running and reasoning on code security scans."
+    },
+    {
         "name": "tetsu",
         "url": "https://github.com/Eliran-Turgeman/tetsu",
         "desc": "OSS workout logging app."
