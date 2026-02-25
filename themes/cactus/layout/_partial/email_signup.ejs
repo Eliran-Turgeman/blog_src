@@ -1,0 +1,32 @@
+<%
+  // ── centralised newsletter copy ──
+  // Update these values in ONE place when your numbers change.
+  var signupTitle       = (typeof title       !== 'undefined') ? title       : 'Get notified when a new post comes out';
+  var signupDescription = (typeof description !== 'undefined') ? description : 'Join 500+ software engineers who get a short email whenever something new is published. No spam, unsubscribe anytime.';
+  var signupButton      = (typeof buttonText  !== 'undefined') ? buttonText  : 'Notify Me';
+  var signupSource      = (typeof source      !== 'undefined') ? source      : '';
+  var signupAction      = 'https://app.kit.com/forms/9085244/subscriptions';
+%>
+<h3 class="email-signup__title"><%= signupTitle %></h3>
+<p class="email-signup__description"><%= signupDescription %></p>
+<form
+  class="email-signup__form"
+  action="<%= signupAction %>"
+  method="POST"
+  target="_blank"
+>
+  <input
+    class="email-signup__input"
+    type="email"
+    name="email_address"
+    placeholder="your@email.com"
+    autocomplete="email"
+    required
+  >
+  <% if (signupSource) { %>
+    <input type="hidden" name="source" value="<%= signupSource %>">
+  <% } %>
+  <button class="email-signup__button" type="submit">
+    <%= signupButton %>
+  </button>
+</form>

@@ -23,54 +23,14 @@
 </article>
 
 <section class="email-signup email-signup--inline">
-  <h3 class="email-signup__title">Get notified when a new post comes out</h3>
-  <p class="email-signup__description">Enter your email and we'll shoot you a message whenever something new is published.</p>
-  <form
-    class="email-signup__form"
-    action="https://app.kit.com/forms/9085244/subscriptions"
-    method="POST"
-    target="_blank"
-  >
-    <input
-      class="email-signup__input"
-      type="email"
-      name="email_address"
-      placeholder="your@email.com"
-      autocomplete="email"
-      required
-    >
-    <input type="hidden" name="source" value="<%= page.permalink %>">
-    <button class="email-signup__button" type="submit">
-      Notify Me
-    </button>
-  </form>
+  <%- partial('_partial/email_signup', { source: page.permalink }) %>
 </section>
 
 <div id="email-signup-modal" class="email-signup-modal" aria-hidden="true">
   <div class="email-signup-modal__backdrop" data-close-email-modal></div>
   <section class="email-signup email-signup--modal" role="dialog" aria-modal="true" aria-labelledby="email-signup-modal-title">
     <button id="close-email-modal" class="email-signup-modal__close" type="button" aria-label="Close email signup popup">x</button>
-    <h3 id="email-signup-modal-title" class="email-signup__title">Get notified when a new post comes out</h3>
-    <p class="email-signup__description">Enter your email and we'll shoot you a message whenever something new is published.</p>
-    <form
-      class="email-signup__form"
-      action="https://app.kit.com/forms/9085244/subscriptions"
-      method="POST"
-      target="_blank"
-    >
-      <input
-        class="email-signup__input"
-        type="email"
-        name="email_address"
-        placeholder="your@email.com"
-        autocomplete="email"
-        required
-      >
-      <input type="hidden" name="source" value="<%= page.permalink %>">
-      <button class="email-signup__button" type="submit">
-        Notify Me
-      </button>
-    </form>
+    <%- partial('_partial/email_signup', { source: page.permalink }) %>
   </section>
 </div>
 
