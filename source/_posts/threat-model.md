@@ -1,6 +1,6 @@
 ---
 title: Threat Modelling for Builders
-date: 2026-02-26T17:02:58.000Z
+date: 2026-03-01T15:02:58.000Z
 tags:
   - application-security
   - don't get hacked
