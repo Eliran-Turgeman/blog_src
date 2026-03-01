@@ -1,5 +1,5 @@
 ---
-title: The Threat Model for Builders
+title: Threat Modelling for Builders
 date: 2026-02-26T17:02:58.000Z
 tags:
   - application-security
