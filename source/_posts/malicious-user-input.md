@@ -45,7 +45,7 @@ An attacker can supply input like:
 
 This transforms the query into one that returns every row in the table. The input stopped being data and became part of the SQL command itself. More sophisticated variants can extract specific tables, modify data, or in some database configurations execute system commands.
 
-<XKCD_PLACEHOLDER>
+![XKCD: Exploits of a Mom](./malicious-user-input/exploits_of_a_mom.png)
 
 This vulnerability class shows up regularly in internal tools, admin panels, and MVPs where developers reach for string concatenation because it is faster to write than the framework's query builder. Startups building quickly are especially prone, because the code works correctly in every test that uses normal input.
 
