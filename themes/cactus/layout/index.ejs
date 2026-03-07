@@ -12,6 +12,10 @@
           <a class="icon" target="_blank" rel="noopener" href="<%- theme.social_links[link] %>" aria-label="<%- link %>">
             <i class="fas fa-envelope"></i><!--
       ---></a>
+        <% } else if (link == 'newsletter') { %>
+          <a class="icon" target="_blank" rel="noopener" href="<%- theme.social_links[link] %>" aria-label="<%- link %>">
+            <i class="fas fa-newspaper"></i><!--
+      ---></a>
         <% } else if (link == 'rss') { %>
           <a class="icon" target="_blank" rel="noopener" href="<%- theme.social_links[link] %>" aria-label="<%- link %>">
             <i class="fas fa-rss"></i>
