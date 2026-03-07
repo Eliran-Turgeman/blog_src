@@ -4,7 +4,7 @@ date: 2026-02-14T07:35:08.000Z
 tags:
   - application security
   - don't get hacked
-readTime: 10
+readTime: 9
 ---
 
 If your product has users and you have not done a deliberate security pass, the gaps are already there. They are the defaults you never changed, the checks you enforce in the UI but not on the server, and the secrets sitting in places you stopped thinking about.
