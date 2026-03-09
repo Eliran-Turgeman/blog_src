@@ -14,6 +14,10 @@
   action="<%= signupAction %>"
   method="POST"
   target="_blank"
+  data-analytics-event="newsletter_form_submit"
+  data-analytics-action="submit"
+  data-analytics-location="email_signup"
+  data-analytics-label="<%= signupButton %>"
 >
   <input
     class="email-signup__input"
@@ -22,11 +26,19 @@
     placeholder="your@email.com"
     autocomplete="email"
     required
+    data-analytics-event="newsletter_input_focus"
+    data-analytics-action="focus"
+    data-analytics-location="email_signup"
   >
   <% if (signupSource) { %>
     <input type="hidden" name="source" value="<%= signupSource %>">
   <% } %>
-  <button class="email-signup__button" type="submit">
+  <button class="email-signup__button" type="submit"
+    data-analytics-event="newsletter_cta_click"
+    data-analytics-action="click"
+    data-analytics-location="email_signup"
+    data-analytics-label="<%= signupButton %>"
+  >
     <%= signupButton %>
   </button>
 </form>
