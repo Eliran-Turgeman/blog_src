@@ -1,10 +1,11 @@
 ---
 title: Elegant Objects GPT
 date: 2024-04-29T10:15:43.000Z
+description: "A custom GPT app that reviews your code based on principles from Elegant Objects and Clean Code. Try the LLM-powered code reviewer."
 tags:
-  - OOP
-  - gpt app
-  - code reviews
+  - oop
+  - gpt-app
+  - code-reviews
 readTime: 2
 ---
 
@@ -33,7 +34,7 @@ Right after this prompt, I have attached a summary of the SOLID principles, and 
 
 I called this app **LGTM**, and you can access it right [there](https://chat.openai.com/g/g-a7hsiSnIv-lgtm).
 
-Would love to hear your ideas of extending this or improving the prompt; here's how you can [contact me](https://www.16elt.com/about/).
+Would love to hear your ideas of extending this or improving the prompt; here's how you can [contact me](/about/).
 
 
 

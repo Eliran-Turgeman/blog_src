@@ -1,12 +1,13 @@
 ---
 title: On over-engineering; Architecture Edition
 date: 2024-12-10T18:10:56.000Z
+description: "Using MediatR as a middle ground between tight coupling and full pub/sub infrastructure. Practical architecture decisions for side projects."
 tags:
-  - Architecture
+  - architecture
 readTime: 4
 ---
 
-I recently [wrote about over-engineering](https://www.16elt.com/2024/09/07/future-proof-code/) and striking a good balance between making your code "too" future-proof and not making it future-proof at all. Some time later, I realized it was missing a critical perspective. I hadn't addressed over-engineering from an architectural point of view, so this post is dedicated precisely to that.
+I recently [wrote about over-engineering](/2024/09/07/future-proof-code/) and striking a good balance between making your code "too" future-proof and not making it future-proof at all. Some time later, I realized it was missing a critical perspective. I hadn't addressed over-engineering from an architectural point of view, so this post is dedicated precisely to that.
 
 Let’s talk about a decision I made for [Collecto](https://github.com/Eliran-Turgeman/Collecto), my side project. Collecto is still in its early stages, and like most early-stage projects, its future is uncertain. It could grow into something big—or not. That’s where architectural decisions get tricky. You don’t want to overengineer and waste time, but you also don’t want to under-engineer and regret not laying a solid foundation.
 

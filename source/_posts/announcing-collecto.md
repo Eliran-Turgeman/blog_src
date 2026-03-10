@@ -1,6 +1,7 @@
 ---
 title: Introducing Collecto - Open-Source Email Collection Service
 date: 2024-10-17T08:14:21.000Z
+description: "Introducing Collecto: an open-source, self-hosted, lightweight email collection service with full flexibility and data ownership."
 tags:
   - collecto
 readTime: 1
@@ -23,7 +24,7 @@ If you're looking for an uncomplicated way to collect emails for your projects, 
 
 ## Check it out:
 
-Documentation: [https://www.16elt.com/Collecto/](https://www.16elt.com/Collecto/)
+Documentation: [https://www.eliranturgeman.com/Collecto/](https://www.eliranturgeman.com/Collecto/)
 Source Code: [https://github.com/Eliran-Turgeman/Collecto](https://github.com/Eliran-Turgeman/Collecto)
 Docker Image: [https://hub.docker.com/r/elirant/collecto/tags](https://hub.docker.com/r/elirant/collecto/tags)
 

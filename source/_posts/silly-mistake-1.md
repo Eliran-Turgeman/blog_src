@@ -1,6 +1,7 @@
 ---
 title: Evolving through blunders
 date: 2023-11-24T08:18:28.000Z
+description: "How I failed a design review by not considering alternatives. Lessons on designing it twice and welcoming feedback early."
 tags:
   - mistakes
   - learning
@@ -24,7 +25,7 @@ The scope of the feature I got was the biggest I ever got, and it was even more 
 ## Blunder
 Since the feature was so important to me, I mistakingly tried to do everything on my own without consulting with other engineers, thinking that it would make me stand out.
 I came to the design review meeting, fully prepared, ready to shower everyone with my great solution - eager for them to just say "Awesome, let's do that".
-I didn't even come up with an alternative. I was so laser-focused on my design, that I was blinded by it.
+I didn't even come up with an alternative. I was so laser-focused on my design, that I was blinded by it. This is exactly what the ["design it twice"](/2024/09/14/design-it-twice/) principle is about — forcing yourself to consider alternatives even when you feel confident.
 
 10 minutes into the meeting, one of the principal engineers asked a question that I didn't consider. In the following 10 minutes, everyone in the meeting (including me) decides that the design could and should be improved.
 

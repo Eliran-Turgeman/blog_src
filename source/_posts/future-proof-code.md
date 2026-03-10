@@ -1,9 +1,10 @@
 ---
 title: On over-engineering; finding the right balance
 date: 2024-09-07T11:39:26.000Z
+description: "Finding the sweet spot between over-engineering and under-engineering. Practical examples for balancing code generality with simplicity."
 tags:
-  - software design
-  - best practices
+  - software-design
+  - best-practices
 readTime: 7
 ---
 
@@ -230,7 +231,7 @@ The lesson here is simple: don’t overgeneralize or abstract too much too soon.
 
 Find the balance. Create flexible, general-purpose code. It should allow for future changes but avoid over-engineering. Focus on the problem at hand. When it's time to extend the system, your code will be ready for it without needing a rebuild.
 
-When designing a module, ask: How can I make it flexible without going overboard?
+When designing a module, ask: How can I make it flexible without going overboard? A complementary technique is to [design it twice](/2024/09/14/design-it-twice/) — forcing yourself to consider at least two approaches before committing to one.
 
 
 

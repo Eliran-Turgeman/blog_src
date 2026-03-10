@@ -1,13 +1,14 @@
 ---
 title: How I broke prod with a simple DB migration
 date: 2023-08-08T21:43:22.000Z
+description: "How a simple database migration caused production downtime. A real story about ORM pitfalls and lessons learned the hard way."
 tags:
   - databases
   - downtime
 readTime: 4
 ---
 
-![](../break-prod-with-simple-db-migration/prod-down.webp)
+![Illustration of a production system going down after a database migration](../break-prod-with-simple-db-migration/prod-down.webp)
 
 As a software engineer, some days are more stressful than others, but the most stressful days are the days you manage to break production.
 
@@ -141,7 +142,7 @@ How could we have prevented it?
 
 More eyes on the PR? meh, that’s no guarantee.
 
-We added a rule to our linter that prevents TypeORM columns to exist without the naming mapping.
+We added a rule to our linter that prevents TypeORM columns to exist without the naming mapping. Automated checks like this are far more reliable than manual code review — a theme I explore more in [Testing practices I follow](/2023/01/16/testing-practices-I-follow/).
 
 And that’s what you should do too, if you have a similar use case.
 

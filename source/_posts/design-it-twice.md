@@ -1,8 +1,9 @@
 ---
 title: Why you should "design it twice"?
 date: 2024-09-14T16:46:50.000Z
+description: "Why designing software twice leads to better architecture. Lessons from A Philosophy of Software Design on avoiding tunnel vision."
 tags:
-  - software design
+  - software-design
 readTime: 3
 ---
 

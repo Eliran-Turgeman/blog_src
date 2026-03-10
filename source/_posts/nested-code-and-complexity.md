@@ -1,8 +1,9 @@
 ---
 title: Taming the Nested Beast
 date: 2023-03-24T17:08:55.000Z
+description: "Techniques to flatten deeply nested code: guard clauses, early returns, and extraction. Improve readability without losing context."
 tags:
-  - best practices
+  - best-practices
 readTime: 3
 ---
 
@@ -16,7 +17,7 @@ Loss of context: When flattening code, you may end up creating multiple small fu
 
 ---
 
-![](../nested-code-and-complexity-images/nested-code-comic.webp)
+![Comic illustrating the pain of reading deeply nested code](../nested-code-and-complexity-images/nested-code-comic.webp)
 
 
 ## The Problem: Overly Nested Code
@@ -63,7 +64,7 @@ def process_data(data, threshold):
 ```
 
 ### Step 2: Break it down
-Divide the deeply nested code into smaller, more digestible functions or components. This promotes modularity and makes it easier to test and debug.
+Divide the deeply nested code into smaller, more digestible functions or components. This promotes [modularity](/2022/12/24/cohesion/) and makes it easier to test and debug.
 
 ```python
 def filter_item(item, threshold):

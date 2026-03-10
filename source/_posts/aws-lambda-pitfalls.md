@@ -1,10 +1,11 @@
 ---
 title: AWS Lambda - Pitfalls
 date: 2023-07-12T17:49:46.000Z
+description: "Common AWS Lambda anti-patterns including monoliths, missing idempotency, and cold starts. Real-world pitfalls and practical fixes."
 tags:
   - aws
   - lambda
-  - bad practices
+  - bad-practices
 readTime: 7
 ---
 
@@ -137,7 +138,7 @@ def lambda_handler(event, context):
     )
 ```
 
-That was a pretty simple example, and it might not seem critical if in that case there’s data duplication, but I think that if you take a close look at your systems, you will find multiple places where idempotency is critical, so make sure you design for its.
+That was a pretty simple example, and it might not seem critical if in that case there’s data duplication, but I think that if you take a close look at your systems, you will find multiple places where idempotency is critical, so make sure you design for its. I learned this the hard way when a non-idempotent Lambda caused [a nasty production bug that took days to debug](/2023/07/15/idempotency-aws-lambda/).
 
 ---
 

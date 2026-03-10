@@ -1,6 +1,7 @@
 ---
 title: How Injection Keeps Breaking Real Systems
 date: 2026-03-06T13:02:43.000Z
+description: "How injection attacks keep breaking real systems: SQL injection, XSS, command injection, and prompt injection. Defense patterns that work."
 tags:
   - application-security
   - don't get hacked
@@ -21,7 +22,7 @@ The simplest way to think about it:
 code + user input = command
 ```
 
-If the input can change the meaning of the command, the attacker controls your system. SQL injection, command injection, XSS, template injection, and prompt injection are all instances of this one pattern. 
+If the input can change the meaning of the command, the attacker controls your system. SQL injection, command injection, XSS, template injection, and [prompt injection](/2024/01/18/can-we-solve-prompt-injection/) are all instances of this one pattern. 
 
 Injection vulnerabilities persist for a few recurring reasons. Developers concatenate strings when building queries or commands, and framework protections exist but get bypassed through misconfiguration or partial adoption.
 
@@ -123,4 +124,4 @@ The server resolves the file path from a controlled mapping that the user cannot
 
 Static analysis tools like [Opengrep](https://github.com/opengrep/opengrep), [Bandit](https://github.com/PyCQA/bandit), [gosec](https://github.com/securego/gosec), and [CodeQL](https://codeql.github.com/) can detect injection vulnerabilities (SQL injection, command injection, path traversal, XSS) automatically by scanning your codebase for known dangerous patterns. Most of them require no configuration to get started and can run against a repo in minutes.
 
-The practical move is to integrate one of these into your CI pipeline so it runs on every pull request. Running any of these against a codebase that has never been scanned will almost certainly surface findings, and that is fine. What matters is that new injection surfaces cannot be introduced without being flagged, and that existing ones get tracked and resolved over time.
+The practical move is to integrate one of these into your CI pipeline so it runs on every pull request. Running any of these against a codebase that has never been scanned will almost certainly surface findings, and that is fine. What matters is that new injection surfaces cannot be introduced without being flagged, and that existing ones get tracked and resolved over time. For a broader security checklist covering secrets, authorization, storage, and more, see [A Practical Security Audit for Builders](/2026/02/14/quick-security-audit/).

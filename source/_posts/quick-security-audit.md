@@ -1,8 +1,9 @@
 ---
 title: A Practical Security Audit for Builders
 date: 2026-02-14T07:35:08.000Z
+description: "A practical security audit checklist for builders: secrets, authorization, storage, webhooks, and cost-triggering endpoints."
 tags:
-  - application security
+  - application-security
   - don't get hacked
 readTime: 9
 ---
@@ -15,7 +16,7 @@ This post audits five boundary classes: secrets, authorization, storage, webhook
 
 # Common Failure Boundaries
 
-Most security failures in early products are boundary failures: data leaking where it should not be visible, privilege extending beyond its intended scope, cost triggered without limits, or untrusted input reaching trusted execution paths. Incidents feel complex when you read them in postmortems, but the core usually reduces to one sentence: something trusted accepted something it should have rejected.
+Most security failures in early products are boundary failures: data leaking where it should not be visible, privilege extending beyond its intended scope, cost triggered without limits, or [untrusted input reaching trusted execution paths](/2026/03/06/malicious-user-input/). Incidents feel complex when you read them in postmortems, but the core usually reduces to one sentence: something trusted accepted something it should have rejected.
 
 Once you see security this way, the common failure categories become obvious. Secrets leaked into public contexts. Authenticated users reading objects they do not own. Files stored where anyone can enumerate them. Webhooks processed without verifying sender identity. Expensive routes callable at arbitrary volume. Abuse signals invisible until the invoice arrives.
 
@@ -29,7 +30,7 @@ For smaller teams, this usually happens in less dramatic ways. A frontend build 
 
 Treat browser-visible code and traffic as public by default. If privileged operations are being authorized from the client, that boundary is already broken. Scan repository history and artifacts, not only current files. Rotate any secret that might have crossed a boundary, because uncertainty itself is risk.
 
-Make secret scanning part of delivery, not cleanup: run [gitleaks](https://github.com/gitleaks/gitleaks) on every pull request, run full-history scans on main, and block merges on verified leaks. Any hit tied to a live credential should trigger immediate rotation, not a backlog ticket.
+Make secret scanning part of delivery, not cleanup: run [gitleaks](https://github.com/gitleaks/gitleaks) on every pull request, run full-history scans on main, and block merges on verified leaks. Any hit tied to a live credential should trigger immediate rotation, not a backlog ticket. For a deeper dive into credential leak prevention, scanning, and rotation workflows, see [A Builder's Guide to Not Leaking Credentials](/2026/02/20/secrets-leaked/).
 
 # Authorization
 
@@ -92,4 +93,4 @@ A scanning pipeline is useful only when it translates into execution. In practic
 
 # Conclusion
 
-Security failures in early-stage products follow a small number of recurring patterns, nearly all rooted in boundaries left open under delivery pressure that later surface as data exposure, cost abuse, or trust loss. The effective response is to assume exposure by default and then prove controls are working through logs, alerts, clear ownership, and rehearsed rollback paths.
+Security failures in early-stage products follow a small number of recurring patterns, nearly all rooted in boundaries left open under delivery pressure that later surface as data exposure, cost abuse, or trust loss. The effective response is to assume exposure by default and then prove controls are working through logs, alerts, clear ownership, and rehearsed rollback paths. To prioritize which threats to address first, build a [threat model](/2026/03/01/threat-model/).

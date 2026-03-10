@@ -1,14 +1,15 @@
 ---
 title: First week of Byte-Sized Tech
 date: 2024-09-06T09:54:36.000Z
+description: "First week recap of Byte-Sized Tech: summaries of eight chapters from A Philosophy of Software Design by John Ousterhout."
 tags:
   - reading
-  - tech books
-  - byte-sized tech
+  - tech-books
+  - byte-sized-tech
 readTime: 2
 ---
 
-It has been a week since I [announced](https://www.16elt.com/2024/08/31/telegram-channel-announcement/) my telegram channel [byte-sized tech](https://t.me/booksbytes).
+It has been a week since I [announced](/2024/08/31/telegram-channel-announcement/) my telegram channel [byte-sized tech](https://t.me/booksbytes).
 
 My main goal in creating this channel was to read tech books. I wanted to summarize them to avoid just skimming.
 

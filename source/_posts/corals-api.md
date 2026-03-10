@@ -2,10 +2,11 @@
 title: How To Build an API with Python FastAPI
 date: 2022-05-04T12:18:25.000Z
 draft: false
+description: "Complete hands-on guide to building a production-ready REST API with Python FastAPI, including all CRUD operations and a persistent database."
 tags:
-  - API
-  - FastAPI
-  - Python
+  - api
+  - fastapi
+  - python
 readTime: 24
 ---
 

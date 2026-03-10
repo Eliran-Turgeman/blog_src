@@ -1,6 +1,7 @@
 ---
 title: CSRF for Builders
 date: 2026-02-18T06:55:43.000Z
+description: "How CSRF attacks work, why POST alone doesn't prevent them, and what actually does. Practical defense guide for web developers."
 tags:
   - application-security
   - don't get hacked
@@ -100,8 +101,8 @@ If you take nothing else from this post:
 3. Set `SameSite=Lax` explicitly on session cookies.
 4. Cookie-based auth on an SPA? You still need CSRF tokens.
 
-Also, use tooling that can help like [Semgrep](https://semgrep.dev/). It catches static patterns in your code: missing CSRF middleware, `@csrf_exempt` decorators, etc. It has rules for common frameworks and you can write custom ones. Run it in CI on every pull request.
+Also, use tooling that can help like [Semgrep](https://semgrep.dev/). It catches static patterns in your code: missing CSRF middleware, `@csrf_exempt` decorators, etc. It has rules for common frameworks and you can write custom ones. Run it in CI on every pull request. CSRF is one attack vector in a broader class — for SQL injection, XSS, and command injection, see [How Injection Keeps Breaking Real Systems](/2026/03/06/malicious-user-input/).
 
 ---
 
-The X thread that sparked this post is a useful reminder: every major framework ships CSRF protection by default, browsers default to `SameSite=Lax`, and the tooling exists. CSRF keeps happening because developers disable protections they don't understand, use GET for mutations out of convenience, or assume their SPA architecture makes them immune.
+The X thread that sparked this post is a useful reminder: every major framework ships CSRF protection by default, browsers default to `SameSite=Lax`, and the tooling exists. CSRF keeps happening because developers disable protections they don't understand, use GET for mutations out of convenience, or assume their SPA architecture makes them immune. If you want a broader security checklist covering secrets, authorization, and storage, start with [A Practical Security Audit for Builders](/2026/02/14/quick-security-audit/).

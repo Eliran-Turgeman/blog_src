@@ -1,10 +1,11 @@
 ---
 title: Confusing ownership with heroism
 date: 2025-05-23T09:32:30.000Z
+description: "True project ownership isn't doing everything alone. It's ensuring the project succeeds, even if that means asking for help early."
 tags:
   - ownership
   - leadership
-  - project management
+  - project-management
 readTime: 4
 ---
 

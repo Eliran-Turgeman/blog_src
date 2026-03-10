@@ -49,6 +49,38 @@
     <% } %>
     <!-- title -->
     <title><%= page_title() %></title>
+    <!-- canonical -->
+    <link rel="canonical" href="<%- config.url + url_for(page.path).replace(/index\.html$/, '') %>" />
+    <% if (is_post()) { %>
+    <!-- JSON-LD structured data -->
+    <script type="application/ld+json">
+    <%- JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": page.title,
+      "description": page.description || strip_html(page.excerpt).substring(0, 200).trim(),
+      "datePublished": page.date ? page.date.toISOString() : '',
+      "dateModified": page.updated ? page.updated.toISOString() : (page.date ? page.date.toISOString() : ''),
+      "author": {
+        "@type": "Person",
+        "name": page.author || config.author,
+        "url": config.url
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": config.author,
+        "url": config.url
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": config.url + url_for(page.path).replace(/index\.html$/, '')
+      },
+      "url": config.url + url_for(page.path).replace(/index\.html$/, ''),
+      "wordCount": strip_html(page.content).split(/\s+/).length,
+      "articleSection": page.tags ? page.tags.map(function(t){ return t.name; }).join(', ') : ''
+    }) %>
+    </script>
+    <% } %>
     <!-- styles -->
     <%- css('css/style') %>
     <!-- persian styles -->

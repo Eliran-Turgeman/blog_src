@@ -1,9 +1,10 @@
 ---
 title: Getting my first dev job
 date: 2023-09-07T21:04:03.000Z
+description: "The story of getting my first developer job as a CS student — from an empty wallet to landing a role at a tech company in Israel."
 tags:
-  - job hunt
-  - junior dev
+  - job-hunt
+  - junior-dev
 readTime: 5
 ---
 

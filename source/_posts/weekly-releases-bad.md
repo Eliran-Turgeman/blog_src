@@ -1,8 +1,9 @@
 ---
 title: Weekly releases bad
 date: 2024-04-19T06:52:52.000Z
+description: "Why reverting from daily to weekly releases is a step backward. The real problem is test coverage, not release frequency."
 tags:
-  - CI/CD
+  - ci-cd
 readTime: 3
 ---
 
@@ -13,14 +14,14 @@ After some serious customer-impacting incidents, management decided to hit the b
 
 With daily releases, if something broke, we could fix it fast. Small, manageable updates meant fewer headaches. Now, going back to weekly releases feels like we’re just bundling up problems to deal with all at once.
 
-Honestly, I don't think the release is the problem, but our testing coverage.
+Honestly, I don't think the release is the problem, but our testing coverage. I wrote about [the testing practices I follow](/2023/01/16/testing-practices-I-follow/) separately — structure, isolation, and meaningful assertions all matter here.
 
 ## The real problem
 
 We have e2e and unit tests, and some basic API healthchecks, but it's clearly not enough. We need a beefier strategy here.
 What kind of strategy? well I'd start with making a list of all of our core behavior (each team should take care of their own ofc) and make sure we cover all of them (we definitely don't right now).
 
-![](../weekly-releases-bad/248-unit-tests.png)
+![Meme about having 248 unit tests but still missing critical behavior coverage](../weekly-releases-bad/248-unit-tests.png)
 
 With every new incident that happened, the pattern became more clear... we are sitting in the retro meeting thinking - "oh, we didn't have any test covering that behavior at all, we should add that" - which is fine in a retrospective sense, but I suggest being proactive about it.
 

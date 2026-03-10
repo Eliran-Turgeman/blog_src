@@ -1,6 +1,7 @@
 ---
 title: Fighting subscription fatigue with vibe-coding
 date: 2025-08-16T07:48:10.000Z
+description: "How I vibe-coded my own workout tracking app instead of paying for a SaaS subscription. Comparing loveable, base44, and bolt platforms."
 tags:
   - vibe-coding
   - saas

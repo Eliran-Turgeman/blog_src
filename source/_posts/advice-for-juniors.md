@@ -1,6 +1,7 @@
 ---
 title: Advice for junior software engineers
 date: 2023-10-04T07:00:00.000Z
+description: "What companies expect from junior engineers, how to exceed those expectations, and the mindset shift needed to grow your software career."
 tags:
   - advice
   - junior

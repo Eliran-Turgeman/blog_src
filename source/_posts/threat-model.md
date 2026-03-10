@@ -1,6 +1,7 @@
 ---
 title: Threat Modelling for Builders
 date: 2026-03-01T15:02:58.000Z
+description: "A practical guide to threat modeling: identify what matters, map attack surfaces, estimate exploit difficulty, and prioritize which threats to fix."
 tags:
   - application-security
   - don't get hacked
@@ -19,7 +20,7 @@ For most products, the assets that matter fall into three buckets.
 
 **_User data:_** Email addresses, passwords, and personal information are the obvious ones. But think about what else users hand you: private prompts, uploaded files, generated outputs, usage history. Anything a user would reasonably expect to stay confidential counts here. A breach in this category creates legal exposure, reputational harm, and a trust deficit that compounds over time. The IBM Cost of a Data Breach Report puts the [average breach cost at $4.88M in 2024](https://www.ibm.com/reports/data-breach), with customer churn and regulatory response making up a significant share. That average skews toward large enterprises, but the components (legal fees, notification requirements, lost users) hit smaller teams just as hard with less runway to absorb them.
 
-**_Credentials and credits:_** API keys for model providers, cloud services, payment processors, internal services. These are high-value because they are immediately usable. GitGuardian's 2025 State of Secrets Sprawl report found [23.7 million new secrets in public GitHub commits in 2024](https://www.gitguardian.com/state-of-secrets-sprawl-report-2025), a 25% increase year over year. The scanning that finds them is automated and fast. The window between a push and exploitation can be minutes. Someone who finds an exposed cloud or model-provider key just starts making calls. The result is runaway costs, service suspension, or a chain of secondary compromises if the key grants broad access.
+**_Credentials and credits:_** API keys for model providers, cloud services, payment processors, internal services. These are high-value because they are immediately usable. GitGuardian's 2025 State of Secrets Sprawl report found [23.7 million new secrets in public GitHub commits in 2024](https://www.gitguardian.com/state-of-secrets-sprawl-report-2025), a 25% increase year over year. The scanning that finds them is automated and fast. The window between a push and exploitation can be minutes. Someone who finds an exposed cloud or model-provider key just starts making calls. The result is runaway costs, service suspension, or a chain of secondary compromises if the key grants broad access. For a practical guide on preventing credential leaks and rotating exposed keys, see [A Builder's Guide to Not Leaking Credentials](/2026/02/20/secrets-leaked/).
 
 **_Product integrity and reputation:_** This one is harder to put a number on. If someone can impersonate your service, send emails on your behalf, or manipulate what your product outputs, the damage outlasts the incident itself. For a small product without brand inertia, a single visible compromise can erode user trust faster than any marketing effort can rebuild it. The [2016 Uber breach](https://www.ftc.gov/business-guidance/blog/2018/04/ftc-addresses-ubers-undisclosed-data-breach-new-proposed-order) is an extreme example: the FTC described failures in credential handling and access governance that led to sustained reputational and regulatory fallout, and that was a company with massive brand equity.
 
@@ -110,7 +111,7 @@ When you are done, you should have a one-page document that answers three questi
 2. Where those things are exposed.
 3. Which exposures would be found and exploited first.
 
-Everything downstream (what to harden, what to monitor, what to fix this week) flows from those answers. The page gives you a way to make tradeoffs deliberately and explain them to your team, instead of drifting toward whatever feels urgent or whatever the last blog post you read was about.
+Everything downstream (what to harden, what to monitor, what to fix this week) flows from those answers. For a concrete checklist to act on, see [A Practical Security Audit for Builders](/2026/02/14/quick-security-audit/). The page gives you a way to make tradeoffs deliberately and explain them to your team, instead of drifting toward whatever feels urgent or whatever the last blog post you read was about.
 
 This document needs regular upkeep to stay useful. Review it when you add a new integration, expose a new endpoint, or change how data flows through the system. A quarterly check (does this still reflect what we actually run?) takes thirty minutes and catches drift before it turns into a blind spot. [OWASP's process guidance](https://owasp.org/www-community/Threat_Modeling_Process) frames this as a separate step: assess your work. Are the controls you listed actually implemented, or just planned? A threat model that describes intended mitigations without tracking their status is a wishlist.
 

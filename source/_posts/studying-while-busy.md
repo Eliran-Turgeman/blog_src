@@ -1,7 +1,10 @@
 ---
 title: My productivity rules
 date: 2025-10-08T09:19:33.000Z
-tags: null
+description: "Productivity rules for studying while working full-time: plan ahead, track energy levels, be honest about effort, and avoid fake progress."
+tags:
+  - productivity
+  - career
 readTime: 3
 ---
 

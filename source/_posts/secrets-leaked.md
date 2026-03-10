@@ -1,6 +1,7 @@
 ---
 title: A Builder's Guide to Not Leaking Credentials
 date: 2026-02-20T09:37:17.000Z
+description: "How to prevent credential leaks: scanning repos, rotating secrets, managing git history, and understanding why leaked keys stay exploitable."
 tags:
   - application-security
   - don't get hacked
@@ -11,7 +12,7 @@ Stolen or leaked credentials have been the single largest breach vector for a de
 
 ## The Threat Model Builders Usually Get Wrong
 
-The mental model most early-stage builders operate with is something like: "My repo is small, nobody's looking at it, and it's private anyway."
+The mental model most early-stage builders operate with is something like: "My repo is small, nobody's looking at it, and it's private anyway." For a structured way to identify what actually matters and who's attacking you, see [Threat Modelling for Builders](/2026/03/01/threat-model/).
 
 The "nobody's looking" part is wrong because the looking is automated. GitHub's public Events API streams every push event in near-real-time, and credential scanners poll it continuously. When a push event comes in, they fetch the diff, match it against known secret formats (AWS access keys, Stripe tokens, database connection strings), and test discovered credentials against provider APIs automatically. GitGuardian reported finding [23.7 million new hardcoded secrets in public GitHub commits in 2024](https://www.gitguardian.com/state-of-secrets-sprawl-report-2025), a 25% increase year over year. The time between a push and exploitation can be minutes, because there's no human in the loop. The entire pipeline from discovery to abuse is automated.
 
@@ -88,5 +89,7 @@ One practical issue: if you enable this on a repo with existing history, you'll 
 - Rotated any exposed keys
 - Added secret scanning to CI
 - Removed secrets from source code
+
+Credentials are one piece of a broader security posture. For a full audit covering authorization, storage, webhooks, and rate limiting, see [A Practical Security Audit for Builders](/2026/02/14/quick-security-audit/).
 
 

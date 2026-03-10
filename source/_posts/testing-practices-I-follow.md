@@ -1,9 +1,10 @@
 ---
 title: Testing practices I follow
 date: 2023-01-16T08:44:39.000Z
+description: "Testing practices for better code: structured test anatomy, meaningful assertions, test isolation, and knowing when to write tests."
 tags:
   - testing
-  - best practices
+  - best-practices
 readTime: 6
 ---
 
@@ -86,7 +87,7 @@ If your tests are not isolated you can encounter the following scenarios:
 This can happen for multiple reasons, for example, you set an environment variable in one test which affects the behavior of other tests, or you don't restore/clear your mocks which affects other tests.
 
 Let's get back to the pizza example, now you want to create a new functionality that will upgrade the pizza size.  
-Until you are confident enough to release it, you put this "feature" under a "feature-flag"-like environment variable.
+Until you are confident enough to release it, you put this "feature" under a [feature flag](/2024/02/03/feature-flags-missing-features/)-like environment variable.
 
 ``` python
 class Pizza:

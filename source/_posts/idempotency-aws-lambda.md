@@ -1,15 +1,16 @@
 ---
 title: Demystifying the Importance of Idempotency in AWS Lambda // A Bug Hunt Tale
 date: 2023-07-15T10:23:14.000Z
+description: "A real bug hunt story about why AWS Lambda must be idempotent. How duplicate events caused a hard-to-reproduce production bug."
 tags:
   - aws
   - lambda
-  - bug hunt
+  - bug-hunt
   - idempotency
 readTime: 6
 ---
 
-I recently wrote about the [AWS Lambda bad practices](https://www.16elt.com/2023/07/12/aws-lambda-pitfalls/), and one of them was a bit more personal for me than the others.
+I recently wrote about the [AWS Lambda bad practices](/2023/07/12/aws-lambda-pitfalls/), and one of them was a bit more personal for me than the others.
 
 In that post, I talked about how lambda should be idempotent because there’s no guarantee an event will be sent out only once in some cases.
 
@@ -56,7 +57,7 @@ The object is of the following structure.
 
 The lambda was partly responsible for transforming that metadata object, and the UI was consuming it and rendering the metadata properties of an item.
 
-![](../idempotency-aws-lambda/idempotency-lambda-flow.webp)
+![Flow diagram showing a Lambda reading metadata from S3 and serving it to the UI](../idempotency-aws-lambda/idempotency-lambda-flow.webp)
 
 There’s just a single complication - the object ids we used as keys for the metadata object had two formats.
 
@@ -64,7 +65,7 @@ Essentially, each item had an id coming from a downstream package we developed, 
 
 Meaning that there was a mapping between these different id formats, and the lambda was responsible for transforming the metadata object to contain the UI-compatible ids.
 
-![](../idempotency-aws-lambda/idempotency-lambda-transformation.webp)
+![Diagram showing the Lambda transforming metadata object IDs from internal to UI-compatible format](../idempotency-aws-lambda/idempotency-lambda-transformation.webp)
 
 ## The Nasty Bug
 
@@ -85,7 +86,7 @@ At that point, I have to say that I haven’t even considered idempotency to be 
 
 The problem? that’s the flow (roughly)
 
-![](../idempotency-aws-lambda/idempotency-lambda-debugging-flow.webp)
+![Debugging flow diagram showing multiple Lambdas between metadata creation and transformation](../idempotency-aws-lambda/idempotency-lambda-debugging-flow.webp)
 
 Essentially, between creating the metadata object in the downstream package, and transforming it in the lambda, there were tons of other lambdas that were invoked.
 
@@ -177,7 +178,7 @@ In our case, there was a different issue in our system that led the event to arr
 
 ## Summary
 
-Idempotency is a real concern, debugging related issues is difficult, and you should design your function to be idempotent from the get-go.
+Idempotency is a real concern, debugging related issues is difficult, and you should design your function to be idempotent from the get-go. This principle extends beyond Lambda — in any distributed system, message queues guarantee "at least once" delivery, making idempotency non-negotiable. I wrote more about this in [Lessons from distributed systems at scale](/2025/04/19/lessons-from-distributed-systems/).
 
 Personally, I feel like solving this bug matured me as an engineer since I had to be more resourceful than usual with my debugging skills.
 

@@ -1,9 +1,10 @@
 ---
 title: 'Setting Up Automatic Linting and Type Checking (Python, GHA)'
 date: 2023-05-19T19:06:40.000Z
+description: "Step-by-step guide to setting up automatic linting with Ruff and type checking with mypy using GitHub Actions for Python projects."
 tags:
-  - GitHub Actions
-  - CI/CD
+  - github-actions
+  - ci-cd
 readTime: 3
 ---
 
@@ -133,9 +134,9 @@ Verify that both ruff and mypy executed successfully, and that they have consist
 
 On GitHub, it should look like the following
 
-![](../setting-up-gha-python/ruff_action.png)
+![GitHub Actions workflow showing the Ruff linter step passing successfully](../setting-up-gha-python/ruff_action.png)
 
-![](../setting-up-gha-python/mypy_action.png)
+![GitHub Actions workflow showing the mypy type checker step passing successfully](../setting-up-gha-python/mypy_action.png)
 
 ---
 

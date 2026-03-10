@@ -1,6 +1,7 @@
 ---
 title: Why sharing a redis cluster across services is asking for trouble
 date: 2025-05-01T08:38:27.000Z
+description: "Why sharing a Redis cluster across services causes debugging nightmares. Isolation, eviction policies, and monitoring challenges explained."
 tags:
   - distributed-systems
   - caching
@@ -10,7 +11,7 @@ readTime: 4
 
 If there’s one pattern I’ve seen across multiple companies, from scrappy startups to big corps, that causes endless headaches, it’s this: a single cache cluster shared across services.
 
-I recently shortly wrote about [my lessons from building and maintaining distributed systems at scale](https://www.16elt.com/2025/04/19/lessons-from-distributed-systems/), and the first point that came to mind is exactly this - it starts with an excuse of simplicity, "we already have a cache cluster up and running, let's just make this other service use it, no need for more infra", and ends with a confused on-call engineer trying to debug which services were affected by the last keys eviction.
+I recently shortly wrote about [my lessons from building and maintaining distributed systems at scale](/2025/04/19/lessons-from-distributed-systems/), and the first point that came to mind is exactly this - it starts with an excuse of simplicity, "we already have a cache cluster up and running, let's just make this other service use it, no need for more infra", and ends with a confused on-call engineer trying to debug which services were affected by the last keys eviction.
 
 So I want to double down on this idea and explain in more detail why it becomes a nightmare once your system scales.
 

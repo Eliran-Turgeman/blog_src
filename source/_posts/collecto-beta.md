@@ -1,6 +1,7 @@
 ---
 title: Collecto Beta - A developer-friendly approach to verified email capture
 date: 2024-12-24T08:08:33.000Z
+description: "Collecto Beta brings verified email capture with reCAPTCHA, email confirmations, customizable templates, and full data ownership."
 tags:
   - collecto
 readTime: 2

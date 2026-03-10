@@ -5,7 +5,7 @@
 # Site
 title: Eliran Turgeman
 subtitle: ''
-description: ''
+description: 'Practical security and architecture lessons for software engineers who build things. Written by Eliran Turgeman.'
 keywords: ['Software Engineering', 'Programming Tutorials', 'Tech Blog', 'Coding Guidance', 'Software Development Best Practices',
 'Mentorship in Software Engineering', 'Career Transition to Software', 'Web Development', 'Software Design Patterns', 'Software Tools and Tips',
 'Tech Industry Insights', 'Career Development in Tech']
@@ -15,7 +15,7 @@ timezone: 'Asia/Jerusalem'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://eliran-turgeman.github.io
+url: https://www.eliranturgeman.com
 
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -113,3 +113,15 @@ deploy:
   repo: https://github.com/Eliran-Turgeman/eliran-turgeman.github.io
   # example, https://github.com/hexojs/hexojs.github.io
   branch: main
+
+# Sitemap
+sitemap:
+  path: sitemap.xml
+  rel: true
+
+# Robots.txt
+robotstxt:
+  useragent: "*"
+  allow:
+    - /
+  sitemap: https://www.eliranturgeman.com/sitemap.xml

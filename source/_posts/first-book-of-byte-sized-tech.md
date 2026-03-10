@@ -1,14 +1,15 @@
 ---
 title: Ideas from "A Philosophy of Software Design"
 date: 2024-09-25T18:30:46.000Z
+description: "Three key ideas from A Philosophy of Software Design: zero-tolerance for complexity, deep modules, and strategic programming."
 tags:
-  - byte-sized tech
+  - byte-sized-tech
   - books
-  - software design
+  - software-design
 readTime: 12
 ---
 
-Almost a month ago, [I created a telegram channel](https://www.16elt.com/2024/08/31/telegram-channel-announcement/) with the goal of reading tech books consistently, and sharing summaries of them.
+Almost a month ago, [I created a telegram channel](/2024/08/31/telegram-channel-announcement/) with the goal of reading tech books consistently, and sharing summaries of them.
 This week, I have finished reading the first book - *"A Philosophy of Software Design" by John Ousterhout* and shared all of the 21 chapter summaries in the [channel](https://t.me/booksbytes).
 
 In this post, I will share what are the 3 ideas that resonated with me the most.

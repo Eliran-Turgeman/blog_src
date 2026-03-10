@@ -1,6 +1,7 @@
 ---
 title: Joining Microsoft
 date: 2024-05-30T07:59:05.000Z
+description: "Tips for preparing for Microsoft interviews: LeetCode premium, system design books, behavioral prep, and smart interviewer questions."
 tags:
   - interviews
 readTime: 2
@@ -22,7 +23,7 @@ That's it...
 
 ---
 
-btw, I love [mentoring](https://www.16elt.com/mentorship/) others so if you are interested, let's chat.
+btw, I love [mentoring](/mentorship/) others so if you are interested, let's chat.
 
 
 

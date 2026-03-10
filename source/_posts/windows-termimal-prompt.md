@@ -1,6 +1,7 @@
 ---
 title: 'PowerShell Customization - Fonts, Prompts, and Autocompletion'
 date: 2024-08-09T07:53:57.000Z
+description: "Customize PowerShell with Oh-My-Posh: install fonts, configure prompts, add autocompletion, and set up a productive terminal environment."
 tags: powershell
 readTime: 3
 ---
@@ -108,7 +109,7 @@ If you want to add some icons to the dir list follow the following steps
 
 before:
 
-![alt text](../windows-terminal-prompt-images/image-4.png)
+![Windows Terminal directory listing before installing Terminal-Icons module](../windows-terminal-prompt-images/image-4.png)
 
 open powershell with administrator rights and execute the following
 
@@ -124,7 +125,7 @@ Import-Module -Name Terminal-Icons
 
 Reload your profile with `. $PROFILE`, and now you have some icons when you execute `dir` / `ls`!
 
-![alt text](../windows-terminal-prompt-images/image-5.png)
+![Windows Terminal directory listing with Terminal-Icons showing file type icons](../windows-terminal-prompt-images/image-5.png)
 
 ## Step 6: Auto-completion (history-based)
 
@@ -147,9 +148,9 @@ Set-PSReadLineOption -EditMode Windows
 
 and you should have autocompletion working!
 
-![alt text](../windows-terminal-prompt-images/image-6.png)
+![PowerShell showing history-based autocomplete suggestions in list view](../windows-terminal-prompt-images/image-6.png)
 
-![](../windows-terminal-prompt-images/powershell-autocomplete.gif)
+![Animated demo of PowerShell autocomplete working with history-based predictions](../windows-terminal-prompt-images/powershell-autocomplete.gif)
 
 
 

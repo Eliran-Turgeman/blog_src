@@ -1,10 +1,11 @@
 ---
 title: 'Byte-Sized Tech, Why I am even doing this?'
 date: 2024-08-31T20:40:28.000Z
+description: "Announcing Byte-Sized Tech: a Telegram channel for tech book summaries, software engineering blogs, and curated industry reads."
 tags:
   - reading
-  - tech books
-  - byte-sized tech
+  - tech-books
+  - byte-sized-tech
 readTime: 2
 ---
 

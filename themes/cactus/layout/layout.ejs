@@ -19,7 +19,9 @@
         <% if (!is_post()) { %>
           <%- partial('_partial/header') %>
         <% } %>
+        <main>
         <%- body %>
+        </main>
         <% if (is_post()) { %>
           <%- partial('_partial/post/actions_mobile') %>
         <% } %>

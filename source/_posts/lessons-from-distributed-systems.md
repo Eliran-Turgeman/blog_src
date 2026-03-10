@@ -1,9 +1,10 @@
 ---
 title: Lessons from building and maintaining distributed systems at scale
 date: 2025-04-19T08:01:01.000Z
+description: "Lessons from building distributed systems at scale: dedicated cache clusters, message queues, async processing, and fault isolation."
 tags:
-  - best practices
-  - distributed systems
+  - best-practices
+  - distributed-systems
 readTime: 4
 ---
 
@@ -40,7 +41,7 @@ You should expect these failures and take them into consideration, so create a r
 ## Design for idempotency
 Message queues guarantee “at least once” delivery. Duplicates are expected. If your consumer isn’t idempotent, you’ll process the same event multiple times—charging a customer twice or creating duplicate records. Relying on “exactly once” delivery is a recipe for inconsistency. You need to assume duplicates will happen and handle them gracefully.
 
-I once had to [debug a nasty bug](https://www.16elt.com/2023/07/15/idempotency-aws-lambda/) in an AWS lambda that wasn't idempotent and it was a pain in the ass.
+I once had to [debug a nasty bug](/2023/07/15/idempotency-aws-lambda/) in an AWS lambda that wasn't idempotent and it was a pain in the ass.
 
 ---
 

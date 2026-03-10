@@ -1,9 +1,10 @@
 ---
 title: Logging practices I follow
 date: 2023-01-06T17:36:04.000Z
+description: "Practical logging best practices: when to log, how to structure logs, choosing the right log levels, and maintaining consistency."
 tags:
   - logging
-  - best practices
+  - best-practices
 readTime: 5
 ---
 

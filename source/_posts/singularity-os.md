@@ -2,11 +2,12 @@
 title: Singularity — Microsoft’s Experimental Operating System
 date: 2022-08-05T08:11:25.000Z
 draft: false
+description: "Microsoft's Singularity OS: an experimental operating system built from scratch for dependability, security, and software isolation."
 tags:
-  - Singularity
-  - Microsoft
-  - Operating System
-  - OS
+  - singularity
+  - microsoft
+  - operating-systems
+  - os
 readTime: 4
 ---
 

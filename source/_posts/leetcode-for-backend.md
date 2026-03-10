@@ -1,8 +1,9 @@
 ---
 title: Leetcode for backend skills
 date: 2024-07-30T07:16:54.000Z
+description: "A free, open-source platform to practice backend skills through real API projects. Like LeetCode, but for backend engineering."
 tags:
-  - open source
+  - open-source
   - learning
 readTime: 2
 ---
@@ -24,7 +25,7 @@ If you are interested in adding a new project to the platform - follow the contr
 
 ---
 
-If you are having any issues/suggestions/questions/whatever... you can [contact me ](https://www.16elt.com/about/)
+If you are having any issues/suggestions/questions/whatever... you can [contact me](/about/)
 
 Looking to make this platform as useful as it can be, so I encourage you to send over some feedback!
 

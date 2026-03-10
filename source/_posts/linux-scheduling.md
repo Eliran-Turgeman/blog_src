@@ -2,11 +2,12 @@
 title: Linux Scheduling
 date: 2022-09-25T08:26:13.000Z
 draft: false
+description: "How Linux process scheduling works: from basic algorithms like FIFO and Round Robin to the Completely Fair Scheduler (CFS)."
 tags:
-  - OS
-  - Operating Systems
-  - Linux
-  - Scheduling
+  - os
+  - operating-systems
+  - linux
+  - scheduling
 readTime: 11
 ---
 # Process Scheduling In Linux

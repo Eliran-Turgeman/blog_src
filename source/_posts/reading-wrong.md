@@ -1,9 +1,10 @@
 ---
 title: Stop reading tech books like fiction
 date: 2025-04-11T08:36:13.000Z
+description: "Stop reading tech books like novels. Read with intent, apply knowledge immediately, and pick chapters that solve your current problems."
 tags:
   - reading
-  - tech books
+  - tech-books
 readTime: 4
 ---
 

@@ -1,8 +1,9 @@
 ---
 title: My thoughts on tech debt
 date: 2023-12-04T13:56:00.000Z
+description: "Rethinking tech debt: create a structured evaluation process, prioritize real needs over nice-to-haves, and skip the special debt weeks."
 tags:
-  - tech debt
+  - tech-debt
 readTime: 3
 ---
 

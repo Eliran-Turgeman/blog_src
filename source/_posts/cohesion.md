@@ -2,9 +2,10 @@
 title: Cohesion in simple terms - Software modularity
 date: 2022-12-24T10:17:18.000Z
 draft: false
+description: "Learn what software cohesion means, how to measure it, and why highly cohesive modules lead to better, more maintainable code."
 tags:
   - modularity
-  - software design
+  - software-design
 readTime: 5
 ---
 
@@ -71,13 +72,13 @@ Method 5 uses only variable 5
 
 From the above scenario, we can generate the following graph
 
-![](../cohesion-images/non-cohesive.png)
+![Graph showing a non-cohesive class where methods use separate variables with few connections](../cohesion-images/non-cohesive.png)
 
 We can deem this class non-cohesive because most methods can be split up into different classes as we did with the first code example. (for example, Method 1 doesn’t use variables 2–5 so there’s no benefit to keeping them under the same class)
 
 In contrast, a cohesive class would have a graph with far more edges, for example
 
-![](../cohesion-images/cohesive.png)
+![Graph showing a cohesive class where methods share many variables with dense connections](../cohesion-images/cohesive.png)
 
 More edges mean that each method uses more variables and splitting up is harder/less efficient/impossible.
 

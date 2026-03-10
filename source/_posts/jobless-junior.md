@@ -1,9 +1,10 @@
 ---
 title: 'I am a junior, and can''t find a job - now what?'
 date: 2024-07-25T18:55:09.000Z
+description: "Practical advice for junior developers struggling to find a job: fix your resume, build projects, lower expectations, and stand out."
 tags:
   - juniors
-  - job seeking
+  - job-seeking
 readTime: 4
 ---
 
@@ -29,7 +30,7 @@ here are the tips make the most sense in that situation
 
 * lower your expectations - your first job doesn't have to be glamorous, or even pay well. get any job as a dev.
 
-* seek mentorship - find someone who is a few steps ahead of you, and ask for their tailored advice for your specific situation. (I am available for questions, see [here](https://www.16elt.com/mentorship/)). 
+* seek mentorship - find someone who is a few steps ahead of you, and ask for their tailored advice for your specific situation. (I am available for questions, see [here](/mentorship/)). 
 
 ---
 
@@ -60,7 +61,7 @@ oh, and a few more tips... once you do get a technical interview put emphasis on
 
 ### How can I try to help?
 
-* I am offering free [mentorship](https://www.16elt.com/mentorship/)
+* I am offering free [mentorship](/mentorship/)
 * I recently developed a [platform](https://github.com/sissues/cli) for devs to get better at backend skills through real-world projects. It's open-source and free - https://github.com/sissues/cli
 
 

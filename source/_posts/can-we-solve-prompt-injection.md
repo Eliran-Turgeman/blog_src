@@ -1,10 +1,11 @@
 ---
 title: Can we solve prompt injection now?
 date: 2024-01-18T08:09:24.000Z
+description: "Analyzing current approaches to detecting prompt injection: heuristics, LLM-based detection, vector databases, and canary tokens."
 tags:
-  - ai security
+  - ai-security
   - rebuff
-  - prompt injection
+  - prompt-injection
 readTime: 3
 ---
 
@@ -13,7 +14,7 @@ TLDR - I don't think so.
 I've been spending the last few weeks assesing the new found threats on AI models, specifically LLMs.
 
 A recurring threat theme is prompt injection which has a few flavors such as 'indirect prompt injection' and 'invisible prompt injection'.
-All flavors exploit the fact that user input is somewhat fully trusted.
+All flavors exploit the fact that user input is somewhat fully trusted. Prompt injection is part of a [broader class of injection attacks](/2026/03/06/malicious-user-input/) — SQL injection, XSS, and command injection all share the same root cause: input meant to be data gets interpreted as instructions.
 
 I spent some time also looking for solutions some companies are already trying to come up with, and I think these may be the best effort solutions as of now, but they are definitely not bullet-proof by any means.
 

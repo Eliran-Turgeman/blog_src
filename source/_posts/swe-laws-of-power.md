@@ -1,6 +1,7 @@
 ---
 title: SWE laws of power
 date: 2024-05-11T07:48:59.000Z
+description: "Five laws of power adapted for software engineers: managing up, concentrating efforts, guarding your reputation, and strategic patience."
 tags:
   - career
   - advice
@@ -71,7 +72,7 @@ When you are in a technical disscusion, try to speak concisely and focus on deli
 ---
 
 That's it.
-I do some [mentoring](https://www.16elt.com/mentorship/) btw.
+I do some [mentoring](/mentorship/) btw.
 
 
 

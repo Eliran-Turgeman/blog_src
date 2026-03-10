@@ -1,10 +1,11 @@
 ---
 title: Feature flags spaghetti // FFs missing features
 date: 2024-02-03T17:24:58.000Z
+description: "Feature flags need better tooling: flag trees for coordinated rollouts and automated cleanup to prevent codebase graveyards."
 tags:
-  - feature flags
-  - tech debt
-  - code maintenance
+  - feature-flags
+  - tech-debt
+  - code-maintenance
 readTime: 3
 ---
 
@@ -19,7 +20,7 @@ To solve these issues I have two suggestions:
 1. FF Trees! I want to be able to create connections between flags. I want to have a main flag (per feature for example), and connect to it different "sub-flags" that control the flow inside different services and the UI.
 Once I turn on/off the main flag I expect all flags to be turned on/off accordingly, so that I can easily roll out or rollback an entire feature while changing a single flag.
 
-![](../feature-flags-missing-features/ff_tree.png)
+![Diagram of a feature flag tree with a main flag connected to multiple sub-flags across services](../feature-flags-missing-features/ff_tree.png)
 
 This is probably an extreme example, but I have had the pleasure to work on projects where I needed to turn on 4-5 FFs in order to test a feature e2e, and it definitely gets messy.
 

@@ -2,11 +2,12 @@
 title: Writing My First Open Source Package - Content Aggregation CLI
 date: 2022-05-07T08:58:18.000Z
 draft: false
+description: "Build your own content aggregator CLI with Python from scratch. Step-by-step tutorial using RSS feeds, published as an open-source PyPi package."
 tags:
-  - Aggregator
-  - Python
-  - CLI
-  - Open Source
+  - aggregator
+  - python
+  - cli
+  - open-source
 readTime: 10
 ---
 ## Introduction

@@ -3,8 +3,9 @@ title: >-
   Whether you think you're replaceable by AI or you think you're not - you're
   right
 date: 2024-08-29T21:10:47.000Z
+description: "Whether AI replaces you depends on your role. Code monkeys should worry. Problem-solvers and critical thinkers remain irreplaceable."
 tags:
-  - AI
+  - ai
 readTime: 2
 ---
 

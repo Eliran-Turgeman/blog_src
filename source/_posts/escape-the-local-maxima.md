@@ -1,6 +1,7 @@
 ---
 title: Escaping the local maxima
 date: 2025-04-05T17:10:39.000Z
+description: "When career growth flatlines after rapid early success. Reflections on escaping the local maxima and finding the next growth curve."
 tags:
   - career
 readTime: 2
