@@ -1,11 +1,24 @@
 ---
 title: My productivity rules
 date: 2025-10-08T09:19:33.000Z
-description: "Productivity rules for studying while working full-time: plan ahead, track energy levels, be honest about effort, and avoid fake progress."
+description: >-
+  Productivity rules for studying while working full-time: plan ahead, track
+  energy levels, be honest about effort, and avoid fake progress.
 tags:
   - productivity
   - career
 readTime: 3
+keywords:
+  - software engineer career
+  - career growth in tech
+  - developer productivity
+faq:
+  - q: "How do you stay productive while studying and working full-time?"
+    a: "Plan your next day the night before, monitor your energy levels throughout the day, take breaks when needed, and be honest with yourself about how much effort you actually put in."
+  - q: "Should you use a specific productivity system or tool?"
+    a: "No. A simple text file for task tracking works fine. The key is introspection and honesty with yourself, not fancy journals or elaborate systems."
+  - q: "How do you handle distractions while studying?"
+    a: "Put your phone on silent and out of reach, close distracting apps on your computer, and even hide shortcuts to tempting applications. Small friction barriers can be surprisingly effective."
 ---
 
 A friend asked me for some study/productivity tips, and I figured the most productive thing I can do is write a post about it. That way, it might help more people too. So here we go.

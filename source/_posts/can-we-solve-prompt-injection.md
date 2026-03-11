@@ -1,12 +1,25 @@
 ---
 title: Can we solve prompt injection now?
 date: 2024-01-18T08:09:24.000Z
-description: "Analyzing current approaches to detecting prompt injection: heuristics, LLM-based detection, vector databases, and canary tokens."
+description: >-
+  Analyzing current approaches to detecting prompt injection: heuristics,
+  LLM-based detection, vector databases, and canary tokens.
 tags:
   - ai-security
   - rebuff
   - prompt-injection
 readTime: 3
+keywords:
+  - prompt injection
+  - injection attacks
+  - SQL injection
+faq:
+  - q: "What is prompt injection?"
+    a: "Prompt injection is an attack where malicious user input is treated as trusted instructions by an LLM, causing it to behave in unintended ways. It shares the same root cause as SQL injection and XSS: data being interpreted as code."
+  - q: "Can prompt injection be fully prevented today?"
+    a: "No. Current defenses like heuristic matching, LLM-based detection, vector databases of past attacks, and canary tokens reduce risk but are not bulletproof. Attackers can craft novel inputs that bypass all known detection methods."
+  - q: "What is the Dual LLM pattern for prompt injection defense?"
+    a: "Proposed by Simon Willison, the Dual LLM pattern separates the model that processes untrusted user input from the model that has access to privileged actions. This limits what a prompt injection can achieve, though it may reduce usability."
 ---
 
 TLDR - I don't think so.

@@ -6,6 +6,13 @@ tags:
   - vibe-coding
   - saas
 readTime: 3
+faq:
+  - q: "What is vibe coding?"
+    a: "Vibe coding is using AI-powered platforms like Loveable, Base44, or Bolt to build apps by writing natural language prompts instead of traditional code. It lets you create functional apps in minutes."
+  - q: "Can you build a workout tracking app with vibe coding?"
+    a: "Yes. The author built a complete workout logger with exercise templates, set and rep tracking, a calendar view, badges, and even Supabase authentication — all through iterative prompting on Loveable."
+  - q: "How do you choose the best vibe coding platform?"
+    a: "Give each platform the same prompt and run with whichever gives you the best first result. The author tested Loveable, Base44, and Bolt with the same prompt and picked Loveable."
 ---
 
 Most people solve their subscription fatigue by canceling Netflix. I solved it by vibe-coding my own workout app instead of paying another SaaS.

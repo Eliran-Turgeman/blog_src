@@ -1,10 +1,20 @@
 ---
 title: My thoughts on tech debt
 date: 2023-12-04T13:56:00.000Z
-description: "Rethinking tech debt: create a structured evaluation process, prioritize real needs over nice-to-haves, and skip the special debt weeks."
+description: >-
+  Rethinking tech debt: create a structured evaluation process, prioritize real
+  needs over nice-to-haves, and skip the special debt weeks.
 tags:
   - tech-debt
 readTime: 3
+keywords: []
+faq:
+  - q: "How do you evaluate whether tech debt is worth fixing?"
+    a: "Create a structured process that asks what value the fix adds, what its severity is, and which teams are affected. This forces critical thinking and eliminates casual, unjustified suggestions."
+  - q: "Are tech debt weeks or quality weeks a good idea?"
+    a: "Not really. If a tech debt task is truly critical, it should be prioritized in your regular workflow. Needing a special week to address it usually means it is not important enough."
+  - q: "How do you prioritize tech debt tasks?"
+    a: "Focus on necessities over nice-to-haves. For example, adding tests to an untested service is more critical than building a fancy monitoring dashboard, even if the latter is more appealing."
 ---
 
 

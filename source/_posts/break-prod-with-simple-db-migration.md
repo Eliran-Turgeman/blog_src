@@ -1,11 +1,21 @@
 ---
 title: How I broke prod with a simple DB migration
 date: 2023-08-08T21:43:22.000Z
-description: "How a simple database migration caused production downtime. A real story about ORM pitfalls and lessons learned the hard way."
+description: >-
+  How a simple database migration caused production downtime. A real story about
+  ORM pitfalls and lessons learned the hard way.
 tags:
   - databases
   - downtime
 readTime: 4
+keywords: []
+faq:
+  - q: "How can a simple database migration break production?"
+    a: "If your ORM requires explicit column name mappings and you forget to add one, the ORM will look for a camelCase column name that does not exist in the snake_case database, causing all deserialization operations to fail."
+  - q: "How do you prevent TypeORM column naming mismatches?"
+    a: "Add a linter rule that prevents TypeORM column decorators from existing without an explicit name mapping. Automated checks like this are far more reliable than relying on code review alone."
+  - q: "What went wrong with the TypeORM Violation entity?"
+    a: "The new column was added to the database as new_column in snake_case, but the TypeORM entity used newColumn in camelCase without a name mapping. TypeORM then looked for a column literally called newColumn, which did not exist."
 ---
 
 ![Illustration of a production system going down after a database migration](../break-prod-with-simple-db-migration/prod-down.webp)

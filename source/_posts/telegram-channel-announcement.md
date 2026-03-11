@@ -1,12 +1,21 @@
 ---
 title: 'Byte-Sized Tech, Why I am even doing this?'
 date: 2024-08-31T20:40:28.000Z
-description: "Announcing Byte-Sized Tech: a Telegram channel for tech book summaries, software engineering blogs, and curated industry reads."
+description: >-
+  Announcing Byte-Sized Tech: a Telegram channel for tech book summaries,
+  software engineering blogs, and curated industry reads.
 tags:
   - reading
   - tech-books
   - byte-sized-tech
 readTime: 2
+keywords:
+  - software design
+faq:
+  - q: "What is the Byte-Sized Tech Telegram channel?"
+    a: "Byte-Sized Tech is a Telegram channel that shares tech book chapter summaries several times a week, along with curated software engineering blogs and industry reads on off days."
+  - q: "What books are covered on the Byte-Sized Tech channel?"
+    a: "The initial reading list includes A Philosophy of Software Design by John Ousterhout, Designing Data-Intensive Applications by Martin Kleppmann, and Dependency Injection in .NET by Mark Seemann."
 ---
 
 Alright, here’s the deal. I just kicked off a new Telegram channel called [***Byte-Sized Tech***](https://t.me/booksbytes). Why? Because I’m tired of skimming my way through tech books, and I figured, why not drag some of you along with me?

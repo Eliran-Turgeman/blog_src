@@ -1,12 +1,23 @@
 ---
 title: Confusing ownership with heroism
 date: 2025-05-23T09:32:30.000Z
-description: "True project ownership isn't doing everything alone. It's ensuring the project succeeds, even if that means asking for help early."
+description: >-
+  True project ownership isn't doing everything alone. It's ensuring the project
+  succeeds, even if that means asking for help early.
 tags:
   - ownership
   - leadership
   - project-management
 readTime: 4
+keywords:
+  - engineering leadership
+faq:
+  - q: "What does project ownership really mean in software engineering?"
+    a: "True project ownership means being responsible for the project's success, not doing everything yourself. It involves spotting problems early, asking for help when needed, and ensuring progress continues."
+  - q: "Is asking for help a sign of weak ownership?"
+    a: "No, asking for help is a sign of strong ownership. Staying stuck silently wastes time and puts the project at risk, while seeking help early keeps things moving forward."
+  - q: "How can I be a better project owner?"
+    a: "Spot problems before they escalate, communicate openly with stakeholders, know when to bring in experts, and focus on leading the effort rather than doing every task yourself."
 ---
 
 We all hear the word "ownership" at work. It often sounds like it means you have to be the one who does everything, solving every problem and handling every changing task until the project is done.

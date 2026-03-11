@@ -1,12 +1,31 @@
 ---
 title: CSRF for Builders
 date: 2026-02-18T06:55:43.000Z
-description: "How CSRF attacks work, why POST alone doesn't prevent them, and what actually does. Practical defense guide for web developers."
+description: >-
+  How CSRF attacks work, why POST alone doesn't prevent them, and what actually
+  does. Practical defense guide for web developers.
 tags:
   - application-security
   - don't get hacked
   - best-practices
 readTime: 6
+keywords:
+  - CSRF
+  - security checklist
+  - security audit
+  - cross-site request forgery
+  - CSRF tokens
+  - threat model
+  - SQL injection
+faq:
+  - q: "What is CSRF and how does it work?"
+    a: "CSRF (Cross-Site Request Forgery) is an attack where a malicious site tricks a user's browser into making an authenticated request to another site. The browser automatically attaches cookies, so the server processes it as legitimate."
+  - q: "Does using POST instead of GET prevent CSRF attacks?"
+    a: "No. While POST raises the bar slightly, an attacker can still trigger POST requests using a hidden auto-submitting HTML form. You need CSRF tokens or SameSite cookies for real protection."
+  - q: "What is the best way to prevent CSRF?"
+    a: "Use your framework's built-in CSRF token protection, set SameSite=Lax explicitly on session cookies, and never use GET endpoints for state-changing operations. Most major frameworks like Django, Rails, and Laravel ship CSRF protection by default."
+  - q: "Are single-page applications immune to CSRF?"
+    a: "Not if they use cookies for authentication. SPAs with cookie-based auth still need CSRF tokens or SameSite protections. Only token-based auth using Authorization headers is inherently resistant to CSRF."
 ---
 
 If your `/logout` route is a GET endpoint, any website on the internet can log your users out by embedding `<img src="https://yourapp.com/logout">` in their page. The user's browser sends the request with cookies attached, and your server happily ends their session.

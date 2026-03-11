@@ -1,10 +1,22 @@
 ---
 title: On over-engineering; Architecture Edition
 date: 2024-12-10T18:10:56.000Z
-description: "Using MediatR as a middle ground between tight coupling and full pub/sub infrastructure. Practical architecture decisions for side projects."
+description: >-
+  Using MediatR as a middle ground between tight coupling and full pub/sub
+  infrastructure. Practical architecture decisions for side projects.
 tags:
   - architecture
 readTime: 4
+keywords:
+  - software architecture
+  - security architecture
+faq:
+  - q: "What is MediatR and when should you use it?"
+    a: "MediatR is an in-process mediator pattern implementation for .NET. It is a good fit when you need loose coupling between components but don't yet need the complexity of a full message bus like RabbitMQ or Azure Service Bus."
+  - q: "What are the downsides of using MediatR instead of a message broker?"
+    a: "MediatR events are in-process only, so they are lost if the application crashes. There is no built-in retry mechanism for failed handlers, and events are not distributed across multiple instances of your application."
+  - q: "How do you avoid over-engineering architecture in a side project?"
+    a: "Choose the simplest solution that solves your current problem while leaving room for growth. Avoid both tight coupling and premature infrastructure investments like a full pub/sub system when an in-process mediator will do."
 ---
 
 I recently [wrote about over-engineering](/2024/09/07/future-proof-code/) and striking a good balance between making your code "too" future-proof and not making it future-proof at all. Some time later, I realized it was missing a critical perspective. I hadn't addressed over-engineering from an architectural point of view, so this post is dedicated precisely to that.

@@ -1,10 +1,22 @@
 ---
 title: Taming the Nested Beast
 date: 2023-03-24T17:08:55.000Z
-description: "Techniques to flatten deeply nested code: guard clauses, early returns, and extraction. Improve readability without losing context."
+description: >-
+  Techniques to flatten deeply nested code: guard clauses, early returns, and
+  extraction. Improve readability without losing context.
 tags:
   - best-practices
 readTime: 3
+keywords:
+  - modularity
+  - cohesion
+faq:
+  - q: "How do you reduce deeply nested code?"
+    a: "Three main techniques are: use early returns and guard clauses to skip iterations, extract inner logic into smaller named functions, and rethink your approach using maps, filters, or list comprehensions instead of nested loops."
+  - q: "Are there downsides to flattening nested code?"
+    a: "Yes. Flattening can reduce expressiveness when nesting naturally mirrors the problem structure. It can also cause loss of context by splitting logic across many small functions, forcing developers to jump between them to understand the flow."
+  - q: "When is nested code acceptable?"
+    a: "Nested code is acceptable when it accurately reflects the logical structure of the problem and flattening would make the code harder to follow. The goal is readability, not minimizing indentation at all costs."
 ---
 
 I believe that the downsides of overly nested code are well known and covered, it mainly revolves around readability and maintainability, and I won’t go into more details in regards to that.

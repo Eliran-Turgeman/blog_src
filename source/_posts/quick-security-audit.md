@@ -1,11 +1,29 @@
 ---
 title: A Practical Security Audit for Builders
 date: 2026-02-14T07:35:08.000Z
-description: "A practical security audit checklist for builders: secrets, authorization, storage, webhooks, and cost-triggering endpoints."
+description: >-
+  A practical security audit checklist for builders: secrets, authorization,
+  storage, webhooks, and cost-triggering endpoints.
 tags:
   - application-security
   - don't get hacked
 readTime: 9
+keywords:
+  - security audit
+  - security audit checklist
+  - OWASP
+  - threat model
+  - credential leak prevention
+  - secret scanning
+faq:
+  - q: "What are the most common security failure categories in early-stage products?"
+    a: "The five main categories are leaked secrets, broken authorization, misconfigured public storage, unverified webhooks, and cost-triggering endpoints without rate limits."
+  - q: "How do you prevent secret leaks in a codebase?"
+    a: "Run secret scanning tools like gitleaks on every pull request, scan full repository history on main, block merges on verified leaks, and immediately rotate any credential that may have been exposed."
+  - q: "Why is broken object-level authorization dangerous?"
+    a: "It allows authenticated users to access other users' data simply by changing an object ID in the request. Frontend restrictions and hidden URLs do not prevent this; the server must enforce ownership on every read and write path."
+  - q: "What tools should you use to automate security checks in CI/CD?"
+    a: "A practical baseline includes gitleaks for secrets, Semgrep for code-level patterns, OSV-Scanner for dependency vulnerabilities, and Trivy for infrastructure and config exposure."
 ---
 
 If your product has users and you have not done a deliberate security pass, the gaps are already there. They are the defaults you never changed, the checks you enforce in the UI but not on the server, and the secrets sitting in places you stopped thinking about.

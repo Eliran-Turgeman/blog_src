@@ -1,12 +1,25 @@
 ---
 title: AWS Lambda - Pitfalls
 date: 2023-07-12T17:49:46.000Z
-description: "Common AWS Lambda anti-patterns including monoliths, missing idempotency, and cold starts. Real-world pitfalls and practical fixes."
+description: >-
+  Common AWS Lambda anti-patterns including monoliths, missing idempotency, and
+  cold starts. Real-world pitfalls and practical fixes.
 tags:
   - aws
   - lambda
   - bad-practices
 readTime: 7
+keywords:
+  - authentication flaws
+  - AWS security
+  - Lambda security
+faq:
+  - q: "What is a Lambda monolith and why is it bad?"
+    a: "A Lambda monolith is a single Lambda function that handles multiple event types with different handlers. It leads to overly broad IAM permissions, slower cold starts, inefficient memory configuration, and harder monitoring."
+  - q: "Why should you avoid synchronous Lambda-to-Lambda calls?"
+    a: "When one Lambda synchronously calls another, you pay for the idle wait time of the caller. It also creates bottlenecks and forces each caller to handle its own error handling and retries. Use SQS or Step Functions instead."
+  - q: "What does idempotency mean for AWS Lambda?"
+    a: "Idempotency means processing the same event multiple times produces the same result as processing it once. Since Lambda does not guarantee exactly-once delivery, your function must handle duplicate events without creating duplicate side effects."
 ---
 
 I recently changed teams in the company I am working for, and I was pleased to learn that once in 2 weeks, a member of the team had to come up with a tech-related topic and give a talk about to the rest of the team.

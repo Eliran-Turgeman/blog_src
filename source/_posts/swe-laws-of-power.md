@@ -1,11 +1,24 @@
 ---
 title: SWE laws of power
 date: 2024-05-11T07:48:59.000Z
-description: "Five laws of power adapted for software engineers: managing up, concentrating efforts, guarding your reputation, and strategic patience."
+description: >-
+  Five laws of power adapted for software engineers: managing up, concentrating
+  efforts, guarding your reputation, and strategic patience.
 tags:
   - career
   - advice
 readTime: 6
+keywords:
+  - software engineer career
+  - junior developer advice
+  - career growth in tech
+faq:
+  - q: "How do the 48 Laws of Power apply to software engineers?"
+    a: "The post adapts five laws to tech careers, covering managing up, concentrating expertise, choosing battles wisely, appearing effortless, and speaking concisely in technical discussions."
+  - q: "What does never outshine the master mean for software engineers?"
+    a: "It means involving your manager before presenting impactful work to higher-ups. Bypassing your superior can make them feel undermined and hurt your promotion chances."
+  - q: "Why should software engineers concentrate their forces?"
+    a: "Focusing deeply on a specific technology makes you the go-to expert, which is more career-advancing than spreading yourself thin across many areas."
 ---
 
 Have you ever noticed how some software engineers seem to rocket up the career ladder, while others, just as talented, barely move? It's not always about how good you are with code; sometimes, it's about playing the game smartly. This got me thinking when I was reading "The 48 Laws of Power." It struck me that many of these laws could be specially adapted. So, I chose the 5 laws that I think are most relevant and impactful for software engineers.

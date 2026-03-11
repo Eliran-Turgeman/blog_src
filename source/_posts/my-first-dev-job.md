@@ -1,11 +1,21 @@
 ---
 title: Getting my first dev job
 date: 2023-09-07T21:04:03.000Z
-description: "The story of getting my first developer job as a CS student — from an empty wallet to landing a role at a tech company in Israel."
+description: >-
+  The story of getting my first developer job as a CS student — from an empty
+  wallet to landing a role at a tech company in Israel.
 tags:
   - job-hunt
   - junior-dev
 readTime: 5
+keywords: []
+faq:
+  - q: "How do I get my first software developer job as a student?"
+    a: "Build personal projects to show initiative, self-teach a new language, and be open to non-glamorous roles. The author's first dev job was in a university research lab at minimum wage, but it launched his career."
+  - q: "Should I accept a low-paying first developer job?"
+    a: "Yes, if it gets you real experience. Your first job doesn't have to pay well or be at a big-tech company. That line on your resume is worth more than the salary in the long run."
+  - q: "How do you handle rejection during a developer job search?"
+    a: "Rejections are normal, even from big companies like Microsoft and Intel. Stay persistent, keep applying, and look for unexpected opportunities. Resilience and adaptability matter more than landing the perfect first role."
 ---
 
 This is a blog post that at some point might get turned into a series.

@@ -1,11 +1,21 @@
 ---
 title: Godot4 w/ C# in VSCode setup
 date: 2024-06-16T16:20:41.000Z
-description: "Complete setup guide for developing Godot 4 games with C# in VS Code, including debugging configuration and required extensions."
+description: >-
+  Complete setup guide for developing Godot 4 games with C# in VS Code,
+  including debugging configuration and required extensions.
 tags:
   - godot
   - dev-setup
 readTime: 2
+keywords: []
+faq:
+  - q: "How do you set up Godot 4 with C# in VS Code?"
+    a: "Install the Godot .NET engine and .NET SDK, add the C#, C# Dev Kit, and C# Tools for Godot extensions in VS Code, configure a main scene in Godot project settings, set VS Code as the external editor, and add launch.json and tasks.json files."
+  - q: "How do you debug a Godot 4 C# project in VS Code?"
+    a: "Create a .vscode folder with launch.json and tasks.json configurations that use the coreclr debugger type. Set a GODOT4 environment variable pointing to your Godot executable, then use the Launch configuration to run and debug."
+  - q: "What is the GODOT4 environment variable for?"
+    a: "The GODOT4 environment variable stores the path to your Godot executable. The VS Code launch.json references it so the debugger knows which Godot binary to run your project with."
 ---
 
 I spent some time trying to set up my dev environement to be able to run and debug a Godot game written in .Net inside VSCode.

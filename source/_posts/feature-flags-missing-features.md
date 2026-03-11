@@ -1,12 +1,23 @@
 ---
 title: Feature flags spaghetti // FFs missing features
 date: 2024-02-03T17:24:58.000Z
-description: "Feature flags need better tooling: flag trees for coordinated rollouts and automated cleanup to prevent codebase graveyards."
+description: >-
+  Feature flags need better tooling: flag trees for coordinated rollouts and
+  automated cleanup to prevent codebase graveyards.
 tags:
   - feature-flags
   - tech-debt
   - code-maintenance
 readTime: 3
+keywords:
+  - feature flags
+faq:
+  - q: "What is a feature flag tree?"
+    a: "A feature flag tree is a proposed structure where a main flag is connected to multiple sub-flags across services and UI. Toggling the main flag automatically toggles all connected sub-flags, making coordinated rollouts and rollbacks simple."
+  - q: "How do you prevent stale feature flags from accumulating in your codebase?"
+    a: "By setting up automated notifications for inactive or fully-open flags. Flags that haven't been queried in X days or have been permanently enabled for Y days should trigger alerts so teams can clean them up."
+  - q: "Why are feature flags hard to manage across multiple services?"
+    a: "A single feature often requires flags in several services and the UI. Without a way to link them, developers must toggle 4-5 flags individually, which is error-prone and leads to debugging confusion."
 ---
 
 Feature flags solutions are pretty established by now, but I feel like there are some key features missing that would make me switch vendors.

@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "niche": "Security for Builders",
+    "description": "Keyword taxonomy for SEO targeting software engineers who build things and need practical security guidance.",
+    "lastUpdated": "2026-03-11"
+  },
+  "clusters": {
+    "application-security-fundamentals": {
+      "label": "Application Security Fundamentals",
+      "keywords": [
+        "application security",
+        "web application security",
+        "appsec",
+        "software security",
+        "application security for developers",
+        "secure software development",
+        "security for software engineers",
+        "practical application security"
+      ]
+    },
+    "secure-coding": {
+      "label": "Secure Coding Practices",
+      "keywords": [
+        "secure coding",
+        "secure coding practices",
+        "secure coding best practices",
+        "defensive programming",
+        "input validation",
+        "output encoding",
+        "secure code review",
+        "code security"
+      ]
+    },
+    "owasp-standards": {
+      "label": "OWASP & Security Standards",
+      "keywords": [
+        "OWASP",
+        "OWASP Top 10",
+        "OWASP secure coding guidelines",
+        "security standards",
+        "security compliance for developers",
+        "security checklist"
+      ]
+    },
+    "threat-modeling": {
+      "label": "Threat Modeling",
+      "keywords": [
+        "threat modeling",
+        "threat modeling for developers",
+        "threat model",
+        "STRIDE",
+        "attack surface analysis",
+        "security risk assessment",
+        "secure software design",
+        "security architecture"
+      ]
+    },
+    "web-vulnerabilities": {
+      "label": "Web Vulnerabilities",
+      "keywords": [
+        "CSRF",
+        "cross-site request forgery",
+        "XSS",
+        "cross-site scripting",
+        "SQL injection",
+        "command injection",
+        "prompt injection",
+        "injection attacks",
+        "broken authentication",
+        "insecure deserialization"
+      ]
+    },
+    "secrets-credentials": {
+      "label": "Secrets & Credential Management",
+      "keywords": [
+        "secrets management",
+        "credential leak prevention",
+        "API key security",
+        "secret scanning",
+        "environment variable security",
+        "credential rotation",
+        "leaked credentials",
+        "secrets in code"
+      ]
+    },
+    "authentication-authorization": {
+      "label": "Authentication & Authorization",
+      "keywords": [
+        "secure authentication",
+        "authorization best practices",
+        "access control",
+        "session management",
+        "token security",
+        "OAuth security",
+        "CSRF tokens",
+        "authentication flaws"
+      ]
+    },
+    "file-upload-security": {
+      "label": "File Upload Security",
+      "keywords": [
+        "file upload security",
+        "secure file uploads",
+        "file upload vulnerabilities",
+        "path traversal",
+        "file type validation",
+        "upload attack surface",
+        "malicious file upload"
+      ]
+    },
+    "security-auditing": {
+      "label": "Security Auditing & Testing",
+      "keywords": [
+        "security audit",
+        "security audit checklist",
+        "penetration testing basics",
+        "vulnerability scanning",
+        "security testing",
+        "security review",
+        "code audit for security"
+      ]
+    },
+    "devsecops": {
+      "label": "DevSecOps & CI/CD Security",
+      "keywords": [
+        "DevSecOps",
+        "security in CI/CD",
+        "security automation",
+        "container security",
+        "dependency scanning",
+        "SAST",
+        "DAST",
+        "shift left security",
+        "secure deployment"
+      ]
+    },
+    "ai-security": {
+      "label": "AI & LLM Security",
+      "keywords": [
+        "AI security",
+        "LLM security",
+        "prompt injection",
+        "prompt injection prevention",
+        "AI safety",
+        "machine learning security",
+        "adversarial attacks on AI"
+      ]
+    },
+    "secure-architecture": {
+      "label": "Secure Architecture & Design",
+      "keywords": [
+        "security architecture",
+        "defense in depth",
+        "secure API design",
+        "security design patterns",
+        "zero trust",
+        "least privilege",
+        "secure by design",
+        "microservices security"
+      ]
+    },
+    "distributed-systems-security": {
+      "label": "Distributed Systems & Infrastructure",
+      "keywords": [
+        "distributed systems",
+        "caching best practices",
+        "Redis security",
+        "infrastructure security",
+        "cloud security basics",
+        "AWS security",
+        "serverless security",
+        "Lambda security"
+      ]
+    },
+    "software-design": {
+      "label": "Software Design & Architecture",
+      "keywords": [
+        "software design",
+        "software architecture",
+        "design patterns",
+        "modularity",
+        "cohesion",
+        "code complexity",
+        "clean code",
+        "software design principles"
+      ]
+    },
+    "engineering-practices": {
+      "label": "Engineering Best Practices",
+      "keywords": [
+        "software engineering best practices",
+        "logging best practices",
+        "testing best practices",
+        "code quality",
+        "technical debt",
+        "feature flags",
+        "CI/CD best practices",
+        "production incidents"
+      ]
+    },
+    "developer-career": {
+      "label": "Developer Career & Growth",
+      "keywords": [
+        "software engineer career",
+        "junior developer advice",
+        "career growth in tech",
+        "engineering leadership",
+        "developer productivity",
+        "tech career tips"
+      ]
+    }
+  },
+  "contentSignals": {
+    "security": ["security", "secure", "vulnerability", "attack", "exploit", "threat", "credential", "authentication", "authorization", "injection", "CSRF", "XSS", "OWASP", "audit", "penetration", "malicious", "token", "encryption", "hashing", "secrets", "leaked", "breach", "defense", "firewall", "access control", "privilege", "sanitize", "validate"],
+    "architecture": ["architecture", "design", "pattern", "modularity", "cohesion", "coupling", "abstraction", "interface", "module", "component", "layer", "microservice", "monolith"],
+    "devops": ["CI/CD", "pipeline", "deploy", "container", "Docker", "Kubernetes", "Lambda", "serverless", "AWS", "cloud", "infrastructure", "automation"],
+    "practices": ["best practice", "logging", "testing", "code review", "refactor", "tech debt", "feature flag", "monitoring", "observability"],
+    "career": ["career", "junior", "senior", "interview", "job", "mentor", "leadership", "productivity", "growth"]
+  }
+}

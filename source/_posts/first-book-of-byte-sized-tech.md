@@ -1,12 +1,24 @@
 ---
 title: Ideas from "A Philosophy of Software Design"
 date: 2024-09-25T18:30:46.000Z
-description: "Three key ideas from A Philosophy of Software Design: zero-tolerance for complexity, deep modules, and strategic programming."
+description: >-
+  Three key ideas from A Philosophy of Software Design: zero-tolerance for
+  complexity, deep modules, and strategic programming.
 tags:
   - byte-sized-tech
   - books
   - software-design
 readTime: 12
+keywords:
+  - software design
+  - modularity
+faq:
+  - q: "What are the three symptoms of complexity in software design?"
+    a: "Change amplification (simple changes require edits in many places), cognitive load (developers must learn a lot to complete a task), and unknown unknowns (it's unclear which code needs to change)."
+  - q: "Why are smaller components not always better for modularity?"
+    a: "Over-splitting adds complexity from managing more components, creates additional interfaces, makes related pieces harder to see together, and can result in code duplication."
+  - q: "How can you reduce exception handling complexity?"
+    a: "The book recommends three techniques: define errors out of existence so exceptions never arise, mask exceptions at low levels with retries or fallbacks, and aggregate multiple exceptions into a single handler."
 ---
 
 Almost a month ago, [I created a telegram channel](/2024/08/31/telegram-channel-announcement/) with the goal of reading tech books consistently, and sharing summaries of them.

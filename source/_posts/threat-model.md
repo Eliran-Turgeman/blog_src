@@ -1,11 +1,31 @@
 ---
 title: Threat Modelling for Builders
 date: 2026-03-01T15:02:58.000Z
-description: "A practical guide to threat modeling: identify what matters, map attack surfaces, estimate exploit difficulty, and prioritize which threats to fix."
+description: >-
+  A practical guide to threat modeling: identify what matters, map attack
+  surfaces, estimate exploit difficulty, and prioritize which threats to fix.
 tags:
   - application-security
   - don't get hacked
 readTime: 13
+keywords:
+  - threat model
+  - threat modeling
+  - OWASP
+  - application security
+  - security audit
+  - input validation
+  - STRIDE
+  - secret scanning
+faq:
+  - q: "What is a threat model and why do I need one?"
+    a: "A threat model is a structured way to identify what you need to protect, where it's exposed, and which threats to address first. It turns reactive security work into deliberate, prioritized decisions."
+  - q: "What is the STRIDE framework in threat modeling?"
+    a: "STRIDE is a threat categorization developed at Microsoft covering six categories: Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege."
+  - q: "What are the four responses to a security threat?"
+    a: "You can mitigate it by adding controls, eliminate it by removing the attack surface, accept it by documenting the risk, or transfer it through insurance or managed services."
+  - q: "How often should I update my threat model?"
+    a: "Review it when you add new integrations, expose new endpoints, or change data flows. A quarterly check takes about thirty minutes and catches drift before it becomes a blind spot."
 ---
 
 If you asked most builders "what would hurt you most if it got breached?", they would need to think about it. That hesitation usually means the question has never been answered explicitly, and when it has not, security work becomes reactive. You fix whatever the last scan flagged, or whatever the last Hacker News post scared you about, without a clear sense of whether it actually matters for your system.

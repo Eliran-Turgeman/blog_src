@@ -1,10 +1,21 @@
 ---
 title: Why you should "design it twice"?
 date: 2024-09-14T16:46:50.000Z
-description: "Why designing software twice leads to better architecture. Lessons from A Philosophy of Software Design on avoiding tunnel vision."
+description: >-
+  Why designing software twice leads to better architecture. Lessons from A
+  Philosophy of Software Design on avoiding tunnel vision.
 tags:
   - software-design
 readTime: 3
+keywords:
+  - software design
+faq:
+  - q: "What does design it twice mean in software engineering?"
+    a: "It means deliberately creating at least two different designs for a module or system before committing to one. Comparing alternatives side by side leads to better architectural decisions."
+  - q: "Where does the design it twice concept come from?"
+    a: "It comes from Chapter 11 of A Philosophy of Software Design by John Ousterhout. The core idea is that your first design is rarely the best, and forcing yourself to consider alternatives improves quality."
+  - q: "Does designing twice take too much extra time?"
+    a: "No. The extra upfront effort is small compared to the cost of fixing a bad design later. It also helps you feel more confident defending your choices in design reviews."
 ---
 
 Designing software is tough. I think we can all agree on that. No matter how much experience you have, your first idea about how to structure a module or system is usually not the best one. I had to learn this lesson the hard way, and I really wish I knew about the “design it twice” concept earlier in my career.

@@ -1,11 +1,23 @@
 ---
 title: 'I am a junior, and can''t find a job - now what?'
 date: 2024-07-25T18:55:09.000Z
-description: "Practical advice for junior developers struggling to find a job: fix your resume, build projects, lower expectations, and stand out."
+description: >-
+  Practical advice for junior developers struggling to find a job: fix your
+  resume, build projects, lower expectations, and stand out.
 tags:
   - juniors
   - job-seeking
 readTime: 4
+keywords: []
+faq:
+  - q: "Why can't I find a junior developer job?"
+    a: "The way you present yourself may not be impressive enough. Fix your resume, build personal projects, apply through connections, and lower your expectations for your first role."
+  - q: "Do I need personal projects to get a junior dev job?"
+    a: "Yes. A CS degree alone is rarely enough. Personal projects show initiative, demonstrate practical skills, and give you something concrete to discuss in interviews."
+  - q: "What should I do if I have been job hunting for months with no results?"
+    a: "Seek mentorship for tailored feedback, lower the bar for roles you apply to, and consider adjacent roles like QA or data analyst as stepping stones to a developer position."
+  - q: "What do interviewers look for in junior developer candidates?"
+    a: "They want to see that you are coachable, passionate about your projects, and can code fluently in at least one language. Show you can receive feedback and explain your technical decisions."
 ---
 
 "The market is tough" is something many juniors hear today. people are frustrated. graduating after 3-4 years with a CS degree is not easy.  They graduate only to find out nobody wants to hire them or even move forward beyond the initial screening.

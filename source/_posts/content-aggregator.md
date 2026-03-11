@@ -2,13 +2,23 @@
 title: Writing My First Open Source Package - Content Aggregation CLI
 date: 2022-05-07T08:58:18.000Z
 draft: false
-description: "Build your own content aggregator CLI with Python from scratch. Step-by-step tutorial using RSS feeds, published as an open-source PyPi package."
+description: >-
+  Build your own content aggregator CLI with Python from scratch. Step-by-step
+  tutorial using RSS feeds, published as an open-source PyPi package.
 tags:
   - aggregator
   - python
   - cli
   - open-source
 readTime: 10
+keywords: []
+faq:
+  - q: "What is a content aggregator?"
+    a: "A content aggregator is an application that gathers content from multiple sources across the web into a single place, letting you consume content efficiently without scrolling through many different websites."
+  - q: "How do you build a content aggregator in Python?"
+    a: "Create a base abstract Source class with connect and fetch methods, then implement specific sources like RedditSource using praw and MediumSource using feedparser. A SourceManager class orchestrates fetching from all sources."
+  - q: "What Python libraries are used for content aggregation?"
+    a: "This tutorial uses feedparser for parsing RSS feeds, praw as the Python Reddit API wrapper, colorama for colored terminal output, and the typing module for type hints."
 ---
 ## Introduction
 

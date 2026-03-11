@@ -4,6 +4,15 @@ date: 2024-08-09T07:53:57.000Z
 description: "Customize PowerShell with Oh-My-Posh: install fonts, configure prompts, add autocompletion, and set up a productive terminal environment."
 tags: powershell
 readTime: 3
+faq:
+  - q: "How do I install Oh-My-Posh on Windows?"
+    a: "Run 'winget install JanDeDobbeleer.OhMyPosh -s winget' in PowerShell. Then add the Oh-My-Posh init command to your $PROFILE file to activate it."
+  - q: "How do I add autocompletion to PowerShell?"
+    a: "Install PSReadLine with 'Install-Module PSReadLine -Force', then add Import-Module PSReadLine and Set-PSReadLineOption commands to your $PROFILE to enable history-based autocompletion."
+  - q: "How do I change the font in Windows Terminal?"
+    a: "Run 'oh-my-posh font install' to install a Nerd Font, then open your Terminal settings with Ctrl+Shift+, and add the font face under profiles.defaults."
+  - q: "How do I add file icons to PowerShell directory listings?"
+    a: "Install the Terminal-Icons module with 'Install-Module -Name Terminal-Icons -Repository PSGallery' and add 'Import-Module -Name Terminal-Icons' to your $PROFILE."
 ---
 
 ## Step 1: Install Oh-My-Posh

@@ -12,6 +12,15 @@
         google_plus:    theme.open_graph.google_plus,
     }) %>
     <%- meta(page) %>
+    <% var kw = page.keywords || config.keywords; if (kw) { %>
+    <meta name="keywords" content="<%- (Array.isArray(kw) ? kw.join(', ') : kw) %>" />
+    <% } %>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="<%- page.title || config.title %>" />
+    <meta name="twitter:description" content="<%- page.description || config.description %>" />
+    <% if (theme.open_graph && theme.open_graph.twitter_id) { %>
+    <meta name="twitter:site" content="<%- theme.open_graph.twitter_id %>" />
+    <% } %>
     <% if (theme.favicon) { %>
       <% if (theme.favicon.desktop) { %>
         <% if (theme.gravatar && (theme.gravatar.email || theme.gravatar.hash) && theme.favicon.desktop.gravatar) { %>
@@ -77,9 +86,28 @@
       },
       "url": config.url + url_for(page.path).replace(/index\.html$/, ''),
       "wordCount": strip_html(page.content).split(/\s+/).length,
-      "articleSection": page.tags ? page.tags.map(function(t){ return t.name; }).join(', ') : ''
+      "articleSection": page.tags ? page.tags.map(function(t){ return t.name; }).join(', ') : '',
+      "keywords": page.keywords ? (Array.isArray(page.keywords) ? page.keywords.join(', ') : page.keywords) : ''
     }) %>
     </script>
+    <% if (page.faq && page.faq.length > 0) { %>
+    <script type="application/ld+json">
+    <%- JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": page.faq.map(function(item) {
+        return {
+          "@type": "Question",
+          "name": item.q,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": item.a
+          }
+        };
+      })
+    }) %>
+    </script>
+    <% } %>
     <% } %>
     <!-- styles -->
     <%- css('css/style') %>

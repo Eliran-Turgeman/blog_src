@@ -2,13 +2,28 @@
 title: Linux Scheduling
 date: 2022-09-25T08:26:13.000Z
 draft: false
-description: "How Linux process scheduling works: from basic algorithms like FIFO and Round Robin to the Completely Fair Scheduler (CFS)."
+description: >-
+  How Linux process scheduling works: from basic algorithms like FIFO and Round
+  Robin to the Completely Fair Scheduler (CFS).
 tags:
   - os
   - operating-systems
   - linux
   - scheduling
 readTime: 11
+keywords:
+  - cross-site request forgery
+  - cross-site scripting
+  - microservices security
+faq:
+  - q: "What is the Completely Fair Scheduler in Linux?"
+    a: "CFS is Linux's default scheduler for conventional processes since kernel 2.6.23. It uses a red-black tree keyed by virtual runtime to give every process a fair share of CPU time."
+  - q: "What is the difference between preemptive and non-preemptive scheduling?"
+    a: "A preemptive scheduler can interrupt a running process to give the CPU to another, while a non-preemptive scheduler only switches when a process finishes or voluntarily yields the CPU."
+  - q: "What is virtual runtime in CFS?"
+    a: "Virtual runtime is the actual CPU time a process has spent executing, excluding any waiting. CFS always schedules the process with the lowest virtual runtime next, ensuring fairness."
+  - q: "What is the difference between SCHED_FIFO and SCHED_RR in Linux?"
+    a: "SCHED_FIFO runs real-time processes in arrival order until they block or yield. SCHED_RR adds time slices so each process gets a fixed quantum before the next one runs in a cyclic fashion."
 ---
 # Process Scheduling In Linux
 

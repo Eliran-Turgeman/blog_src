@@ -1,11 +1,21 @@
 ---
 title: On over-engineering; finding the right balance
 date: 2024-09-07T11:39:26.000Z
-description: "Finding the sweet spot between over-engineering and under-engineering. Practical examples for balancing code generality with simplicity."
+description: >-
+  Finding the sweet spot between over-engineering and under-engineering.
+  Practical examples for balancing code generality with simplicity.
 tags:
   - software-design
   - best-practices
 readTime: 7
+keywords: []
+faq:
+  - q: "What is over-engineering in software development?"
+    a: "Over-engineering is adding unnecessary complexity by trying to handle every possible future scenario. It leads to bloated, hard-to-use code that solves problems you don't actually have yet."
+  - q: "How do you find the right balance between specific and generic code?"
+    a: "Write code that is flexible enough to handle reasonable variations without being overly abstract. Use simple, general-purpose interfaces like accepting a condition parameter instead of writing a method for every scenario."
+  - q: "Why are premature abstractions bad?"
+    a: "Premature abstractions lock you into assumptions about future needs that are often wrong. For example, a Vehicle base class with StartEngine breaks when you add bikes, forcing a costly refactor."
 ---
 
 A big debate among developers is whether to write code for today's problem or to build a general-purpose solution for future needs. Both approaches have their pros and cons. Specific-purpose code can quickly become messy. But overly general code can add unnecessary complexity. This post, obviously opinionated, argues for a middle ground. That's the sweet spot, as always.

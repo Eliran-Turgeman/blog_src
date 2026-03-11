@@ -1,11 +1,21 @@
 ---
 title: 'Setting Up Automatic Linting and Type Checking (Python, GHA)'
 date: 2023-05-19T19:06:40.000Z
-description: "Step-by-step guide to setting up automatic linting with Ruff and type checking with mypy using GitHub Actions for Python projects."
+description: >-
+  Step-by-step guide to setting up automatic linting with Ruff and type checking
+  with mypy using GitHub Actions for Python projects.
 tags:
   - github-actions
   - ci-cd
 readTime: 3
+keywords: []
+faq:
+  - q: "How do you set up automatic linting for a Python project with GitHub Actions?"
+    a: "Add ruff and mypy as dev dependencies, configure them in pyproject.toml for consistent local and remote results, then create a GitHub Actions workflow that runs both tools on pull requests and pushes to main."
+  - q: "Why use pyproject.toml for ruff and mypy configuration?"
+    a: "A shared pyproject.toml ensures that linting and type checking produce the same results locally and in CI, preventing discrepancies between developer machines and the GitHub Actions pipeline."
+  - q: "What is ruff and why use it for Python linting?"
+    a: "Ruff is a fast Python linter that supports pycodestyle and Pyflakes rules among others. It is easy to integrate into both local development and CI workflows via GitHub Actions."
 ---
 
 I work with open-source & private Python projects on GitHub on a daily basis.  

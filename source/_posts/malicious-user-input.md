@@ -1,11 +1,29 @@
 ---
 title: How Injection Keeps Breaking Real Systems
 date: 2026-03-06T13:02:43.000Z
-description: "How injection attacks keep breaking real systems: SQL injection, XSS, command injection, and prompt injection. Defense patterns that work."
+description: >-
+  How injection attacks keep breaking real systems: SQL injection, XSS, command
+  injection, and prompt injection. Defense patterns that work.
 tags:
   - application-security
   - don't get hacked
 readTime: 9
+keywords:
+  - SQL injection
+  - command injection
+  - XSS
+  - path traversal
+  - security checklist
+  - security audit
+faq:
+  - q: "What is an injection attack?"
+    a: "An injection attack occurs when user-controlled input is interpreted as part of a command instead of as data. SQL injection, XSS, command injection, and prompt injection are all variants of this single pattern."
+  - q: "How do you prevent SQL injection?"
+    a: "Use parameterized queries instead of string concatenation. The database driver treats parameters as data rather than SQL syntax, making injection structurally impossible regardless of input content."
+  - q: "What is the difference between SQL injection and XSS?"
+    a: "SQL injection targets the database by inserting malicious SQL through user input. XSS targets other users' browsers by injecting JavaScript into HTML output that executes when victims view the page."
+  - q: "What tools can detect injection vulnerabilities automatically?"
+    a: "Static analysis tools like Opengrep, Bandit, gosec, and CodeQL can scan your codebase for injection patterns. Integrating them into your CI pipeline flags new vulnerabilities on every pull request."
 ---
 
 In February 2021, a hacker exfiltrated 70 GB of data from Gab, the social network: user posts, private messages, hashed passwords, and profile information. The vulnerability was a SQL injection introduced into the codebase by Gab's own CTO ([Ars Technica, March 2021](https://arstechnica.com/gadgets/2021/03/rookie-coding-mistake-prior-to-gab-hack-came-from-sites-cto/)). It was a string concatenation bug in a composable query feature, standard code that worked correctly for every legitimate request and failed catastrophically under adversarial input. A second attack followed the next week, using OAuth2 tokens stolen during the first breach ([Ars Technica, March 2021](https://arstechnica.com/information-technology/2021/03/gab-a-haven-for-pro-trump-conspiracy-theories-has-been-hacked-again/)). The attacker did not need insider access or a sophisticated exploit chain; the entry point was a reachable endpoint with unparameterized input handling.

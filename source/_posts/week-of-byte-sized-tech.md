@@ -1,12 +1,23 @@
 ---
 title: First week of Byte-Sized Tech
 date: 2024-09-06T09:54:36.000Z
-description: "First week recap of Byte-Sized Tech: summaries of eight chapters from A Philosophy of Software Design by John Ousterhout."
+description: >-
+  First week recap of Byte-Sized Tech: summaries of eight chapters from A
+  Philosophy of Software Design by John Ousterhout.
 tags:
   - reading
   - tech-books
   - byte-sized-tech
 readTime: 2
+keywords:
+  - software design
+faq:
+  - q: "What is Byte-Sized Tech?"
+    a: "Byte-Sized Tech is a Telegram channel where the author reads and summarizes technical books chapter by chapter. It is designed to help developers learn from tech books in a digestible format."
+  - q: "What is A Philosophy of Software Design about?"
+    a: "It is a book by John Ousterhout about minimizing software complexity through strategic design, deep modules, information hiding, and eliminating unnecessary layers in code."
+  - q: "What is the key takeaway from A Philosophy of Software Design?"
+    a: "The essence of software design is to minimize complexity, which is caused by dependencies and obscurity. Modules should expose simple interfaces while hiding complexity internally."
 ---
 
 It has been a week since I [announced](/2024/08/31/telegram-channel-announcement/) my telegram channel [byte-sized tech](https://t.me/booksbytes).

@@ -1,11 +1,22 @@
 ---
 title: Evolving through blunders
 date: 2023-11-24T08:18:28.000Z
-description: "How I failed a design review by not considering alternatives. Lessons on designing it twice and welcoming feedback early."
+description: >-
+  How I failed a design review by not considering alternatives. Lessons on
+  designing it twice and welcoming feedback early.
 tags:
   - mistakes
   - learning
 readTime: 4
+keywords:
+  - machine learning security
+faq:
+  - q: "How do you recover from a failed design review?"
+    a: "Start working on a revised design immediately, seek feedback from other engineers through brainstorming sessions, and present the improved version. Acting quickly shows resilience and keeps momentum."
+  - q: "Should you design a feature entirely on your own to get full credit?"
+    a: "No. Collaborating with other engineers produces better designs and does not reduce your credit. Even the most senior engineers regularly seek input from others."
+  - q: "What does it mean to design it twice?"
+    a: "It means forcing yourself to come up with at least one alternative design, even when you feel confident in your first approach. This helps you spot flaws and consider trade-offs you might otherwise miss."
 ---
 
 Sometimes, the path to growth is paved with missteps. Recently, I faced one such bend in the road - an opportunity to lead a major feature, something I'd been eyeing for a while. In my eagerness to shine, to be seen as 'promotion-worthy' and 'intelligent,' I stumbled. 

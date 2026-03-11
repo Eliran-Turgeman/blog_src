@@ -1,10 +1,20 @@
 ---
 title: Collecto Beta - A developer-friendly approach to verified email capture
 date: 2024-12-24T08:08:33.000Z
-description: "Collecto Beta brings verified email capture with reCAPTCHA, email confirmations, customizable templates, and full data ownership."
+description: >-
+  Collecto Beta brings verified email capture with reCAPTCHA, email
+  confirmations, customizable templates, and full data ownership.
 tags:
   - collecto
 readTime: 2
+keywords: []
+faq:
+  - q: "What is Collecto?"
+    a: "Collecto is an open-source, self-hosted email collection tool that gives you full ownership of your data. It uses reCAPTCHA and email confirmations to ensure only legitimate sign-ups."
+  - q: "How do I integrate Collecto into my website?"
+    a: "You send a single POST request to /api/EmailSignups with a JSON body containing your FormId and the subscriber's email. No complex setup is required."
+  - q: "Is there a hosted version of Collecto?"
+    a: "A fully managed, hosted version is in development. You can sign up for early access on the Collecto website to get automatic updates and zero-maintenance email collection."
 ---
 
 Collecto is an open-source, self-hosted email collection solution built for those who demand full sovereignty over their data. No hidden fees, no forced lock-ins—just a straight-up tool to help you capture and manage emails on your terms.

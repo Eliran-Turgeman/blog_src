@@ -1,10 +1,21 @@
 ---
 title: Weekly releases bad
 date: 2024-04-19T06:52:52.000Z
-description: "Why reverting from daily to weekly releases is a step backward. The real problem is test coverage, not release frequency."
+description: >-
+  Why reverting from daily to weekly releases is a step backward. The real
+  problem is test coverage, not release frequency.
 tags:
   - ci-cd
 readTime: 3
+keywords:
+  - production incidents
+faq:
+  - q: "Are weekly releases better than daily releases?"
+    a: "Not necessarily. Weekly releases may seem safer after production incidents, but they bundle up risk and slow down feedback loops. The real issue is usually insufficient test coverage, not release frequency."
+  - q: "What is the real cause of production incidents in CI/CD?"
+    a: "Often it is inadequate testing rather than release frequency. Teams should proactively catalog core behaviors and ensure they are all covered by tests, rather than slowing down releases."
+  - q: "How do daily releases reduce risk?"
+    a: "Daily releases deploy small, incremental changes that are easier to debug and revert. If something breaks, you can fix and re-deploy quickly instead of waiting for the next weekly window."
 ---
 
 Let’s talk about release schedules. My team had a rollercoaster ride with our release strategy, moving from stressful weekly releases loaded with bugs and merge conflicts to a more smooth (but not perfect), automated releases several times a day. A year later, after too many production incidents, it was decided that we are reverting to weekly releases. It feels like a huge step backward, but let's unpack this.

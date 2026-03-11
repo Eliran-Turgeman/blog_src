@@ -1,11 +1,22 @@
 ---
 title: Leetcode for backend skills
 date: 2024-07-30T07:16:54.000Z
-description: "A free, open-source platform to practice backend skills through real API projects. Like LeetCode, but for backend engineering."
+description: >-
+  A free, open-source platform to practice backend skills through real API
+  projects. Like LeetCode, but for backend engineering.
 tags:
   - open-source
   - learning
 readTime: 2
+keywords:
+  - machine learning security
+faq:
+  - q: "What is the sissues platform for backend practice?"
+    a: "It is a free, open-source platform where you build real API projects by following step-by-step specifications and making a test suite pass, using any programming language and framework you choose."
+  - q: "Do I need to know Docker to use this backend practice platform?"
+    a: "You need to write a Dockerfile to run your API, but the platform provides a template and a getting-started guide so beginners can get up and running quickly."
+  - q: "How is this different from LeetCode?"
+    a: "Instead of small algorithmic puzzles, you build full API projects with multi-step specifications that build on each other, requiring you to think about code modularity and extensibility."
 ---
 
 I created a **free & open-source** [platform](https://github.com/sissues) to learn/improve backend skills through API projects.

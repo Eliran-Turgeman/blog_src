@@ -1,11 +1,22 @@
 ---
 title: Stop reading tech books like fiction
 date: 2025-04-11T08:36:13.000Z
-description: "Stop reading tech books like novels. Read with intent, apply knowledge immediately, and pick chapters that solve your current problems."
+description: >-
+  Stop reading tech books like novels. Read with intent, apply knowledge
+  immediately, and pick chapters that solve your current problems.
 tags:
   - reading
   - tech-books
 readTime: 4
+keywords:
+  - clean code
+faq:
+  - q: "Should you read tech books cover to cover?"
+    a: "No. Tech books are not fiction. You should pick the chapters that solve a problem you currently have, apply the knowledge immediately, and skip the rest."
+  - q: "What is Problem-Driven Reading?"
+    a: "Problem-Driven Reading (PDR) means reading a tech book in response to a specific problem you're trying to solve, rather than reading it because it was recommended or hyped. This ensures you apply what you learn right away."
+  - q: "Is reading tech books without applying the knowledge useful?"
+    a: "Mostly no. Passive reading gives you an illusion of progress but the knowledge rarely sticks. It can even be counterproductive because it replaces actual building and shipping with a false sense of productivity."
 ---
 
 >TL;DR: Stop reading tech books like novels. Read with intent. Read to solve problems. Otherwise, you're just procrastinating with a smart-looking excuse.

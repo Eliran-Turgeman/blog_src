@@ -10,7 +10,9 @@
     "push": "npm run git-push && npx hexo clean && npx hexo generate && npx hexo deploy",
     "git-push": "git add . && git commit -m \"a\" && git push",
     "apply-promotion": "node ./utils/add-promotion.js",
-    "analyze-read-time": "node ./utils/analyze-read-time.js"
+    "analyze-read-time": "node ./utils/analyze-read-time.js",
+    "seo-keywords": "node ./utils/seo-keywords.js",
+    "audit-alt-text": "node ./utils/audit-alt-text.js"
   },
   "hexo": {
     "version": "7.3.0"

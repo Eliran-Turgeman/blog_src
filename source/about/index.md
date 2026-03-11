@@ -22,3 +22,23 @@ Things I love:
 ## Contact Me
 Contact me via [Email](mailto:eliran9692@gmail.com) / [Twitter](https://twitter.com/_eltur) / [LinkedIn](https://www.linkedin.com/in/eliran-turgeman/)
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Eliran Turgeman",
+  "jobTitle": "Backend Engineer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Microsoft"
+  },
+  "knowsAbout": ["Application Security", "Backend Engineering", "Threat Modeling", "Secure Coding", "Distributed Systems"],
+  "url": "https://www.eliranturgeman.com",
+  "sameAs": [
+    "https://twitter.com/_eltur",
+    "https://www.linkedin.com/in/eliran-turgeman/",
+    "https://github.com/Eliran-Turgeman"
+  ]
+}
+</script>
+

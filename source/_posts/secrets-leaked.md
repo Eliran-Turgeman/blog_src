@@ -1,11 +1,29 @@
 ---
 title: A Builder's Guide to Not Leaking Credentials
 date: 2026-02-20T09:37:17.000Z
-description: "How to prevent credential leaks: scanning repos, rotating secrets, managing git history, and understanding why leaked keys stay exploitable."
+description: >-
+  How to prevent credential leaks: scanning repos, rotating secrets, managing
+  git history, and understanding why leaked keys stay exploitable.
 tags:
   - application-security
   - don't get hacked
 readTime: 8
+keywords:
+  - security audit
+  - secret scanning
+  - threat model
+  - SQL injection
+  - leaked credentials
+  - access control
+faq:
+  - q: "How quickly can a leaked secret on GitHub be exploited?"
+    a: "Within minutes. Automated scanners continuously poll GitHub's public Events API, fetch diffs from push events, match against known secret formats, and test discovered credentials against provider APIs with no human in the loop."
+  - q: "Does deleting a committed secret from a later commit remove it?"
+    a: "No. Git history is append-only, so a secret committed once remains in the repo's commit graph in every clone and fork. You must rotate the credential and optionally rewrite history with a tool like git filter-repo."
+  - q: "What should you do first when you discover a leaked credential?"
+    a: "Rotate the key immediately by generating a new credential and deploying it. Deactivate the old one, check provider access logs for unauthorized usage, and then consider rewriting git history. Rotation always comes before cleanup."
+  - q: "How can you prevent secrets from being committed to a repository?"
+    a: "Use a properly configured .gitignore, add a pre-commit hook with a tool like Gitleaks, and enforce secret scanning in CI so that a detected secret fails the build automatically."
 ---
 
 Stolen or leaked credentials have been the single largest breach vector for a decade, appearing in [31% of all breaches according to Verizon's DBIR](https://www.verizon.com/business/resources/Te3/reports/2024-dbir-data-breach-investigations-report.pdf). Not SQL injection, not zero-days — credentials. And early-stage products are especially exposed, because they tend to have fewer guardrails: no secret scanning in CI, no rotation policy, and developers committing API keys to repos, pasting tokens into Slack, or pushing `.env` files "just for testing."

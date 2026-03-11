@@ -1,11 +1,24 @@
 ---
 title: Lessons from building and maintaining distributed systems at scale
 date: 2025-04-19T08:01:01.000Z
-description: "Lessons from building distributed systems at scale: dedicated cache clusters, message queues, async processing, and fault isolation."
+description: >-
+  Lessons from building distributed systems at scale: dedicated cache clusters,
+  message queues, async processing, and fault isolation.
 tags:
   - best-practices
   - distributed-systems
 readTime: 4
+keywords:
+  - distributed systems
+faq:
+  - q: "Why should distributed services use separate cache clusters?"
+    a: "Sharing one cache cluster means a heavy workload from one service can evict critical data for others, causing timeouts and making debugging harder since key loss is spread across multiple services."
+  - q: "Why are message queues important in distributed systems?"
+    a: "Message queues buffer traffic spikes so services aren't overwhelmed, and they buy time for auto-scaling to kick in before a service crashes under load."
+  - q: "What is dequeue latency and why does it matter?"
+    a: "Dequeue latency is the time a message waits in a queue before being processed. It grows when services can't keep up with message volume and directly adds to your system's end-to-end latency."
+  - q: "Why is idempotency important when using message queues?"
+    a: "Message queues guarantee at-least-once delivery, so duplicates are expected. Without idempotent consumers you risk processing the same event multiple times, such as charging a customer twice."
 ---
 
 When your architecture grows beyond a single container, things you thought were simple can now break in a variety of ways.

@@ -1,12 +1,26 @@
 ---
 title: Why sharing a redis cluster across services is asking for trouble
 date: 2025-05-01T08:38:27.000Z
-description: "Why sharing a Redis cluster across services causes debugging nightmares. Isolation, eviction policies, and monitoring challenges explained."
+description: >-
+  Why sharing a Redis cluster across services causes debugging nightmares.
+  Isolation, eviction policies, and monitoring challenges explained.
 tags:
   - distributed-systems
   - caching
   - redis
 readTime: 4
+keywords:
+  - caching best practices
+  - Redis security
+  - feature flags
+  - distributed systems
+faq:
+  - q: "Why is sharing a Redis cluster across services a problem?"
+    a: "A shared cluster means there is no isolation between services. A spike or bug in one service can trigger eviction of keys belonging to other services, causing cascading latency and correctness issues across your system."
+  - q: "When is it acceptable to use a single shared cache cluster?"
+    a: "It is fine when you have low traffic with plenty of free capacity, or when the cluster stores shared static data like feature flags that are not affected by eviction pressure."
+  - q: "How can you improve monitoring on a shared Redis cluster?"
+    a: "Use a unique key prefix per service and use case, then publish application-level metrics based on those prefixes. This gives you per-service visibility into hit rates, though tracking evictions remains harder since they are not initiated by your application."
 ---
 
 If there’s one pattern I’ve seen across multiple companies, from scrappy startups to big corps, that causes endless headaches, it’s this: a single cache cluster shared across services.

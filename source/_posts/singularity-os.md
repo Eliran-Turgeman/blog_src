@@ -2,13 +2,26 @@
 title: Singularity — Microsoft’s Experimental Operating System
 date: 2022-08-05T08:11:25.000Z
 draft: false
-description: "Microsoft's Singularity OS: an experimental operating system built from scratch for dependability, security, and software isolation."
+description: >-
+  Microsoft's Singularity OS: an experimental operating system built from
+  scratch for dependability, security, and software isolation.
 tags:
   - singularity
   - microsoft
   - operating-systems
   - os
 readTime: 4
+keywords:
+  - cross-site request forgery
+  - cross-site scripting
+  - microservices security
+faq:
+  - q: "What is Microsoft Singularity OS?"
+    a: "Singularity is an experimental operating system built from scratch by Microsoft Research, designed for dependability, security, and software isolation using a safe programming language instead of C."
+  - q: "What are Software-Isolated Processes (SIPs) in Singularity?"
+    a: "SIPs are processes that run in the same address space as the kernel for better performance, but are sealed so they cannot access each other's memory or be modified from outside."
+  - q: "How does Singularity achieve security without hardware-based process isolation?"
+    a: "It uses language-based safety constraints where SIPs can only point to their own data, cannot create new pointers, and communicate only through contract-based channels, preventing unauthorized data sharing."
 ---
 
 # Introduction

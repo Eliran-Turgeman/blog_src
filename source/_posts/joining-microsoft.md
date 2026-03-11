@@ -1,10 +1,21 @@
 ---
 title: Joining Microsoft
 date: 2024-05-30T07:59:05.000Z
-description: "Tips for preparing for Microsoft interviews: LeetCode premium, system design books, behavioral prep, and smart interviewer questions."
+description: >-
+  Tips for preparing for Microsoft interviews: LeetCode premium, system design
+  books, behavioral prep, and smart interviewer questions.
 tags:
   - interviews
 readTime: 2
+keywords:
+  - application security
+faq:
+  - q: "How should you prepare for a Microsoft interview?"
+    a: "Use LeetCode premium to complete the Microsoft question track, read a system design book like Alex Xu's, practice behavioral answers using the STAR method aligned with Microsoft values, and prepare thoughtful questions for your interviewers."
+  - q: "Is LeetCode premium worth it for Microsoft interviews?"
+    a: "Yes. The Microsoft-specific interview track on LeetCode premium helps you focus on the types of problems commonly asked, making your preparation more targeted and efficient."
+  - q: "How important are behavioral questions in tech interviews?"
+    a: "Very important. Articulating your stories using the STAR method and aligning them with the company's values can make a significant difference. Practice speaking them aloud to avoid being overly detailed or too technical."
 ---
 
 This week I joined Microsoft. It is something I have been trying to do since my 2nd year of CS degree and failed, so it feels even better now.

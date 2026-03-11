@@ -2,11 +2,24 @@
 title: Cohesion in simple terms - Software modularity
 date: 2022-12-24T10:17:18.000Z
 draft: false
-description: "Learn what software cohesion means, how to measure it, and why highly cohesive modules lead to better, more maintainable code."
+description: >-
+  Learn what software cohesion means, how to measure it, and why highly cohesive
+  modules lead to better, more maintainable code.
 tags:
   - modularity
   - software-design
 readTime: 5
+keywords:
+  - cohesion
+  - modularity
+  - software architecture
+faq:
+  - q: "What is cohesion in software design?"
+    a: "Cohesion measures how strongly the elements within a module belong together. A cohesive module is one where all parts should be packaged together because breaking them apart would require coupling them via calls between modules."
+  - q: "What is LCOM and how does it measure cohesion?"
+    a: "LCOM (Lack of Cohesion of Methods) counts the number of method pairs in a class that share no instance variables. An LCOM of zero indicates a cohesive class, while a value greater than zero suggests the class could be split."
+  - q: "Why does cohesion matter for code quality?"
+    a: "Highly cohesive modules are easier to understand, maintain, and test. Low cohesion means a class has unrelated responsibilities that should be separated, which improves readability and reduces the cost of future changes."
 ---
 
 Modularity is a must for good software design. It helps with extensibility, readability, maintainability, and more. It certainly isn’t easy to make your code modular, but what exactly is modularity, and how do we measure it?

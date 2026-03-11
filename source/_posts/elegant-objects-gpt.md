@@ -1,12 +1,23 @@
 ---
 title: Elegant Objects GPT
 date: 2024-04-29T10:15:43.000Z
-description: "A custom GPT app that reviews your code based on principles from Elegant Objects and Clean Code. Try the LLM-powered code reviewer."
+description: >-
+  A custom GPT app that reviews your code based on principles from Elegant
+  Objects and Clean Code. Try the LLM-powered code reviewer.
 tags:
   - oop
   - gpt-app
   - code-reviews
 readTime: 2
+keywords:
+  - clean code
+faq:
+  - q: "What is the Elegant Objects GPT app?"
+    a: "It is a custom GPT called LGTM that reviews code based on object-oriented principles from Elegant Objects by Yegor Bugayenko and Clean Code by Uncle Bob. You paste code snippets and it suggests improvements."
+  - q: "What principles does the LGTM code reviewer check for?"
+    a: "It checks for SOLID principles and key advice from Elegant Objects, such as proper object design, naming conventions, and code structure. The emphasis is on actionable, specific feedback with code examples."
+  - q: "Can I use this GPT as an automated pre-commit code reviewer?"
+    a: "The GPT app is a manual tool where you paste code for review. The author's long-term goal is to build an automated tool that inspects staged changes before commits, ideally using a local or company-deployed model for privacy."
 ---
 
 I recently read the book ["Elegant Objects" by Yegor Bugayenko](https://www.amazon.com/Elegant-Objects-1-Yegor-Bugayenko/dp/1519166915) (not an affiliate link).

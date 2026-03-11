@@ -1,11 +1,24 @@
 ---
 title: Testing practices I follow
 date: 2023-01-16T08:44:39.000Z
-description: "Testing practices for better code: structured test anatomy, meaningful assertions, test isolation, and knowing when to write tests."
+description: >-
+  Testing practices for better code: structured test anatomy, meaningful
+  assertions, test isolation, and knowing when to write tests.
 tags:
   - testing
   - best-practices
 readTime: 6
+keywords:
+  - testing best practices
+  - penetration testing basics
+  - security testing
+faq:
+  - q: "What is the Arrange, Act, Assert pattern in testing?"
+    a: "It is a test structure where you first prepare inputs and mocks (Arrange), then call the function under test (Act), and finally verify the expected outcome (Assert)."
+  - q: "What is test isolation and why does it matter?"
+    a: "Test isolation means each test runs independently without shared state. Without it, tests can pass individually but fail when run together, or produce different results depending on execution order."
+  - q: "When should you write a test before fixing a bug?"
+    a: "Always. Write a failing test that reproduces the bug first, then fix the bug and verify the test passes. This gives you confidence the fix actually addresses the root cause."
 ---
 
 Testing doesn't need much of an introduction. Yeah, it's important; Yeah you probably write/refactor tests every day.  

@@ -1,10 +1,23 @@
 ---
 title: Escaping the local maxima
 date: 2025-04-05T17:10:39.000Z
-description: "When career growth flatlines after rapid early success. Reflections on escaping the local maxima and finding the next growth curve."
+description: >-
+  When career growth flatlines after rapid early success. Reflections on
+  escaping the local maxima and finding the next growth curve.
 tags:
   - career
 readTime: 2
+keywords:
+  - software engineer career
+  - career growth in tech
+  - tech career tips
+faq:
+  - q: "What is a local maxima in a software engineering career?"
+    a: "A local maxima is a plateau where your career growth flatlines after a period of rapid early success. You're comfortable but no longer experiencing the steep improvement curve you once had."
+  - q: "How do you escape a career plateau as a software engineer?"
+    a: "Escaping usually means exploring new directions that may initially feel like a step backward, such as indie hacking, content creation, or switching roles. The risk is necessary to find a higher growth curve."
+  - q: "Why does career growth feel logarithmic after a few years in tech?"
+    a: "Early career gains are large because you go from zero experience to a skilled professional. After that, incremental improvements require more effort for smaller visible returns, creating a logarithmic feeling."
 ---
 
 when i was a student, everything was simpler.

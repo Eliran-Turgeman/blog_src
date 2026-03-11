@@ -1,11 +1,22 @@
 ---
 title: Logging practices I follow
 date: 2023-01-06T17:36:04.000Z
-description: "Practical logging best practices: when to log, how to structure logs, choosing the right log levels, and maintaining consistency."
+description: >-
+  Practical logging best practices: when to log, how to structure logs, choosing
+  the right log levels, and maintaining consistency.
 tags:
   - logging
   - best-practices
 readTime: 5
+keywords:
+  - logging best practices
+faq:
+  - q: "What log levels should I use and when?"
+    a: "Use ERROR for failures that need alerts, WARNING for unexpected behavior worth investigating, INFO for major flow events, and DEBUG for detailed inspection of objects and data structures."
+  - q: "Why should you avoid logging large objects?"
+    a: "Large object logs are hard to read, expensive to store, and rarely helpful. Log only the key attributes needed to debug the flow, or log summary metrics like object length instead."
+  - q: "How can I keep log messages consistent across a codebase?"
+    a: "Use a standard prefix format such as [serviceName](functionName) for every log message. Consistency makes logs predictable and searchable without needing to check the source code."
 ---
 
 No matter what kind of software you're developing, you most definitely leverage logging to some extent, probably every single day.  

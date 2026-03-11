@@ -1,11 +1,25 @@
 ---
 title: Advice for junior software engineers
 date: 2023-10-04T07:00:00.000Z
-description: "What companies expect from junior engineers, how to exceed those expectations, and the mindset shift needed to grow your software career."
+description: >-
+  What companies expect from junior engineers, how to exceed those expectations,
+  and the mindset shift needed to grow your software career.
 tags:
   - advice
   - junior
 readTime: 7
+keywords:
+  - junior developer advice
+  - clean code
+faq:
+  - q: "What do companies expect from junior software engineers?"
+    a: "Companies expect juniors to take detailed, narrow tasks and execute them well in a reasonable time, usually with help from the team. You are not expected to design features from scratch."
+  - q: "How can a junior developer get promoted faster?"
+    a: "Explicitly tell your team lead you want a promotion, ask what gaps exist between your current level and the next, and define clear measurable goals together. No one will promote you if you don't ask."
+  - q: "Should junior developers ask for feedback?"
+    a: "Yes, regularly. Don't wait for annual performance reviews. Asking for feedback shows you want to grow and helps you identify areas for improvement early."
+  - q: "Why is mentorship important for junior engineers?"
+    a: "A mentor who knows your specific situation can give personalized advice that generic blog posts cannot. They can help you navigate career decisions, improve your skills, and avoid common mistakes."
 ---
 
 Four years in software engineering taught me a lot but not what I expected. I thought nailing the code would nail the promotions, but that was a rookie mistake. Most juniors suck at the real skills you need to climb up - it ain’t just about the code, and yes, that threw me too. It’s a wild ride in the startup and corporate world, and shifting your mindset is crucial.

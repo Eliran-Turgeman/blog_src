@@ -3,10 +3,24 @@ title: >-
   Whether you think you're replaceable by AI or you think you're not - you're
   right
 date: 2024-08-29T21:10:47.000Z
-description: "Whether AI replaces you depends on your role. Code monkeys should worry. Problem-solvers and critical thinkers remain irreplaceable."
+description: >-
+  Whether AI replaces you depends on your role. Code monkeys should worry.
+  Problem-solvers and critical thinkers remain irreplaceable.
 tags:
   - ai
 readTime: 2
+keywords:
+  - container security
+  - AI security
+  - AI safety
+  - adversarial attacks on AI
+faq:
+  - q: "Will AI replace software engineers?"
+    a: "It depends on the type of work you do. If your role is limited to repetitive tasks like basic CRUD apps or simple UI changes, AI can increasingly handle that. Problem-solvers and critical thinkers remain irreplaceable."
+  - q: "What tasks can AI already do well in software development?"
+    a: "AI excels at writing database queries, generating boilerplate CRUD code, and other repetitive, well-defined tasks. It struggles with system design, legacy code refactoring, and complex debugging."
+  - q: "How can developers stay irreplaceable in the age of AI?"
+    a: "Focus on problem-solving, critical thinking, system design, and creative work that requires experience and intuition. These are areas where AI can assist but cannot replace human judgment."
 ---
 
 ***AI is the new bogeyman for software engineers***. Every other day, some headline is screaming that AI is coming for our jobs, after all they do the job better, faster and they don't need these long coffee breaks... If you’ve been losing sleep over these headlines, don’t worry—I’m sure there’s an AI that can help with that too.

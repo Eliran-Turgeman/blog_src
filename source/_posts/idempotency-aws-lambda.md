@@ -1,13 +1,27 @@
 ---
 title: Demystifying the Importance of Idempotency in AWS Lambda // A Bug Hunt Tale
 date: 2023-07-15T10:23:14.000Z
-description: "A real bug hunt story about why AWS Lambda must be idempotent. How duplicate events caused a hard-to-reproduce production bug."
+description: >-
+  A real bug hunt story about why AWS Lambda must be idempotent. How duplicate
+  events caused a hard-to-reproduce production bug.
 tags:
   - aws
   - lambda
   - bug-hunt
   - idempotency
 readTime: 6
+keywords:
+  - authentication flaws
+  - AWS security
+  - Lambda security
+  - distributed systems
+faq:
+  - q: "What does idempotency mean in AWS Lambda?"
+    a: "An idempotent Lambda produces the same result whether it is invoked once or multiple times with the same event. This is critical because AWS does not guarantee exactly-once event delivery."
+  - q: "Why is idempotency important for Lambda functions?"
+    a: "Without idempotency, duplicate events can cause data corruption. In the author's case, a non-idempotent key transformation function emptied an S3 metadata object when invoked twice, causing missing data in the UI."
+  - q: "How do you debug a Lambda idempotency issue?"
+    a: "The author used S3 event notifications sent to an SQS queue to track which Lambdas modified the S3 object. This revealed the same Lambda was being invoked twice, pointing to the non-idempotent function."
 ---
 
 I recently wrote about the [AWS Lambda bad practices](/2023/07/12/aws-lambda-pitfalls/), and one of them was a bit more personal for me than the others.

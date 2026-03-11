@@ -2,12 +2,26 @@
 title: How To Build an API with Python FastAPI
 date: 2022-05-04T12:18:25.000Z
 draft: false
-description: "Complete hands-on guide to building a production-ready REST API with Python FastAPI, including all CRUD operations and a persistent database."
+description: >-
+  Complete hands-on guide to building a production-ready REST API with Python
+  FastAPI, including all CRUD operations and a persistent database.
 tags:
   - api
   - fastapi
   - python
 readTime: 24
+keywords:
+  - API key security
+  - secure API design
+faq:
+  - q: "What is FastAPI and why is it faster than Flask?"
+    a: "FastAPI is a modern Python web framework that uses ASGI instead of WSGI, enabling concurrency. This makes it significantly faster than traditional WSGI-based frameworks like Flask for handling concurrent requests."
+  - q: "How do you create a REST API with FastAPI?"
+    a: "Install FastAPI and uvicorn, define route functions with decorators like @app.get and @app.post, then run the server with uvicorn. FastAPI automatically generates interactive API documentation at /docs."
+  - q: "Does FastAPI support all CRUD operations?"
+    a: "Yes. FastAPI supports Create, Read, Update, and Delete through POST, GET, PUT, and DELETE HTTP method decorators respectively, making it straightforward to build a complete REST API."
+  - q: "What database can I use with FastAPI?"
+    a: "FastAPI works with any database. This tutorial uses a CSV-based persistent store with pandas, but production apps commonly use SQLAlchemy with PostgreSQL, MySQL, or SQLite."
 ---
 
 ### Introduction
