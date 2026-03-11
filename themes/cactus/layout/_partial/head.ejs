@@ -109,8 +109,14 @@
     </script>
     <% } %>
     <% } %>
+    <!-- prevent flash of wrong theme -->
+    <script>
+    (function(){var t=localStorage.getItem('cactus-theme');if(t)document.documentElement.setAttribute('data-theme',t)})();
+    </script>
     <!-- styles -->
     <%- css('css/style') %>
+    <!-- theme definitions -->
+    <%- css('css/themes') %>
     <!-- persian styles -->
     <% if (theme.direction && theme.direction === 'rtl') { %>
       <%- css('css/rtl') %>

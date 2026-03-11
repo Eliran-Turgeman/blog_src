@@ -1,0 +1,67 @@
+// CSS Custom Properties bridge for runtime theme switching.
+// Imported after the color theme file so $color-* hold computed values.
+
+// Helper: runtime alpha transparency via CSS color-mix()
+color-alpha(c, a)
+  s('color-mix(in srgb, %s %s, transparent)', c, unit(round(a * 100), '%'))
+
+// Pre-compute derived values while $color-* still hold real color values
+$_scrollbar-hover = darken($color-scrollbar, 20%)
+$_scrollbar-active = darken($color-scrollbar, 30%)
+$_meta-light = lighten($color-meta, 20%)
+$_meta-dark = darken($color-meta, 20%)
+$_meta-code-light = lighten($color-meta-code, 20%)
+$_link-dark = darken($color-link, 10%)
+$_link-light = lighten($color-link, 5%)
+$_background-light = lighten($color-background, 8%)
+
+// Output CSS custom properties with default theme values
+:root
+  --color-background $color-background
+  --color-footer-mobile-1 $color-footer-mobile-1
+  --color-footer-mobile-2 $color-footer-mobile-2
+  --color-background-code $color-background-code
+  --color-border $color-border
+  --color-scrollbar $color-scrollbar
+  --color-meta $color-meta
+  --color-meta-code $color-meta-code
+  --color-link $color-link
+  --color-text $color-text
+  --color-accent-1 $color-accent-1
+  --color-accent-2 $color-accent-2
+  --color-accent-3 $color-accent-3
+  --color-quote $color-quote
+  --color-scrollbar-hover $_scrollbar-hover
+  --color-scrollbar-active $_scrollbar-active
+  --color-meta-light $_meta-light
+  --color-meta-dark $_meta-dark
+  --color-meta-code-light $_meta-code-light
+  --color-link-dark $_link-dark
+  --color-link-light $_link-light
+  --color-background-light $_background-light
+
+// Redefine Stylus variables to CSS custom property references
+$color-background = unquote('var(--color-background)')
+$color-footer-mobile-1 = unquote('var(--color-footer-mobile-1)')
+$color-footer-mobile-2 = unquote('var(--color-footer-mobile-2)')
+$color-background-code = unquote('var(--color-background-code)')
+$color-border = unquote('var(--color-border)')
+$color-scrollbar = unquote('var(--color-scrollbar)')
+$color-meta = unquote('var(--color-meta)')
+$color-meta-code = unquote('var(--color-meta-code)')
+$color-link = unquote('var(--color-link)')
+$color-text = unquote('var(--color-text)')
+$color-accent-1 = unquote('var(--color-accent-1)')
+$color-accent-2 = unquote('var(--color-accent-2)')
+$color-accent-3 = unquote('var(--color-accent-3)')
+$color-quote = unquote('var(--color-quote)')
+
+// Derived color references
+$color-scrollbar-hover = unquote('var(--color-scrollbar-hover)')
+$color-scrollbar-active = unquote('var(--color-scrollbar-active)')
+$color-meta-light = unquote('var(--color-meta-light)')
+$color-meta-dark = unquote('var(--color-meta-dark)')
+$color-meta-code-light = unquote('var(--color-meta-code-light)')
+$color-link-dark = unquote('var(--color-link-dark)')
+$color-link-light = unquote('var(--color-link-light)')
+$color-background-light = unquote('var(--color-background-light)')

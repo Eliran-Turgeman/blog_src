@@ -1,0 +1,101 @@
+// Auto-compiled theme definitions for runtime theme switching.
+// Each color theme is imported and its values are output as CSS custom properties
+// under a [data-theme="X"] selector for runtime switching.
+
+output-theme-vars()
+  --color-background $color-background
+  --color-footer-mobile-1 $color-footer-mobile-1
+  --color-footer-mobile-2 $color-footer-mobile-2
+  --color-background-code $color-background-code
+  --color-border $color-border
+  --color-scrollbar $color-scrollbar
+  --color-meta $color-meta
+  --color-meta-code $color-meta-code
+  --color-link $color-link
+  --color-text $color-text
+  --color-accent-1 $color-accent-1
+  --color-accent-2 $color-accent-2
+  --color-accent-3 $color-accent-3
+  --color-quote $color-quote
+  --color-scrollbar-hover darken($color-scrollbar, 20%)
+  --color-scrollbar-active darken($color-scrollbar, 30%)
+  --color-meta-light lighten($color-meta, 20%)
+  --color-meta-dark darken($color-meta, 20%)
+  --color-meta-code-light lighten($color-meta-code, 20%)
+  --color-link-dark darken($color-link, 10%)
+  --color-link-light lighten($color-link, 5%)
+  --color-background-light lighten($color-background, 8%)
+
+output-swatch-vars()
+  background $color-background
+  box-shadow inset 0 0 0 2.5px $color-accent-1
+
+// Classic
+@import "_colors/classic"
+[data-theme="classic"]
+  output-theme-vars()
+.theme-switcher__swatch[data-theme="classic"]
+  output-swatch-vars()
+
+// Dark
+@import "_colors/dark"
+[data-theme="dark"]
+  output-theme-vars()
+.theme-switcher__swatch[data-theme="dark"]
+  output-swatch-vars()
+
+// Dark Orange
+@import "_colors/darkOrange"
+[data-theme="darkOrange"]
+  output-theme-vars()
+.theme-switcher__swatch[data-theme="darkOrange"]
+  output-swatch-vars()
+
+// Deep Ocean
+@import "_colors/deep_ocean"
+[data-theme="deep_ocean"]
+  output-theme-vars()
+.theme-switcher__swatch[data-theme="deep_ocean"]
+  output-swatch-vars()
+
+// Fog
+@import "_colors/fog"
+[data-theme="fog"]
+  output-theme-vars()
+.theme-switcher__swatch[data-theme="fog"]
+  output-swatch-vars()
+
+// Greeny Light
+@import "_colors/greeny_light"
+[data-theme="greeny_light"]
+  output-theme-vars()
+.theme-switcher__swatch[data-theme="greeny_light"]
+  output-swatch-vars()
+
+// Light
+@import "_colors/light"
+[data-theme="light"]
+  output-theme-vars()
+.theme-switcher__swatch[data-theme="light"]
+  output-swatch-vars()
+
+// Moss
+@import "_colors/moss"
+[data-theme="moss"]
+  output-theme-vars()
+.theme-switcher__swatch[data-theme="moss"]
+  output-swatch-vars()
+
+// Sunset
+@import "_colors/sunset"
+[data-theme="sunset"]
+  output-theme-vars()
+.theme-switcher__swatch[data-theme="sunset"]
+  output-swatch-vars()
+
+// White
+@import "_colors/white"
+[data-theme="white"]
+  output-theme-vars()
+.theme-switcher__swatch[data-theme="white"]
+  output-swatch-vars()

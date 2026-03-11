@@ -1,5 +1,6 @@
 @import "_variables"
 @import "_colors/" + $colors
+@import "_css-vars"
 @import "_util"
 @import "_mixins"
 @import "_extend"
@@ -28,10 +29,10 @@ global-reset()
   border-radius: 6px
 
 *::-webkit-scrollbar-thumb:hover
-  background-color: darken($color-scrollbar, 20%)
+  background-color: $color-scrollbar-hover
 
 *::-webkit-scrollbar-thumb:active
-  background-color: darken($color-scrollbar, 30%)
+  background-color: $color-scrollbar-active
 
 html
   margin: 0
@@ -147,6 +148,7 @@ body
 @import "_partial/tags"
 @import "_partial/tooltip"
 @import "_partial/categories"
+@import "_partial/theme-switcher"
 // Code
 @import "_highlight/" + $highlight
 
@@ -197,7 +199,7 @@ code
       underline(10px, $color-link)
 
     a:hover
-      color: lighten($color-meta-code, 20%)
+      color: $color-meta-code-light
 
     &:before, content: ""
       display: table
