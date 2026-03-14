@@ -26,7 +26,7 @@
       var __raw = page.content;
       var __tags = (page.tags ? page.tags.toArray().map(function(t){ return t.name; }) : []);
       var __isSecurityPost = __tags.indexOf('application-security') !== -1;
-      var __splitRe = /<\/(?:p|h2|h3|blockquote|ul|ol|pre)>/gi;
+      var __splitRe = /<\/(?:p|h2|h3|blockquote|ul|ol)>/gi;
       var __positions = [];
       var __m;
       while ((__m = __splitRe.exec(__raw)) !== null) {
