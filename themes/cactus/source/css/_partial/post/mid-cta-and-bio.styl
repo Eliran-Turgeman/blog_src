@@ -1,0 +1,49 @@
+.mid-article-cta
+  margin: 1.8rem 0
+  padding: 1rem 1.15rem
+  border-radius: 12px
+  border: 1px solid color-alpha($color-border, .55)
+  background: color-alpha($color-background, .98)
+  box-shadow: 0 6px 20px rgba(#000, .18)
+
+  &__text
+    margin: 0 0 .5rem
+    font-size: .93rem
+    line-height: 1.5
+    color: color-alpha($color-text, .88)
+    text-align: left
+
+    strong
+      color: $color-text
+
+  .email-signup__form
+    gap: .5rem
+    margin-top: .5rem
+
+  .email-signup__input
+    border-radius: 10px
+    background: color-alpha($color-background-code, .6)
+    font-family: $font-family-body
+
+  .email-signup__button
+    border-radius: 10px
+    background: $color-link
+    color: $color-background
+    text-transform: none
+    letter-spacing: 0
+    box-shadow: none
+
+    &:hover
+      transform: none
+      background: $color-link-dark
+      box-shadow: none
+
+@media (max-width: 540px)
+  .mid-article-cta
+    padding: .85rem
+
+    .email-signup__form
+      flex-direction: column
+
+    .email-signup__button
+      width: 100%

@@ -1,0 +1,160 @@
+// Newsletter landing page
+// Used by layout: newsletter pages (e.g. /security-for-builders/)
+
+.newsletter-landing
+  max-width: 600px
+  margin: 0 auto
+
+// ── Hero ──
+.nl-hero
+  text-align: center
+  margin-bottom: 2.5rem
+
+  &__title
+    font-size: 1.75rem
+    font-weight: 700
+    margin: 0 0 .35rem
+    color: $color-text
+    letter-spacing: -.01em
+
+  &__tagline
+    font-size: 1.05rem
+    color: color-alpha($color-text, .75)
+    margin: 0 0 1rem
+    font-weight: 400
+
+  &__description
+    font-size: .93rem
+    line-height: 1.6
+    color: color-alpha($color-text, .7)
+    margin: 0 0 1.25rem
+    max-width: 480px
+    margin-left: auto
+    margin-right: auto
+
+  &__form
+    max-width: 400px
+    margin: 0 auto
+    gap: .5rem
+
+  &__fine-print
+    font-size: .78rem
+    color: color-alpha($color-text, .45)
+    margin: .5rem 0 0
+
+  .email-signup__input
+    border-radius: 10px
+    background: color-alpha($color-background-code, .6)
+    font-family: $font-family-body
+
+  .email-signup__button
+    border-radius: 10px
+    background: $color-link
+    color: $color-background
+    text-transform: none
+    letter-spacing: 0
+    box-shadow: none
+
+    &:hover
+      transform: none
+      background: $color-link-dark
+      box-shadow: none
+
+// ── Content (rendered from markdown) ──
+.nl-content
+  margin-bottom: 2.5rem
+
+  h2
+    font-size: 1.15rem
+    margin-top: 2rem
+    margin-bottom: .75rem
+    color: $color-text
+
+  ul
+    list-style: none
+    padding: 0
+
+    li
+      position: relative
+      padding-left: 1.1rem
+      margin-bottom: .6rem
+      font-size: .93rem
+      line-height: 1.55
+      color: color-alpha($color-text, .82)
+
+      &:before
+        content: '→'
+        position: absolute
+        left: 0
+        color: $color-link
+
+    li strong
+      color: $color-text
+
+  a
+    color: $color-link
+    text-decoration: none
+    border-bottom: 1px solid color-alpha($color-link, .3)
+
+    &:hover
+      border-bottom-color: $color-link
+
+// ── Closing CTA ──
+.nl-closing
+  text-align: center
+  padding-top: 1.5rem
+  border-top: 1px solid color-alpha($color-border, .35)
+
+  &__credibility
+    font-size: .88rem
+    color: color-alpha($color-text, .6)
+    margin: 0 0 1rem
+
+    strong
+      color: color-alpha($color-text, .85)
+
+  &__form
+    max-width: 400px
+    margin: 0 auto
+    gap: .5rem
+
+  &__fine-print
+    font-size: .78rem
+    color: color-alpha($color-text, .45)
+    margin: .5rem 0 0
+
+  .email-signup__input
+    border-radius: 10px
+    background: color-alpha($color-background-code, .6)
+    font-family: $font-family-body
+
+  .email-signup__button
+    border-radius: 10px
+    background: $color-link
+    color: $color-background
+    text-transform: none
+    letter-spacing: 0
+    box-shadow: none
+
+    &:hover
+      transform: none
+      background: $color-link-dark
+      box-shadow: none
+
+@media (max-width: 540px)
+  .nl-hero
+    &__title
+      font-size: 1.45rem
+
+    &__form
+      flex-direction: column
+
+    .email-signup__button
+      width: 100%
+
+  .nl-closing
+    &__form
+      flex-direction: column
+
+    .email-signup__button
+      width: 100%

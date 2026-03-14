@@ -1,0 +1,66 @@
+<% var nlTitle = page.nl_title || 'Security for Builders'; %>
+<% var nlTagline = page.nl_tagline || 'Practical application security for engineers who ship code.'; %>
+<% var nlDescription = page.nl_description || ''; %>
+<% var nlButton = page.nl_button || 'Subscribe'; %>
+<% var nlCredibility = page.nl_credibility || 'Written by <strong>Eliran Turgeman</strong> — backend engineer at Microsoft, working on application security.'; %>
+<% var nlFinePrint = page.nl_fine_print || 'No spam. Unsubscribe anytime.'; %>
+
+<article class="newsletter-landing">
+  <section class="nl-hero">
+    <h1 class="nl-hero__title"><%- nlTitle %></h1>
+    <p class="nl-hero__tagline"><%- nlTagline %></p>
+    <% if (nlDescription) { %>
+    <p class="nl-hero__description"><%- nlDescription %></p>
+    <% } %>
+    <form class="nl-hero__form email-signup__form"
+      action="https://app.kit.com/forms/9085244/subscriptions"
+      method="POST" target="_blank"
+      data-analytics-event="newsletter_form_submit"
+      data-analytics-action="submit"
+      data-analytics-location="newsletter_hero">
+      <input class="email-signup__input" type="email" name="email_address"
+        placeholder="your@email.com" autocomplete="email" required>
+      <button class="email-signup__button" type="submit"><%- nlButton %></button>
+    </form>
+    <p class="nl-hero__fine-print"><%- nlFinePrint %></p>
+  </section>
+
+  <div class="nl-content content">
+    <%- page.content %>
+  </div>
+
+  <section class="nl-closing">
+    <p class="nl-closing__credibility"><%- nlCredibility %></p>
+    <form class="nl-closing__form email-signup__form"
+      action="https://app.kit.com/forms/9085244/subscriptions"
+      method="POST" target="_blank"
+      data-analytics-event="newsletter_form_submit"
+      data-analytics-action="submit"
+      data-analytics-location="newsletter_closing">
+      <input class="email-signup__input" type="email" name="email_address"
+        placeholder="your@email.com" autocomplete="email" required>
+      <button class="email-signup__button" type="submit"><%- nlButton %></button>
+    </form>
+    <p class="nl-closing__fine-print"><%- nlFinePrint %></p>
+  </section>
+</article>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.email-signup__form').forEach(function (form) {
+    form.addEventListener('submit', function () {
+      var loc = (form.closest('[data-analytics-location]') || {}).getAttribute
+        ? form.closest('[data-analytics-location]').getAttribute('data-analytics-location')
+        : 'unknown';
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'newsletter_form_submit', {
+          page_path: window.location.pathname,
+          page_referrer: document.referrer || '',
+          form_location: loc,
+          traffic_source: new URLSearchParams(window.location.search).get('utm_source') || 'direct'
+        });
+      }
+    });
+  });
+});
+</script>

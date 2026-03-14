@@ -94,7 +94,7 @@ Relying on people to run gitleaks locally before every push is fragile. Someone 
   run: gitleaks git .
 ```
 
-Add this to your CI pipeline so a detected secret fails the build (gitleaks exits with code 1 by default when leaks are found). CI is the right enforcement point because it runs regardless of what's installed on someone's local machine. A pre-commit hook is a nice complement, but not a gate you can rely on.
+Add this to your CI pipeline so a detected secret fails the build (gitleaks exits with code 1 by default when leaks are found). CI is the right enforcement point because it runs regardless of what's installed on someone's local machine. A pre-commit hook is a nice complement, but not a gate you can rely on. If you use AI coding agents, I built an [open-source security scan skill](https://github.com/Eliran-Turgeman/code-security-skills) that runs gitleaks alongside Semgrep, OSV-Scanner, and Trivy in a single pass.
 
 One practical issue: if you enable this on a repo with existing history, you'll likely get failures from old commits. Gitleaks supports a `.gitleaksignore` file where you can allowlist known false positives or already-rotated secrets by their fingerprint. Get your baseline clean first, then enforce going forward. Without this step, teams tend to disable the check after the first few false-positive failures, which defeats the purpose.
 

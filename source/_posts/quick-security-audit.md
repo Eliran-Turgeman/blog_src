@@ -96,7 +96,7 @@ Integrate them in stages. Run quick scans on pull requests so developers get fee
 
 These tools are useful, but none of them is authoritative on its own. They produce false positives, partial context, and overlapping findings across categories. On the first run, it is common to get a large volume of alerts that cannot all be fixed immediately.
 
-Prioritization can become noisy, use your agent workflow to reduce that noise. I prepared a skill that runs this toolchain, normalizes outputs, and produces a unified findings report: https://github.com/Eliran-Turgeman/code-security-skills/blob/master/skills/security-scan/SKILL.md. Once the agent has scan results context, use it for the next step too: ask it to rank remediation by risk and implementation effort, propose minimal fixes for each high-priority item, and generate a concrete mitigation sequence your team can execute on.
+Prioritization can become noisy, use your agent workflow to reduce that noise. I prepared a skill that runs this toolchain, normalizes outputs, and produces a unified findings report: [code-security-skills](https://github.com/Eliran-Turgeman/code-security-skills). Once the agent has scan results context, use it for the next step too: ask it to rank remediation by risk and implementation effort, propose minimal fixes for each high-priority item, and generate a concrete mitigation sequence your team can execute on.
 
 A scanning pipeline is useful only when it translates into execution. In practice, that means findings are triaged by risk, ownership is clear, remediation work is scheduled, and the highest-impact exposure classes are addressed first.
 

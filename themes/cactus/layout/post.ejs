@@ -18,7 +18,45 @@
   </header>
   <%- partial('_partial/post/gallery') %>
   <div class="content" itemprop="articleBody">
-    <%- page.content %>
+    <%
+      // ── Mid-article CTA injection ──
+      // Insert a compact signup form ~40% through the article content.
+      // Only show the "Security for Builders" CTA on posts tagged application-security.
+      // Other posts get a simpler generic CTA.
+      var __raw = page.content;
+      var __tags = (page.tags ? page.tags.toArray().map(function(t){ return t.name; }) : []);
+      var __isSecurityPost = __tags.indexOf('application-security') !== -1;
+      var __splitRe = /<\/(?:p|h2|h3|blockquote|ul|ol|pre)>/gi;
+      var __positions = [];
+      var __m;
+      while ((__m = __splitRe.exec(__raw)) !== null) {
+        __positions.push(__m.index + __m[0].length);
+      }
+
+      if (!page.no_mid_cta && __positions.length >= 4) {
+        var __idx = Math.floor(__positions.length * 0.4);
+        var __pos = __positions[__idx];
+
+        var __ctaText = __isSecurityPost
+          ? 'This post is part of <strong><a href="/security-for-builders/">Security for Builders</a></strong> — I publish new deep-dives like this by email.'
+          : 'I write about software engineering, security, and building better systems. Get new posts by email.';
+
+        var __ctaHtml = '<aside class="mid-article-cta" data-analytics-location="mid_article_cta">'
+          + '<p class="mid-article-cta__text">' + __ctaText + '</p>'
+          + '<form class="mid-article-cta__form email-signup__form"'
+          + ' action="https://app.kit.com/forms/9085244/subscriptions"'
+          + ' method="POST" target="_blank"'
+          + ' data-analytics-event="newsletter_form_submit"'
+          + ' data-analytics-action="submit"'
+          + ' data-analytics-location="mid_article_cta">'
+          + '<input class="email-signup__input" type="email" name="email_address"'
+          + ' placeholder="your@email.com" autocomplete="email" required>'
+          + '<button class="email-signup__button" type="submit">Subscribe</button>'
+          + '</form></aside>';
+        __raw = __raw.slice(0, __pos) + __ctaHtml + __raw.slice(__pos);
+      }
+    %>
+    <%- __raw %>
   </div>
 </article>
 
@@ -26,162 +64,8 @@
   <%- partial('_partial/email_signup', { source: page.permalink }) %>
 </section>
 
-<div id="email-signup-modal" class="email-signup-modal" aria-hidden="true">
-  <div class="email-signup-modal__backdrop" data-close-email-modal></div>
-  <section class="email-signup email-signup--modal" role="dialog" aria-modal="true" aria-labelledby="email-signup-modal-title" data-analytics-location="scroll_modal">
-    <button id="close-email-modal" class="email-signup-modal__close" type="button" aria-label="Close email signup popup"
-      data-analytics-event="newsletter_modal_close"
-      data-analytics-action="click"
-      data-analytics-location="scroll_modal"
-      data-analytics-label="close_x"
-    >x</button>
-    <%- partial('_partial/email_signup', { source: page.permalink }) %>
-  </section>
-</div>
-
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  const modal = document.getElementById('email-signup-modal');
-  const closeBtn = document.getElementById('close-email-modal');
-
-  if (!modal || !closeBtn) return;
-
-  const doc = document.documentElement;
-
-  // ── Track inline CTA visibility with IntersectionObserver ──
-  const inlineCta = document.querySelector('.email-signup--inline');
-  if (inlineCta && typeof IntersectionObserver !== 'undefined' && typeof window.gtag === 'function') {
-    let inlineCtaSeen = false;
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting && !inlineCtaSeen) {
-          inlineCtaSeen = true;
-          window.gtag('event', 'newsletter_inline_cta_visible', {
-            page_path: window.location.pathname,
-            page_referrer: document.referrer || ''
-          });
-          observer.disconnect();
-        }
-      });
-    }, { threshold: 0.5 });
-    observer.observe(inlineCta);
-  }
-
-  function closeModal() {
-    modal.classList.remove('is-visible');
-    modal.setAttribute('aria-hidden', 'true');
-  }
-
-  function openModal() {
-    modal.classList.add('is-visible');
-    modal.setAttribute('aria-hidden', 'false');
-    // Track modal impression
-    if (typeof window.gtag === 'function') {
-      window.gtag('event', 'newsletter_modal_shown', {
-        page_path: window.location.pathname,
-        page_referrer: document.referrer || '',
-        trigger: 'scroll',
-        scroll_pct: Math.round((window.scrollY / getScrollableHeight()) * 100)
-      });
-    }
-  }
-
-  function getScrollableHeight() {
-    const fullHeight = Math.max(doc.scrollHeight, document.body.scrollHeight);
-    return fullHeight - window.innerHeight;
-  }
-
-  function isPastHalfwayScroll() {
-    const scrollable = getScrollableHeight();
-    if (scrollable <= 0) return false;
-    return window.scrollY >= scrollable * 0.50;
-  }
-
-  function trackModalClose(method) {
-    if (typeof window.gtag === 'function') {
-      window.gtag('event', 'newsletter_modal_dismissed', {
-        page_path: window.location.pathname,
-        dismiss_method: method
-      });
-    }
-  }
-
-  // always let the user close it
-  closeBtn.addEventListener('click', () => { trackModalClose('close_button'); closeModal(); });
-  modal.addEventListener('click', (event) => {
-    if (event.target && event.target.hasAttribute('data-close-email-modal')) {
-      trackModalClose('backdrop_click');
-      closeModal();
-    }
-  });
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape' && modal.classList.contains('is-visible')) {
-      trackModalClose('escape_key');
-      closeModal();
-    }
-  });
-
-  // ── suppression: don't re-show if dismissed within 7 days ──
-  const MODAL_SUPPRESS_KEY = 'newsletter_modal_dismissed_at';
-  const SUPPRESS_DAYS = 7;
-  function isModalSuppressed() {
-    try {
-      const ts = localStorage.getItem(MODAL_SUPPRESS_KEY);
-      if (!ts) return false;
-      return (Date.now() - Number(ts)) < SUPPRESS_DAYS * 86400000;
-    } catch (e) { return false; }
-  }
-  function suppressModal() {
-    try { localStorage.setItem(MODAL_SUPPRESS_KEY, String(Date.now())); } catch (e) {}
-  }
-
-  const originalCloseModal = closeModal;
-  closeModal = function () {
-    suppressModal();
-    originalCloseModal();
-  };
-
-  // ── engagement gate: 50% scroll + 30s on page ──
-  const pageLoadTime = Date.now();
-  const MIN_TIME_ON_PAGE_MS = 30000; // 30 seconds
-
-  function hasEnoughTimeOnPage() {
-    return (Date.now() - pageLoadTime) >= MIN_TIME_ON_PAGE_MS;
-  }
-
-  let timeGateTimer = null;
-
-  function tryShowModal() {
-    if (!isPastHalfwayScroll()) return;
-    if (!hasEnoughTimeOnPage()) {
-      // Scroll threshold met but too early — schedule for remaining time
-      if (!timeGateTimer) {
-        const remaining = MIN_TIME_ON_PAGE_MS - (Date.now() - pageLoadTime);
-        timeGateTimer = setTimeout(() => {
-          timeGateTimer = null;
-          if (isPastHalfwayScroll()) {
-            openModal();
-            window.removeEventListener('scroll', onScroll);
-          }
-        }, remaining + 50); // +50ms buffer
-      }
-      return;
-    }
-    openModal();
-    window.removeEventListener('scroll', onScroll);
-    if (timeGateTimer) { clearTimeout(timeGateTimer); timeGateTimer = null; }
-  }
-
-  function onScroll() {
-    tryShowModal();
-  }
-
-  // if the page has no scrollable overflow, never show this popup
-  if (getScrollableHeight() > 0 && !isModalSuppressed()) {
-    window.addEventListener('scroll', onScroll);
-    onScroll();
-  }
-
   // ── Track all newsletter form submissions ──
   document.querySelectorAll('.email-signup__form').forEach((form) => {
     form.addEventListener('submit', () => {
@@ -214,6 +98,20 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+  // ── Reddit-aware CTA personalisation ──
+  var isReddit = false;
+  try {
+    var ref = document.referrer || '';
+    var params = new URLSearchParams(window.location.search);
+    isReddit = ref.indexOf('reddit.com') !== -1 || params.get('utm_source') === 'reddit';
+  } catch (e) {}
+
+  if (isReddit) {
+    document.querySelectorAll('.mid-article-cta__text').forEach(function (el) {
+      el.innerHTML = 'Liked this? I write more like it. Get new posts by email.';
+    });
+  }
 });
 </script>
 

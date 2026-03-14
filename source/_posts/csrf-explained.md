@@ -120,7 +120,7 @@ If you take nothing else from this post:
 3. Set `SameSite=Lax` explicitly on session cookies.
 4. Cookie-based auth on an SPA? You still need CSRF tokens.
 
-Also, use tooling that can help like [Semgrep](https://semgrep.dev/). It catches static patterns in your code: missing CSRF middleware, `@csrf_exempt` decorators, etc. It has rules for common frameworks and you can write custom ones. Run it in CI on every pull request. CSRF is one attack vector in a broader class — for SQL injection, XSS, and command injection, see [How Injection Keeps Breaking Real Systems](/2026/03/06/malicious-user-input/).
+Also, use tooling that can help like [Semgrep](https://semgrep.dev/). It catches static patterns in your code: missing CSRF middleware, `@csrf_exempt` decorators, etc. It has rules for common frameworks and you can write custom ones. Run it in CI on every pull request. If you use AI coding agents, I built an [open-source skill](https://github.com/Eliran-Turgeman/code-security-skills) that combines Semgrep with secret scanning, dependency checks, and IaC scanning in one pass. CSRF is one attack vector in a broader class — for SQL injection, XSS, and command injection, see [How Injection Keeps Breaking Real Systems](/2026/03/06/malicious-user-input/).
 
 ---
 

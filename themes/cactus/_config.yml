@@ -16,6 +16,7 @@ direction: ltr
 nav:
   home: /
   about: /about/
+  Security for Builders: /security-for-builders/
   articles: /archives/
   #Mentorship: /mentorship/
   #search: /search/
