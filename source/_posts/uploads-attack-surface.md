@@ -33,6 +33,10 @@ You add a profile picture upload to your app. The code is straightforward: accep
 
 When you accept a form field, the risk is in how your code handles a string. When you accept a file, the risk extends to every system that touches it: your image library, your file system, your CDN, the browser that eventually renders it to another user. A file that is safe for one of those consumers can be exploitable by another. The rest of this post walks through the four main ways upload features get abused, with defenses for each.
 
+> If you're shipping a real product, these are the vulnerabilities that actually get exploited in production. I'm writing a short series breaking down each pattern: how systems fail, and how to defend against it. No theory, just practical stuff.
+>
+> → [Subscribe to get the next post](https://newsletter.eliranturgeman.com/)
+
 ## Parser Exploits
 
 Your image processing library reads the uploaded file's header to determine the format, allocates memory based on declared dimensions, and decodes the compressed pixel data. A crafted file can exploit any of these steps.
