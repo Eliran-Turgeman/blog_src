@@ -12,6 +12,7 @@ nl_credibility: "Written by <strong>Eliran Turgeman</strong> — backend enginee
 
 ## Recent deep-dives
 
+- **[How Attackers Drain Your Cloud Budget](/2026/03/21/budget-drained/)** — how cost-triggering endpoints get abused through free tiers, messaging, webhooks, and expensive background work
 - **[How Injection Keeps Breaking Real Systems](/2026/03/06/malicious-user-input/)** — SQL injection, command injection, and why they still happen
 - **[CSRF for Builders](/2026/02/18/csrf-explained/)** — practical defenses: tokens, SameSite cookies, what actually works
 - **[Threat Modelling for Builders](/2026/03/01/threat-model/)** — hands-on STRIDE for engineers, not security consultants

@@ -26,6 +26,10 @@ Each post must do at least one of: clarify a technical concept deeply, break dow
 
 Deliver insight early. Within the first few paragraphs, the reader should understand what the real problem is, why it matters, and what they will learn. No long storytelling intros. No filler setups.
 
+**Open with a scenario the reader recognizes, not with history.** The first paragraph should put the reader inside a situation they have been in ("You add a profile picture upload to your app"), not walk them through a historical incident or CVE timeline. History and incidents are useful as supporting evidence inside a section, but they do not earn an opener. If the reader cannot see themselves in the first two sentences, they will leave.
+
+**Frame around the builder's action, not the attacker's narrative.** The reader came to learn what to do. Lead with what they are building and where it breaks, not with a security researcher's chronological account of how an exploit was discovered. The attacker's perspective supports the builder's understanding; it is not the main character.
+
 ## 5. Structure
 
 Default structure for a post:
@@ -38,6 +42,10 @@ Default structure for a post:
 6. End with a clear takeaway.
 
 Not every post must follow this exactly, but drifting too far from it is a red flag.
+
+**Pair every problem with its defense in the same section.** Do not separate all attack descriptions from all mitigations. When you explain how something breaks, show how to fix it in the same section, before moving to the next topic. The reader should never have to scroll past multiple problem sections to reach the first actionable advice. A summary checklist at the end is fine as a reference, but it does not replace inline solutions.
+
+**Every section must earn its place.** If a section covers something generic that applies to any endpoint (rate limiting, for example) and the post is about a specific feature, either make the connection specific or cut it. Content that feels forced into the post does not belong there. Ask: does this paragraph exist because it is essential to this topic, or because it seemed like something a thorough post should include?
 
 Section titles should be simple and descriptive. Avoid overly clever or overly specific titles. Prefer "Putting it together" over "Worked example: a typical AI-first SaaS."
 
@@ -84,6 +92,12 @@ Good:
 When discussing systems, explain mechanism, not just outcome. Show failure modes. Discuss tradeoffs. Avoid surface-level advice.
 
 If giving a recommendation, justify it. No shallow advice like "Just use X tool." Explain when it applies, why, and what the tradeoffs are.
+
+**Show, do not lecture.** Every attack type, vulnerability class, or failure mode should include a concrete example: a code snippet, a payload, a request/response, or a configuration fragment. Descriptions of how something works in prose are not sufficient on their own. If a reader cannot look at the example and understand the mechanism, the explanation is incomplete. A paragraph describing path traversal is weaker than a three-line code snippet showing `os.path.join` with a malicious filename.
+
+**History and CVEs support the example; they are not the example.** Reference a real CVE or incident when it makes the point concrete, but keep it brief: name, link, one sentence on what happened. Do not spend paragraphs on CVE catalogs, disclosure timelines, or incident narratives. The reader wants to understand the mechanism and the defense, not the history of who discovered it or how many CVEs a library has accumulated.
+
+**Trim jargon when a code example says it better.** If you find yourself writing a long paragraph explaining an attack in abstract security terminology, replace the paragraph with a short setup sentence followed by a code block that demonstrates the attack. The code is the explanation.
 
 ## 8. LLM Pattern Avoidance
 
@@ -143,5 +157,8 @@ Before considering a piece done, read every sentence and verify against this che
 - Is this obvious? Would a senior engineer learn something, or just nod along?
 - Is this something ChatGPT would output to anyone who asked about this topic? If yes, what original structure, insight, or experience makes this version different?
 - Would a senior engineer respect this, or would they skim and close the tab?
+- Does every attack or concept have a concrete code example, payload, or configuration fragment? If a section has only prose description, add an example.
+- Does every problem section include its defense inline, or is the reader forced to keep scrolling for the fix?
+- Does every section belong specifically to this post's topic, or is it generic filler that could apply to any endpoint? Cut the latter.
 
 If the piece does not pass these checks, rewrite the failing sections before finalizing.
