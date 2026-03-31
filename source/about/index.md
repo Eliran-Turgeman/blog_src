@@ -33,9 +33,9 @@ Things I love:
 
 ## Stay in Touch
 
-I send a short email when something new is published — no spam, unsubscribe anytime.
+I break down how production systems actually get hacked — and how to defend them. One deep-dive at a time, for engineers who ship.
 
-**[Subscribe to the newsletter →](https://newsletter.eliranturgeman.com)**
+**[Get these posts by email →](https://newsletter.eliranturgeman.com)**
 
 Or reach me via [Email](mailto:eliran9692@gmail.com) / [Twitter](https://twitter.com/_eltur) / [LinkedIn](https://www.linkedin.com/in/eliran-turgeman/)
 

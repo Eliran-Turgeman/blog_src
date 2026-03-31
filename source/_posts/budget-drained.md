@@ -231,3 +231,5 @@ Cost-triggering endpoints fail in a few repeatable ways. Some are expensive on e
 - Provider-side budget alerts and budget backstops configured for expensive features
 
 For the broader context on how cost boundaries fit into a security audit, see [A Practical Security Audit for Builders](/2026/02/14/quick-security-audit/). For understanding who is likely attacking your system and what they are after, see [Threat Modelling for Builders](/2026/03/01/threat-model/).
+
+Cost abuse is the attack surface most teams discover last. There are others that get exploited earlier — [injection](/2026/03/06/malicious-user-input/), [file upload exploits](/2026/03/14/uploads-attack-surface/), [credential leaks](/2026/02/20/secrets-leaked/), [supply chain attacks](/2026/03/28/supply-chain-attacks/) — each with their own patterns. I write these deep-dives for engineers who'd rather learn this from a blog post than from a production incident. [Get them by email →](https://newsletter.eliranturgeman.com/)

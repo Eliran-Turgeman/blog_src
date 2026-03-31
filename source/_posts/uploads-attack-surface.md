@@ -33,9 +33,9 @@ You add a profile picture upload to your app. The code is straightforward: accep
 
 When you accept a form field, the risk is in how your code handles a string. When you accept a file, the risk extends to every system that touches it: your image library, your file system, your CDN, the browser that eventually renders it to another user. A file that is safe for one of those consumers can be exploitable by another. The rest of this post walks through the four main ways upload features get abused, with defenses for each.
 
-> If you're shipping a real product, these are the vulnerabilities that actually get exploited in production. I'm writing a short series breaking down each pattern: how systems fail, and how to defend against it. No theory, just practical stuff.
+> If you're shipping a real product, these are the vulnerabilities that actually get exploited. I'm breaking down each attack surface — how it works in practice, and what stops it. Built for engineers, not security consultants.
 >
-> → [Subscribe to get the next post](https://newsletter.eliranturgeman.com/)
+> → [Get these deep-dives by email](https://newsletter.eliranturgeman.com/)
 
 ## Parser Exploits
 
@@ -153,3 +153,5 @@ For applications where users upload files that other users download (document sh
 - Antivirus scanning enabled for user-to-user file sharing features
 
 Securing file uploads requires attention to input validation, dependency management, and infrastructure cost control simultaneously, because a gap in any one of them is independently exploitable. The checklist above is a reasonable starting point for auditing an existing upload pipeline or designing a new one. For a broader security review covering secrets, authorization, webhooks, and rate limiting, see [A Practical Security Audit for Builders](/2026/02/14/quick-security-audit/).
+
+File uploads are one attack surface. [Injection](/2026/03/06/malicious-user-input/), [supply chain attacks](/2026/03/28/supply-chain-attacks/), [credential leaks](/2026/02/20/secrets-leaked/), and [cloud cost abuse](/2026/03/21/budget-drained/) each follow their own exploitation patterns and require different defenses. I write these deep-dives for engineers who'd rather learn this from a blog post than from a production incident. [Get them by email →](https://newsletter.eliranturgeman.com/)

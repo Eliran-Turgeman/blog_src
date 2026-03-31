@@ -112,3 +112,5 @@ A scanning pipeline is useful only when it translates into execution. In practic
 # Conclusion
 
 Security failures in early-stage products follow a small number of recurring patterns, nearly all rooted in boundaries left open under delivery pressure that later surface as data exposure, cost abuse, or trust loss. The effective response is to assume exposure by default and then prove controls are working through logs, alerts, clear ownership, and rehearsed rollback paths. To prioritize which threats to address first, build a [threat model](/2026/03/01/threat-model/).
+
+This audit covers the high-level areas. Each one — [injection](/2026/03/06/malicious-user-input/), [file uploads](/2026/03/14/uploads-attack-surface/), [secret management](/2026/02/20/secrets-leaked/), [supply chain](/2026/03/28/supply-chain-attacks/), [cloud cost abuse](/2026/03/21/budget-drained/) — has its own exploitation patterns worth understanding in detail. I write deep-dives on each for engineers who'd rather learn this from a blog post than from a production incident. [Get them by email →](https://newsletter.eliranturgeman.com/)

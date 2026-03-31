@@ -136,3 +136,5 @@ If you only do one pass after reading this, check these five things:
 5. Which environments can make outbound requests without any logging or allowlist?
 
 If you find problems in those five areas, the basic failure mode is already present. Every dependency is code with your privileges, so the question worth answering in your own system is which secrets each process can reach right now.
+
+Supply chain attacks exploit the trust boundary between your code and everything it depends on. Other attack surfaces — [file uploads](/2026/03/14/uploads-attack-surface/), [injection](/2026/03/06/malicious-user-input/), [credential leaks](/2026/02/20/secrets-leaked/), [cloud cost abuse](/2026/03/21/budget-drained/) — follow completely different patterns and need different controls. I write these deep-dives for engineers who'd rather learn this from a blog post than from a production incident. [Get them by email →](https://newsletter.eliranturgeman.com/)

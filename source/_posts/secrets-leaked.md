@@ -110,4 +110,6 @@ One practical issue: if you enable this on a repo with existing history, you'll 
 
 Credentials are one piece of a broader security posture. For a full audit covering authorization, storage, webhooks, and rate limiting, see [A Practical Security Audit for Builders](/2026/02/14/quick-security-audit/).
 
+Leaked credentials are one of the simplest paths into a production system, but far from the only one. [Injection](/2026/03/06/malicious-user-input/), [file upload exploits](/2026/03/14/uploads-attack-surface/), [supply chain attacks](/2026/03/28/supply-chain-attacks/), and [cloud cost abuse](/2026/03/21/budget-drained/) each work differently and require different controls. I write these deep-dives for engineers who'd rather learn this from a blog post than from a production incident. [Get them by email →](https://newsletter.eliranturgeman.com/)
+
 

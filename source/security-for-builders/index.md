@@ -3,7 +3,7 @@ title: "Security for Builders"
 layout: newsletter
 date: 2026-03-12 00:00:00
 nl_title: "Security for Builders"
-nl_tagline: "Most security content is written for security people. This one's for the rest of us."
+nl_tagline: "How real systems get hacked — and how to defend them. For engineers, not security consultants."
 nl_description: ""
 nl_button: "Subscribe"
 nl_fine_print: "No spam. Unsubscribe anytime."

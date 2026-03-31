@@ -125,3 +125,5 @@ Also, use tooling that can help like [Semgrep](https://semgrep.dev/). It catches
 ---
 
 The X thread that sparked this post is a useful reminder: every major framework ships CSRF protection by default, browsers default to `SameSite=Lax`, and the tooling exists. CSRF keeps happening because developers disable protections they don't understand, use GET for mutations out of convenience, or assume their SPA architecture makes them immune. If you want a broader security checklist covering secrets, authorization, and storage, start with [A Practical Security Audit for Builders](/2026/02/14/quick-security-audit/).
+
+CSRF is one class of vulnerability your product needs to handle. There are others — [injection](/2026/03/06/malicious-user-input/), [file upload exploits](/2026/03/14/uploads-attack-surface/), [supply chain attacks](/2026/03/28/supply-chain-attacks/) — that follow completely different patterns and require different defenses. I write these deep-dives for engineers who'd rather learn this from a blog post than from a production incident. [Get them by email →](https://newsletter.eliranturgeman.com/)
