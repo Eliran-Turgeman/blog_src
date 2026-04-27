@@ -3,15 +3,13 @@ title: about
 date: 2023-07-14 18:48:55
 ---
 
-I'm Eliran — a backend engineer at Microsoft, where I work on application security.
-
-I spend my days helping teams build secure systems and thinking about how to make security knowledge practical and accessible for developers. Before that, I was a software engineer focused on distributed systems and backend architecture.
+I'm Eliran. I'm a backend engineer at Microsoft, working on application security.
 
 ## What I Write About
 
-This blog is where I share what I learn at work and beyond. Most of my writing falls into:
+This blog is where I write down what I'm learning, what I'm seeing go wrong, and what seems worth stealing. Most of the posts fall into:
 
-- **[Security for Builders](/security-for-builders/)** — my flagship series making application security practical for software engineers. Covers CSRF, threat modeling, injection attacks, secrets management, and more.
+- **[Security for Builders](/security-for-builders/)** — my series making application security practical for software engineers.
 - **Backend engineering** — distributed systems, database pitfalls, idempotency, logging, testing practices.
 - **Career & growth** — honest lessons from my journey as a software engineer.
 
@@ -33,7 +31,7 @@ Things I love:
 
 ## Stay in Touch
 
-I break down how production systems actually get hacked — and how to defend them. One deep-dive at a time, for engineers who ship.
+I write about how production systems fail, how they get abused, and how to make them harder to break.
 
 **[Get these posts by email →](https://newsletter.eliranturgeman.com)**
 
