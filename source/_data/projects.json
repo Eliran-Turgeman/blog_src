@@ -2,21 +2,37 @@
     {
         "name": "Code Security Skills",
         "url": "https://github.com/Eliran-Turgeman/code-security-skills",
-        "desc": "Agent skill for running and reasoning on code security scans."
-    },
-    {
-        "name": "tetsu",
-        "url": "https://github.com/Eliran-Turgeman/tetsu",
-        "desc": "OSS workout logging app."
+        "summary": "An agent skill for running and reasoning about code security scans.",
+        "why": "Part of my broader interest in turning security work into developer-native workflows instead of slow, external review cycles.",
+        "demonstrates": "Security automation, developer tooling, and opinionated workflows that fit how engineers actually ship.",
+        "status": "active",
+        "featured": true
     },
     {
         "name": "404Skill",
         "url": "https://404skill.github.io/",
-        "desc": "Become a better software engineer with real-world projects."
+        "summary": "Real-world backend projects designed to teach engineering judgment, not toy CRUD.",
+        "why": "The goal is to simulate the ambiguity, testing, integration, and operational tradeoffs engineers meet in production systems.",
+        "demonstrates": "Curriculum design grounded in backend systems work, integration-heavy code, and operational realism.",
+        "status": "active",
+        "featured": true
     },
     {
         "name": "Collecto",
         "url": "https://github.com/Eliran-Turgeman/Collecto/tree/master",
-        "desc": "Open-source, self-hosted, lightweight, email collection service."
+        "summary": "An open-source, self-hosted email collection service built to stay boring, explicit, and easy to operate.",
+        "why": "A small product built around a simple idea: useful backend infrastructure should favor clear behavior over platform theatre.",
+        "demonstrates": "Backend product thinking, explicit operational tradeoffs, and straightforward deployment surfaces.",
+        "status": "active",
+        "featured": true
+    },
+    {
+        "name": "tetsu",
+        "url": "https://github.com/Eliran-Turgeman/tetsu",
+        "summary": "A workout logging app I use as a smaller product lab.",
+        "why": "It gives me a place to test small product loops and implementation choices without pretending every project needs a grand platform story.",
+        "demonstrates": "End-to-end product iteration and fast feedback, but it is intentionally not the center of the site.",
+        "status": "paused",
+        "featured": false
     }
 ]

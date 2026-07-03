@@ -1,59 +1,16 @@
 ---
-title: about
+title: About
 date: 2023-07-14 18:48:55
+description: Personal background, interests, and contact details for Eliran Turgeman.
 ---
+swe; loves builing, learning, and table tennis
 
-I'm Eliran. I'm a backend engineer at Microsoft, working on application security.
+## Contact
 
-## What I Write About
-
-This blog is where I write down what I'm learning, what I'm seeing go wrong, and what seems worth stealing. Most of the posts fall into:
-
-- **[Security for Builders](/security-for-builders/)** — my series making application security practical for software engineers.
-- **Backend engineering** — distributed systems, database pitfalls, idempotency, logging, testing practices.
-- **Career & growth** — honest lessons from my journey as a software engineer.
-
-## Beyond Work
-
-Things I love:
-- my wife
-- coffee
-- playing table tennis
-- cooking
-- my dog (look at this cutie...)
-<div style="text-align: left;">
-  <img
-    src="./ollie.jpg"
-    alt="my dog"
-    style="max-width: 300px; display: inline-block; margin: 0;"
-  >
-</div>
-
-## Stay in Touch
-
-I write about how production systems fail, how they get abused, and how to make them harder to break.
-
-**[Get these posts by email →](https://newsletter.eliranturgeman.com)**
-
-Or reach me via [Email](mailto:eliran9692@gmail.com) / [Twitter](https://twitter.com/_eltur) / [LinkedIn](https://www.linkedin.com/in/eliran-turgeman/)
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Eliran Turgeman",
-  "jobTitle": "Backend Engineer",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "Microsoft"
-  },
-  "knowsAbout": ["Application Security", "Backend Engineering", "Threat Modeling", "Secure Coding", "Distributed Systems"],
-  "url": "https://www.eliranturgeman.com",
-  "sameAs": [
-    "https://twitter.com/_eltur",
-    "https://www.linkedin.com/in/eliran-turgeman/",
-    "https://github.com/Eliran-Turgeman"
-  ]
-}
-</script>
-
+<p class="home-social">
+    Find me on
+    <a class="icon" href="https://github.com/Eliran-Turgeman" target="_blank" rel="noopener me" aria-label="GitHub" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+    <a class="icon" href="https://www.linkedin.com/in/eliran-turgeman/" target="_blank" rel="noopener me" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+    <a class="icon" href="mailto:me@eliranturgeman.com" aria-label="Email" title="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+    .
+</p>

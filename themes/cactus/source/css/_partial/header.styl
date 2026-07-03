@@ -1,15 +1,15 @@
 #header
-  margin: 0 auto 2rem
+  margin: 0 auto 3rem
   width: 100%
 
   h1, .h1
     margin-top: 0
     margin-bottom: 0
     color: $color-text
-    letter-spacing: .01em
+    letter-spacing: 0
     font-weight: 700
     font-style: normal
-    font-size: 1.5rem
+    font-size: 1.75rem
     line-height: 2rem
 
     antialias()
@@ -34,10 +34,10 @@
 
   #nav
     color: $color-accent-1
-    letter-spacing: .01em
-    font-weight: 200
+    letter-spacing: .02em
+    font-weight: 500
     font-style: normal
-    font-size: .8rem
+    font-size: .9rem
 
     ul
       margin: 0
@@ -46,7 +46,7 @@
       line-height: 15px
 
       a
-        margin-right: 15px
+        margin-right: 12px
         color: $color-accent-1
 
       a:hover
@@ -54,8 +54,8 @@
 
       li
         display: inline-block
-        margin-right: 15px
-        border-right: 1px dotted
+        margin-right: 12px
+        border-right: 1px solid
         border-color: $color-accent-1
         vertical-align: middle
 
@@ -78,7 +78,7 @@ if $logo-grayout
 @media screen and (max-width: 480px)
   #header #title
     display: table
-    margin-right: 5rem
+    margin-right: 4rem
     min-height: $logo-height
     h1
       display: table-cell

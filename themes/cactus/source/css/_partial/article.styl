@@ -2,26 +2,44 @@ article
   header
     .posttitle
       margin-top: 0
-      margin-bottom: 0
+      margin-bottom: .5rem
       text-transform: none
-      font-size: 1.5em
-      line-height: 1.25
+      font-size: 2rem
+      line-height: 1.15
+
+    .post-dek
+      margin: 0 0 1rem
+      max-width: 42rem
+      color: $color-meta
+      font-size: 1.05rem
+      line-height: 1.6
 
     .meta
       margin-top: 0
-      margin-bottom: 1rem
+      margin-bottom: 1.25rem
 
     .meta *
       color: $color-accent-3
-      font-size: .85rem
+      font-size: .9rem
 
-    .author
-      text-transform: uppercase
-      letter-spacing: .01em
-      font-weight: 700
+    .post-meta-row
+      display: flex
+      flex-wrap: wrap
+      gap: .45rem .65rem
+      align-items: center
+
+    .post-chip
+      display: inline-flex
+      align-items: center
+      padding: .1rem .45rem
+      border: 1px solid $color-border
+      border-radius: 999px
+      color: $color-meta
+      font-size: .78rem
+      text-transform: lowercase
 
     .postdate
-      display: inline
+      display: inline-flex
 
   .content
     h2:before
@@ -148,8 +166,8 @@ article
 
 .posttitle
   text-transform: none
-  font-size: 1.5em
-  line-height: 1.25
+  font-size: 2rem
+  line-height: 1.15
 
 .article-tag
   .tag-link
@@ -168,3 +186,64 @@ article
 
     &:before
       content: "|"
+
+.projects-page,
+.page-lede
+  h1
+    margin-bottom: .5rem
+
+.page-lede
+  margin-bottom: 2.5rem
+
+.about-figure
+  margin: 1.75rem 0 2.25rem
+  text-align: center
+
+.about-photo
+  display: block
+  width: min(100%, 22rem)
+  max-width: 22rem
+  margin: 0 auto
+  border-radius: 14px
+
+.about-figure--collage
+  margin-bottom: 1.5rem
+
+.about-collage
+  display: grid
+  grid-template-columns: repeat(2, minmax(0, 1fr))
+  gap: .55rem
+  width: min(100%, 24rem)
+  margin: 0 auto
+
+.about-collage__photo
+  display: block
+  width: 100%
+  aspect-ratio: 1 / 1
+  object-fit: cover
+  border-radius: 10px
+
+.project-block
+  margin-bottom: 2.5rem
+  padding-top: 1rem
+  border-top: 1px solid $color-border
+
+  &__header
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    gap: .75rem
+    align-items: baseline
+
+.project-summary
+  font-size: 1.05rem
+
+.status-pill
+  display: inline-flex
+  align-items: center
+  padding: .15rem .55rem
+  border: 1px solid $color-border
+  border-radius: 999px
+  color: $color-meta
+  font-size: .78rem
+  text-transform: lowercase

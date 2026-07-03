@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: https://github.com/Eliran-Turgeman?tab=repositories
+projects_url: https://github.com/Eliran-Turgeman
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -15,11 +15,8 @@ direction: ltr
 # languages/*.yml
 nav:
   home: /
+  archives: /archives/
   about: /about/
-  Security for Builders: /security-for-builders/
-  articles: /archives/
-  #Mentorship: /mentorship/
-  #search: /search/
 
 
 # Links to your social media accounts.
@@ -27,12 +24,10 @@ nav:
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-  #telegram: https://t.me/booksbytes
   github: https://github.com/Eliran-Turgeman
   twitter: https://twitter.com/_eltur
   linkedin: https://www.linkedin.com/in/eliran-turgeman/
-  newsletter: https://newsletter.eliranturgeman.com
-  rss: https://www.16elt.com/atom.xml
+  mail: mailto:me@eliranturgeman.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -124,7 +119,7 @@ favicon:
 # Set the color scheme.
 # Available color schemes are 'dark', 'light', 'classic' and 'white'.
 # Alternatively, add your own custom color scheme to source/css/_colors.
-colorscheme: deep_ocean
+colorscheme: white
 
 # Maximal width of the page in rem units.
 page_width: 48
@@ -135,25 +130,19 @@ page_width: 48
 ##############################################################################
 
 # Enable or disable the RSS feed.
-rss: elt.xml
+rss: false
 
 # Turn your web pages into graph objects (see http://ogp.me).
 open_graph:
   fb_app_id:
   fb_admins:
-  twitter_id:
+  twitter_id: _eltur
   google_plus:
 
 
 ##############################################################################
 # Plugins
 ##############################################################################
-
-# Enable RSS feed
-feed:
-  type: atom
-  path: atom.xml
-  limit: 0
 
 # Enable MathJax support for Latex
 mathjax:

@@ -30,3 +30,111 @@
     margin-bottom: 5px
     p
       display: inline
+
+.section-label
+  margin: 0 0 .75rem
+  color: $color-meta
+  font-family: $font-family-mono
+  font-size: .82rem
+  letter-spacing: .04em
+  text-transform: uppercase
+
+.home-hero
+  margin-bottom: 4rem
+
+  h1
+    margin: 0 0 1rem
+    max-width: 44rem
+    font-size: 2.6rem
+    line-height: 1.05
+
+.home-copy
+  max-width: 44rem
+
+.home-links,
+.link-list
+  margin: 1.5rem 0 0
+  padding: 0
+  list-style: none
+
+  li
+    display: inline-block
+    margin-right: .85rem
+
+.home-social
+  margin: 0
+  color: $color-meta
+  font-family: $font-family-mono
+  font-size: .92rem
+
+  a.icon
+    margin-left: .45rem
+    color: $color-text
+
+    &:hover
+      color: $color-link
+
+.home-current
+  margin-top: 1rem
+  color: $color-meta
+
+.home-section
+  margin-bottom: 3.5rem
+
+  h2
+    margin-top: 0
+    margin-bottom: 1rem
+
+.curated-list
+  padding-left: 1rem
+
+  li
+    margin-bottom: .5rem
+
+.section-note
+  color: $color-meta
+
+.topic-list
+  display: grid
+  grid-template-columns: repeat(2, minmax(0, 1fr))
+  gap: 1.25rem 1.75rem
+
+.topic-item
+  padding-top: .85rem
+  border-top: 1px solid $color-border
+
+  h3
+    margin: 0 0 .35rem
+    font-size: 1.1rem
+
+  p
+    margin: 0
+
+.project-feed
+  display: grid
+  gap: 1.5rem
+
+.project-feature
+  padding-top: .9rem
+  border-top: 1px solid $color-border
+
+  h3
+    margin: 0 0 .35rem
+
+  p
+    margin: .25rem 0
+
+.project-angle
+  color: $color-meta
+
+.email-signup__fine-print
+  margin-top: .75rem
+  color: $color-meta
+  font-size: .9rem
+
+@media (max-width: 640px)
+  .home-hero h1
+    font-size: 2rem
+
+  .topic-list
+    grid-template-columns: 1fr
