@@ -4,6 +4,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <%
+      var isLandingHome = is_home() || page.path === 'index.html';
+      var metaDescription = page.description || (isLandingHome ? 'I write about building software, operating systems, developer tooling, security, and engineering leverage.' : config.description);
+      var metaTitle = isLandingHome ? 'Eliran Turgeman — Software, systems, tooling, security' : page_title();
+    %>
+    <% if (!isLandingHome) { %>
     <%- open_graph({
         image:          thumbnail(page),
         fb_app_id:      theme.open_graph.fb_app_id,
@@ -12,14 +18,26 @@
         google_plus:    theme.open_graph.google_plus,
     }) %>
     <%- meta(page) %>
+    <% } %>
     <% var kw = page.keywords || config.keywords; if (kw) { %>
     <meta name="keywords" content="<%- (Array.isArray(kw) ? kw.join(', ') : kw) %>" />
     <% } %>
+    <% if (isLandingHome) { %>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%- config.url %>" />
+    <meta property="og:site_name" content="<%- config.title %>" />
+    <% } %>
+    <meta name="description" content="<%- metaDescription %>" />
+    <meta property="og:title" content="<%- metaTitle %>" />
+    <meta property="og:description" content="<%- metaDescription %>" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="<%- page.title || config.title %>" />
-    <meta name="twitter:description" content="<%- page.description || config.description %>" />
+    <meta name="twitter:title" content="<%- metaTitle %>" />
+    <meta name="twitter:description" content="<%- metaDescription %>" />
     <% if (theme.open_graph && theme.open_graph.twitter_id) { %>
     <meta name="twitter:site" content="<%- theme.open_graph.twitter_id %>" />
+    <% } %>
+    <% if (page.noindex) { %>
+    <meta name="robots" content="noindex, nofollow" />
     <% } %>
     <% if (theme.favicon) { %>
       <% if (theme.favicon.desktop) { %>
@@ -57,7 +75,7 @@
       <% } %>
     <% } %>
     <!-- title -->
-    <title><%= page_title() %></title>
+    <title><%= metaTitle %></title>
     <!-- canonical -->
     <link rel="canonical" href="<%- config.url + url_for(page.path).replace(/index\.html$/, '') %>" />
     <% if (is_post()) { %>
@@ -120,13 +138,6 @@
     <!-- persian styles -->
     <% if (theme.direction && theme.direction === 'rtl') { %>
       <%- css('css/rtl') %>
-    <% } %>
-    <!-- rss -->
-    <% if (theme.rss === '' && config.feed && config.feed.path) { %>
-      <% theme.rss = config.feed.path %>
-    <% } %>
-    <% if (theme.rss) { %>
-      <link rel="alternate" href="<%= url_for(theme.rss) %>" title="<%= config.title %>" type="application/atom+xml" />
     <% } %>
 	<!-- mathjax -->
 	<% if (theme.mathjax.enabled) {%>

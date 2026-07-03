@@ -100,7 +100,7 @@ Seek a mentor (within or outside your company) that you are comfortable talking 
 
 On that note, ***I am offering some mentorship myself***.
 If you read this post, I hope you get the impression that I love guiding others in their journey.
-If you want to talk to me and get some more ***personalized advice*** just contact me via [Email](mailto:eliran9692@gmail.com) / [Twitter](https://twitter.com/_eltur) / [LinkedIn](https://www.linkedin.com/in/eliran-turgeman/).
+If you want to talk to me and get some more ***personalized advice*** just contact me via [Email](mailto:me@eliranturgeman.com) / [Twitter](https://twitter.com/_eltur) / [LinkedIn](https://www.linkedin.com/in/eliran-turgeman/).
 
 If you want some more details about what I offer as a mentor, check out [this page](https://www.16elt.com/mentorship/)
 

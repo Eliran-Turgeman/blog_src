@@ -1,119 +1,30 @@
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header>
     <%- partial('_partial/post/title', { post: page, index: false, class_name: 'posttitle' }) %>
-    <div class="meta">
-      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span itemprop="name"><% if (page.author) { %><%- page.author %><% } else { %><%- config.author %><% } %></span>
-      </span>
+    <% if (page.subtitle) { %>
+      <p class="post-dek"><%= page.subtitle %></p>
+    <% } %>
+    <div class="meta post-meta-row">
       <%- partial('_partial/post/date', { post: page, class_name: 'postdate' }) %>
-      <%- partial('_partial/post/category') %>
-      <%- partial('_partial/post/tag') %>
       <% if (page.readTime) { %>
-        <span class="read-time">
-          <i class="fas fa-clock"></i>
+        <span class="read-time post-chip">
           <%= page.readTime %> <%= page.readTime == 1 ? 'minute' : 'minutes' %>
         </span>
       <% } %>
+      <% if (page.status) { %>
+        <span class="post-chip"><%= page.status %></span>
+      <% } %>
+      <% if (page.series) { %>
+        <span class="post-chip">Series: <%= page.series %></span>
+      <% } %>
+      <%- partial('_partial/post/tag') %>
     </div>
   </header>
   <%- partial('_partial/post/gallery') %>
   <div class="content" itemprop="articleBody">
-    <%
-      // ── Mid-article CTA injection ──
-      // Insert a compact signup form ~40% through the article content.
-      // Only show the "Security for Builders" CTA on posts tagged application-security.
-      // Other posts get a simpler generic CTA.
-      var __raw = page.content;
-      var __tags = (page.tags ? page.tags.toArray().map(function(t){ return t.name; }) : []);
-      var __isSecurityPost = __tags.indexOf('application-security') !== -1;
-      var __splitRe = /<\/(?:p|h2|h3|blockquote|ul|ol)>/gi;
-      var __positions = [];
-      var __m;
-      while ((__m = __splitRe.exec(__raw)) !== null) {
-        __positions.push(__m.index + __m[0].length);
-      }
-
-      if (!page.no_mid_cta && __positions.length >= 4) {
-        var __idx = Math.floor(__positions.length * 0.4);
-        var __pos = __positions[__idx];
-
-        var __ctaText = __isSecurityPost
-          ? 'I\'m breaking down the ways production systems actually get exploited — and the defenses that work. Part of <strong><a href="/security-for-builders/">Security for Builders</a></strong>.'
-          : 'I write about how real systems break and how to build them better. Get new posts by email.';
-
-        var __ctaHtml = '<aside class="mid-article-cta" data-analytics-location="mid_article_cta">'
-          + '<p class="mid-article-cta__text">' + __ctaText + '</p>'
-          + '<form class="mid-article-cta__form email-signup__form"'
-          + ' action="https://app.kit.com/forms/9085244/subscriptions"'
-          + ' method="POST" target="_blank"'
-          + ' data-analytics-event="newsletter_form_submit"'
-          + ' data-analytics-action="submit"'
-          + ' data-analytics-location="mid_article_cta">'
-          + '<input class="email-signup__input" type="email" name="email_address"'
-          + ' placeholder="your@email.com" autocomplete="email" required>'
-          + '<button class="email-signup__button" type="submit">Subscribe</button>'
-          + '</form></aside>';
-        __raw = __raw.slice(0, __pos) + __ctaHtml + __raw.slice(__pos);
-      }
-    %>
-    <%- __raw %>
+    <%- page.content %>
   </div>
 </article>
-
-<section class="email-signup email-signup--inline" data-analytics-location="inline_bottom_cta">
-  <%- partial('_partial/email_signup', { source: page.permalink }) %>
-</section>
-
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  // ── Track all newsletter form submissions ──
-  document.querySelectorAll('.email-signup__form').forEach((form) => {
-    form.addEventListener('submit', () => {
-      const location = form.closest('[data-analytics-location]');
-      const loc = location ? location.getAttribute('data-analytics-location') : 'unknown';
-      if (typeof window.gtag === 'function') {
-        window.gtag('event', 'newsletter_form_submit', {
-          page_path: window.location.pathname,
-          page_referrer: document.referrer || '',
-          form_location: loc,
-          traffic_source: new URLSearchParams(window.location.search).get('utm_source') || 'direct'
-        });
-      }
-    });
-  });
-
-  // ── Track email input focus (intent signal) ──
-  document.querySelectorAll('.email-signup__input').forEach((input) => {
-    let tracked = false;
-    input.addEventListener('focus', () => {
-      if (tracked) return;
-      tracked = true;
-      const location = input.closest('[data-analytics-location]');
-      const loc = location ? location.getAttribute('data-analytics-location') : 'unknown';
-      if (typeof window.gtag === 'function') {
-        window.gtag('event', 'newsletter_input_focus', {
-          page_path: window.location.pathname,
-          form_location: loc
-        });
-      }
-    });
-  });
-
-  // ── Reddit-aware CTA personalisation ──
-  var isReddit = false;
-  try {
-    var ref = document.referrer || '';
-    var params = new URLSearchParams(window.location.search);
-    isReddit = ref.indexOf('reddit.com') !== -1 || params.get('utm_source') === 'reddit';
-  } catch (e) {}
-
-  if (isReddit) {
-    document.querySelectorAll('.mid-article-cta__text').forEach(function (el) {
-      el.innerHTML = 'Liked this breakdown? I write more like it — how real systems get exploited, and what stops it. Get them by email.';
-    });
-  }
-});
-</script>
 
 <%- partial('_partial/comments') %>
 
@@ -143,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <section class="related-posts" style="margin-top: 2rem;">
   <h3>Related Posts</h3>
   <ul>
-    <% relatedPosts.forEach(function(rp) { %>
+    <% relatedPosts.slice(0, 4).forEach(function(rp) { %>
       <li>
         <a href="<%= url_for(rp.path) %>"><%= rp.title %></a>
       </li>

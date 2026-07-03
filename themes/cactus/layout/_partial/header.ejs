@@ -20,9 +20,14 @@
       <li class="icon">
         <a href="#" aria-label="<%- __('icons.menu') %>"><i class="fas fa-bars fa-2x"></i></a>
       </li>
-      <% for (var i in theme.nav) { %><!--
+      <% for (var i in theme.nav) { %>
+        <% var navKey = 'nav.' + i %>
+        <% var navLabel = __(navKey) %>
+        <% if (navLabel === navKey) { %>
+          <% navLabel = i.charAt(0).toUpperCase() + i.slice(1) %>
+        <% } %><!--
      --><li>
-          <a href="<%- url_for(theme.nav[i]) %>"><%= __('nav.'+i).replace("nav.", "") %></a>
+          <a href="<%- url_for(theme.nav[i]) %>"><%= navLabel %></a>
         </li><!--
    --><% } %>
     </ul>
