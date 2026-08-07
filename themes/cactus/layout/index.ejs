@@ -24,16 +24,16 @@
 
 <section class="home-section">
   <p class="section-label">Recent Writing</p>
-  <ul class="curated-list">
+  <ul class="post-list">
     <% if (recentPosts.length) { %>
       <% recentPosts.forEach(function(post) { %>
-        <li>
+        <li class="post-item">
           <%- partial('_partial/post/date', { post: post, class_name: 'meta' }) %>
           <span><%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %></span>
         </li>
       <% }) %>
     <% } else { %>
-      <li>WIP.</li>
+      <li class="post-item">WIP.</li>
     <% } %>
   </ul>
   <% if (!recentPosts.length) { %>

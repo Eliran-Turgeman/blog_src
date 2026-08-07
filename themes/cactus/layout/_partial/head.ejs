@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
     <%
       var isLandingHome = is_home() || page.path === 'index.html';
-      var metaDescription = page.description || (isLandingHome ? 'I write about building software, operating systems, developer tooling, security, and engineering leverage.' : config.description);
-      var metaTitle = isLandingHome ? 'Eliran Turgeman — Software, systems, tooling, security' : page_title();
+      var metaDescription = page.description || config.description;
+      var metaTitle = isLandingHome ? config.title  : page_title();
     %>
     <% if (!isLandingHome) { %>
     <%- open_graph({

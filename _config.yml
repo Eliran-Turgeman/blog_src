@@ -4,9 +4,9 @@
 
 # Site
 title: Eliran Turgeman
-subtitle: 'Software, systems, tooling, security'
-description: 'Essays on building software, operating systems, developer tooling, security, and engineering leverage.'
-keywords: ['software engineering', 'developer tooling', 'application security', 'operational systems', 'reliability engineering', 'engineering leverage']
+subtitle: ''
+description: 'Practical essays on AI engineering, agents, evaluation, developer tooling, and the systems that make them reliable.'
+keywords: ['AI engineering', 'AI agents', 'LLM evaluation', 'developer tooling', 'software engineering', 'reliable AI systems']
 author: Eliran Turgeman
 language: en
 timezone: 'Asia/Jerusalem'

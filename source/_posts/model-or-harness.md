@@ -1,7 +1,7 @@
 ---
 title: model or harness
 # status: essay
-date: 2026-08-02 18:06:56
+date: 2026-08-07 13:02:56
 subtitle:
 description:
 series:
