@@ -41,4 +41,17 @@
   <% } %>
 </section>
 
+<% if (featuredProjects.length) { %>
+  <section class="home-section">
+    <p class="section-label">Projects</p>
+    <ul class="project-list">
+      <% featuredProjects.forEach(function(project) { %>
+        <li class="project-item">
+          <a href="<%= project.url %>" target="_blank" rel="noopener"><%= project.name %></a>: <%= project.summary %>
+        </li>
+      <% }) %>
+    </ul>
+  </section>
+<% } %>
+
 
