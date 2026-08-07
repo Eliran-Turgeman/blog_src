@@ -1,12 +1,22 @@
 ---
-title: model-or-harness
-status: essay
+title: model or harness
+# status: essay
 date: 2026-08-02 18:06:56
 subtitle:
 description:
 series:
 tags:
+  - ai engineering
+  - ai agents
+  - llm evaluation
+  - system design
 keywords:
+  - AI agent architecture
+  - AI agent harness
+  - LLM evaluation
+  - agentic systems
+  - deterministic validation
+  - AI engineering
 ---
 
 Model or harness is a discussion I keep seeing people talking about online.
