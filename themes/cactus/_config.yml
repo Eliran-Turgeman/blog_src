@@ -25,7 +25,7 @@ nav:
 # only 'mail' is an exception.
 social_links:
   github: https://github.com/Eliran-Turgeman
-  twitter: https://twitter.com/_eltur
+  twitter: https://x.com/256elt
   linkedin: https://www.linkedin.com/in/eliran-turgeman/
   mail: mailto:me@eliranturgeman.com
 
@@ -136,7 +136,7 @@ rss: false
 open_graph:
   fb_app_id:
   fb_admins:
-  twitter_id: _eltur
+  twitter_id: 256elt
   google_plus:
 
 

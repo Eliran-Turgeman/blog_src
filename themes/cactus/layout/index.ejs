@@ -16,7 +16,7 @@
   Find me on
   <% socialKeys.forEach(function(name) { %>
     <% var iconClass = name === 'mail' ? 'fas fa-envelope' : 'fab fa-' + name; %>
-    <a class="icon" href="<%= socialLinks[name] %>"<% if (name !== 'mail') { %> target="_blank" rel="noopener me"<% } %> aria-label="<%= name %>" title="<%= name %>"><i class="<%= iconClass %>" aria-hidden="true"></i></a>
+    <a class="icon" href="<%= socialLinks[name] %>"<% if (name !== 'mail') { %> target="_blank" rel="noopener me"<% } %> aria-label="<%= name === 'twitter' ? 'εlt (@256elt) / X' : name %>" title="<%= name === 'twitter' ? 'εlt (@256elt) / X' : name %>"><% if (name === 'twitter') { %><span aria-hidden="true">𝕏</span><% } else { %><i class="<%= iconClass %>" aria-hidden="true"></i><% } %></a>
   <% }) %>
   .
 </p>
