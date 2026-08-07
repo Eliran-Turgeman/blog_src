@@ -124,6 +124,13 @@ article
       th
         font-weight: 700
 
+      td:has(> strong:only-child)
+        background: color-alpha($color-link, .18)
+        box-shadow: inset 0 0 0 2px $color-link
+
+        > strong
+          font-weight: inherit
+
       tr:nth-child(even)
         background: rgba(0, 0, 0, 0.02)
 
