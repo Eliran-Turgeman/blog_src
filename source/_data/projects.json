@@ -5,5 +5,12 @@
         "summary": "AI privacy and security review system.",
         "status": "active",
         "featured": true
+    },
+    {
+        "name": "Reaper",
+        "url": "https://github.com/Eliran-Turgeman/reaper",
+        "summary": "Semantic linter for agents",
+        "status": "active",
+        "featured": true
     }
 ]
