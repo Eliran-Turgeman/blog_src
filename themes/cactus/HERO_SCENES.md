@@ -18,3 +18,7 @@ hero_scene:
 - Reduced-motion preference and coarse-pointer devices disable movement automatically.
 
 Run `npm install && npm run build && npm run server` to preview. Check desktop 1440px, tablet 768px, and mobile 375px before merging. Art direction is a visual prototype and merits review in-browser.
+
+## Rothschild Canopy variant
+
+Change `hero_scene.variant` to `rothschild` and regenerate the site. The alternative scene layers original SVG Bauhaus facades, boulevard perspective, and a leafy ficus canopy. It shares the homepage header, navigation, pointer motion, and accessibility behavior with the Jaffa variant. The default remains `jaffa` intentionally; both can be compared before choosing a winner.
