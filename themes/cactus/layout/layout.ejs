@@ -22,7 +22,7 @@
       <%- partial('_partial/post/actions_desktop') %>
     <% } %>
     <div class="content index py4">
-        <% if (!is_post()) { %>
+        <% if (!is_post() && !(is_home() && theme.hero_scene && theme.hero_scene.enabled)) { %>
           <%- partial('_partial/header') %>
         <% } %>
         <main>

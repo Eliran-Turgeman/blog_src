@@ -1,0 +1,36 @@
+<%
+  var variant = theme.hero_scene && theme.hero_scene.variant === 'rothschild' ? 'rothschild' : 'jaffa';
+  var social = theme.social_links || {};
+%>
+<section class="telaviv-hero telaviv-hero--<%= variant %>" data-hero-scene="<%= variant %>" data-parallax="<%= !!(theme.hero_scene && theme.hero_scene.parallax) %>" aria-label="Welcome to <%= config.title %>">
+  <div class="telaviv-hero__scenery" aria-hidden="true">
+    <div class="telaviv-hero__layer telaviv-hero__layer--sky" data-depth="0.012"></div>
+    <div class="telaviv-hero__layer telaviv-hero__layer--city" data-depth="0.026"></div>
+    <div class="telaviv-hero__layer telaviv-hero__layer--foreground" data-depth="0.048"></div>
+    <div class="telaviv-hero__shade"></div>
+  </div>
+  <div class="telaviv-hero__inner">
+    <div class="telaviv-hero__topbar">
+      <a class="telaviv-hero__brand" href="<%- url_for('/') %>" aria-label="<%= config.title %> homepage">ET<span aria-hidden="true">.</span></a>
+      <nav class="telaviv-hero__nav" aria-label="Main navigation">
+        <% Object.keys(theme.nav || {}).forEach(function(name) { %>
+          <% var labelKey = 'nav.' + name; var translated = __(labelKey); %>
+          <a href="<%- url_for(theme.nav[name]) %>"><%= translated === labelKey ? name.charAt(0).toUpperCase() + name.slice(1) : translated %></a>
+        <% }); %>
+      </nav>
+    </div>
+    <div class="telaviv-hero__copy">
+      <p class="telaviv-hero__kicker">PERSONAL NOTES <span aria-hidden="true">/</span> TEL AVIV</p>
+      <h1><%= config.title %></h1>
+      <p class="telaviv-hero__description"><%= config.description %></p>
+    </div>
+    <div class="telaviv-hero__bottom">
+      <span class="telaviv-hero__location"><span aria-hidden="true">✳</span> 32.08° N · 34.78° E</span>
+      <div class="telaviv-hero__social" aria-label="Social links">
+        <% Object.keys(social).forEach(function(name) { %>
+          <a href="<%- social[name] %>" <% if(name !== 'mail') { %>target="_blank" rel="noopener noreferrer me"<% } %> aria-label="<%= name %>"><%= name === 'twitter' ? 'X' : name === 'mail' ? 'Email' : name.charAt(0).toUpperCase()+name.slice(1) %></a>
+        <% }); %>
+      </div>
+    </div>
+  </div>
+</section>

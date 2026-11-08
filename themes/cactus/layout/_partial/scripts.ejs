@@ -202,3 +202,7 @@
   });
 </script>
 
+
+<% if (is_home() && theme.hero_scene && theme.hero_scene.enabled) { %>
+  <%- js('js/home-hero') %>
+<% } %>

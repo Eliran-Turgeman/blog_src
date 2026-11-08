@@ -11,6 +11,9 @@
   var socialKeys = Object.keys(socialLinks);
 %>
 
+<% if (theme.hero_scene && theme.hero_scene.enabled) { %>
+  <%- partial('_partial/home_hero') %>
+<% } else { %>
 <section class="home-hero">
 <p class="home-social">
   Find me on
@@ -21,6 +24,7 @@
   .
 </p>
 </section>
+<% } %>
 
 <section class="home-section">
   <p class="section-label">Recent Writing</p>

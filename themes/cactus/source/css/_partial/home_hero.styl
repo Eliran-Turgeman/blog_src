@@ -1,0 +1,163 @@
+// Home-only full-bleed scenic masthead. The body can stay at Cactus's 48rem width.
+.telaviv-hero
+  position relative
+  width 100vw
+  margin-left calc(50% - 50vw)
+  min-height 530px
+  margin-top -4rem
+  margin-bottom 4.2rem
+  overflow hidden
+  isolation isolate
+  background #334c60
+  color #fff
+  font-family $font-family-mono
+
+  a
+    color inherit
+    text-decoration none
+    background none
+
+    &:hover
+      background none
+      color #f5d5aa
+
+.telaviv-hero__scenery, .telaviv-hero__shade, .telaviv-hero__layer
+  position absolute
+  inset 0
+
+.telaviv-hero__scenery
+  overflow hidden
+  pointer-events none
+
+.telaviv-hero__layer
+  background-size cover
+  background-position center center
+  background-repeat no-repeat
+  transform translate3d(0, 0, 0) scale(1.055)
+
+.telaviv-hero--jaffa .telaviv-hero__layer--sky
+  background-image url('/images/hero/jaffa/sky.svg')
+
+.telaviv-hero--jaffa .telaviv-hero__layer--city
+  background-image url('/images/hero/jaffa/city.svg')
+
+.telaviv-hero--jaffa .telaviv-hero__layer--foreground
+  background-image url('/images/hero/jaffa/foreground.svg')
+
+.telaviv-hero__shade
+  background linear-gradient(90deg, rgba(15, 28, 39, .67) 0%, rgba(15, 30, 42, .43) 37%, transparent 82%), linear-gradient(0deg, rgba(8, 22, 31, .58) 0%, transparent 35%)
+
+.telaviv-hero__inner
+  position relative
+  z-index 1
+  display flex
+  flex-direction column
+  min-height 530px
+  max-width 1190px
+  margin 0 auto
+  padding 31px clamp(20px, 5vw, 68px) 31px
+
+.telaviv-hero__topbar, .telaviv-hero__bottom
+  display flex
+  justify-content space-between
+  align-items center
+  gap 20px
+
+.telaviv-hero__brand
+  font-weight 700
+  font-size 1.25rem
+  letter-spacing -.12em
+
+  span
+    color #ffcf94
+
+.telaviv-hero__nav, .telaviv-hero__social
+  display flex
+  flex-wrap wrap
+  gap clamp(12px, 2.4vw, 30px)
+
+.telaviv-hero__nav
+  font-size .78rem
+  letter-spacing .02em
+
+.telaviv-hero__copy
+  margin auto 0
+  max-width 580px
+  padding 76px 0 50px
+  text-shadow 0 1px 24px rgba(0, 0, 0, .18)
+
+  h1
+    margin 15px 0 19px
+    font-family $font-family-body
+    font-size clamp(2.8rem, 5.7vw, 5rem)
+    font-weight 500
+    line-height 1.04
+    letter-spacing -.035em
+    color #fff
+
+.telaviv-hero__kicker
+  margin 0
+  font-size .67rem
+  font-weight 700
+  letter-spacing .20em
+  color #f6d8ad
+
+  span
+    padding 0 8px
+
+.telaviv-hero__description
+  margin 0
+  max-width 485px
+  font-family $font-family-body
+  font-size clamp(1rem, 1.5vw, 1.18rem)
+  line-height 1.52
+  color #f3ebe2
+
+.telaviv-hero__bottom
+  font-size .66rem
+  letter-spacing .04em
+  color #eee9e1
+
+.telaviv-hero__location
+  white-space nowrap
+  opacity .84
+
+.telaviv-hero__social
+  gap 18px
+
+@media (max-width: 740px)
+  .telaviv-hero
+    min-height 460px
+
+  .telaviv-hero__inner
+    min-height 460px
+
+  .telaviv-hero__shade
+    background linear-gradient(90deg, rgba(15, 28, 39, .76), rgba(15, 28, 39, .32)), linear-gradient(0deg, rgba(8, 22, 31, .62), transparent 36%)
+
+  .telaviv-hero__copy
+    padding 50px 0 36px
+
+@media (max-width: 480px)
+  .telaviv-hero
+    margin-bottom 3.2rem
+
+  .telaviv-hero__inner
+    padding 22px 18px
+
+  .telaviv-hero__nav
+    gap 11px
+    font-size .69rem
+
+  .telaviv-hero__bottom
+    flex-wrap wrap
+    align-items flex-end
+    font-size .62rem
+
+  .telaviv-hero__social
+    gap 12px
+
+@media (prefers-reduced-motion: reduce)
+  .telaviv-hero__layer
+    transform none !important
+    transition none !important
